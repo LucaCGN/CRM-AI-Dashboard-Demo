@@ -1,3 +1,8 @@
+# backend/db_agent.py
+
+import matplotlib
+matplotlib.use("Agg")   # force non-GUI backend for thread safety
+
 import json
 import sqlite3
 import base64
@@ -13,24 +18,28 @@ from crewai.utilities.events.tool_usage_events import ToolUsageFinishedEvent
 from ag_ui.encoder import EventEncoder
 from ag_ui.core import RawEvent, EventType
 
-# — Configure concise logging —
+# — Configure concise logging to backend/agent.log —
 logging.basicConfig(
     filename=Path(__file__).parent / "agent.log",
     level=logging.INFO,
     format="%(asctime)s %(levelname)s %(message)s"
 )
 logger = logging.getLogger(__name__)
-logger.info("Starting agent.py")
+logger.info("Loading db_agent.py")
 
 # — SSE event queue: strings of "data: …\n\n" —
 event_queue: queue.Queue = queue.Queue()
 
-# — DB helper —
+# — Database helper —
 DB_PATH = Path(__file__).parent / "app.db"
 def get_conn():
+    """
+    Obtain a new SQLite connection to the application database.
+    """
     return sqlite3.connect(DB_PATH)
 
-# — Define tools with minimal INFO-level logging —
+
+# — Tools definitions —
 
 
 @tool("set_filters")
@@ -40,67 +49,88 @@ def set_filters(
     produto_id:   int = None,
     categoria:    str = None
 ) -> str:
-    logger.info(f"[set_filters] args start={data_inicial}, end={data_final}, product={produto_id}, cat={categoria}")
-    filters = {k: v for k, v in {
-        "start_date": data_inicial,
-        "end_date":   data_final,
-        "product_id": produto_id,
-        "category":   categoria
-    }.items() if v is not None}
-    output = json.dumps(filters)
-    logger.info(f"[set_filters] => {output}")
-    return output
+    """
+    Build a JSON string of filter parameters for analytics queries.
+    """
+    logger.info(f"[set_filters] inputs={dict(data_inicial=data_inicial, data_final=data_final, produto_id=produto_id, categoria=categoria)}")
+    filters = {
+        k: v for k, v in {
+            "start_date": data_inicial,
+            "end_date":   data_final,
+            "product_id": produto_id,
+            "category":   categoria
+        }.items() if v is not None
+    }
+    out = json.dumps(filters)
+    logger.info(f"[set_filters] → {out}")
+    return out
 
 
 @tool("toggle_theme")
 def toggle_theme(tema: str = None) -> str:
-    logger.info(f"[toggle_theme] arg tema={tema}")
+    """
+    Toggle or set the UI theme.
+    """
+    logger.info(f"[toggle_theme] tema={tema}")
     t = tema.lower() if tema else None
-    result = t if t in ("light", "dark") else "toggle"
-    logger.info(f"[toggle_theme] => {result}")
-    return result
+    res = t if t in ("light", "dark") else "toggle"
+    logger.info(f"[toggle_theme] → {res}")
+    return res
 
 
 @tool("query_sql")
 def query_sql(query: str) -> str:
+    """
+    Execute a read-only SQL SELECT against the application database.
+    """
     logger.info(f"[query_sql] SQL={query}")
     if not query.strip().lower().startswith("select"):
-        return "Erro: apenas SELECT permitido."
+        msg = "Erro: apenas SELECT permitido."
+        logger.warn(f"[query_sql] → {msg}")
+        return msg
+
     conn = get_conn()
     try:
         cur = conn.cursor()
         cur.execute(query)
         cols = [d[0] for d in cur.description]
         rows = cur.fetchall()
-        result = json.dumps([dict(zip(cols, r)) for r in rows])
-        logger.info(f"[query_sql] returned {len(rows)} rows")
-        return result
+        result = [dict(zip(cols, r)) for r in rows]
+        out = json.dumps(result)
+        logger.info(f"[query_sql] fetched {len(rows)} rows")
+        return out
     except Exception as e:
-        logger.error(f"[query_sql] ERROR: {e}")
-        return f"Erro SQL: {e}"
+        err = f"Erro SQL: {e}"
+        logger.error(f"[query_sql] {err}")
+        return err
     finally:
         conn.close()
 
 
 @tool("sales_by_category")
 def sales_by_category(categoria: str) -> str:
+    """
+    Calculate total sales amount for a given product category.
+    """
     logger.info(f"[sales_by_category] categoria={categoria}")
     conn = get_conn()
     try:
         cur = conn.cursor()
         cur.execute(
             """
-            SELECT IFNULL(SUM(oi.qty*oi.unit_price), 0)
+            SELECT IFNULL(SUM(oi.qty*oi.unit_price),0)
             FROM order_items oi
             JOIN products p ON oi.product_id=p.product_id
             WHERE p.category=?
-            """,
-            (categoria,)
+            """, (categoria,)
         )
-        val = float(cur.fetchone()[0])
-        result = f"{val:.2f}"
-        logger.info(f"[sales_by_category] => {result}")
-        return result
+        val = float(cur.fetchone()[0] or 0)
+        res = f"{val:.2f}"
+        logger.info(f"[sales_by_category] → {res}")
+        return res
+    except Exception as e:
+        logger.error(f"[sales_by_category] ERROR: {e}")
+        return f"Erro: {e}"
     finally:
         conn.close()
 
@@ -110,14 +140,14 @@ def vendas_por_mes(
     data_inicial: str = None,
     data_final:   str = None
 ) -> str:
-    logger.info(f"[vendas_por_mes] start={data_inicial}, end={data_final}")
+    """
+    Aggregate monthly sales totals within optional date range.
+    """
+    logger.info(f"[vendas_por_mes] inputs={dict(data_inicial=data_inicial, data_final=data_final)}")
     conn = get_conn()
     try:
         cur = conn.cursor()
-        sql = (
-            "SELECT strftime('%Y-%m',order_date) AS mes, "
-            "SUM(grand_total) AS total FROM orders"
-        )
+        sql = "SELECT strftime('%Y-%m',order_date) AS mes, SUM(grand_total) AS total FROM orders"
         conds = []
         if data_inicial:
             conds.append(f"date(order_date)>=date('{data_inicial}')")
@@ -127,9 +157,13 @@ def vendas_por_mes(
             sql += " WHERE " + " AND ".join(conds)
         sql += " GROUP BY mes ORDER BY mes;"
         rows = cur.execute(sql).fetchall()
-        output = json.dumps([{"mes": m, "total": t} for m, t in rows])
-        logger.info(f"[vendas_por_mes] => {len(rows)} months")
-        return output
+        payload = [{"mes": m, "total": t} for m, t in rows]
+        out = json.dumps(payload)
+        logger.info(f"[vendas_por_mes] → {len(rows)} rows")
+        return out
+    except Exception as e:
+        logger.error(f"[vendas_por_mes] ERROR: {e}")
+        return f"Erro: {e}"
     finally:
         conn.close()
 
@@ -141,9 +175,14 @@ def generate_chart(
     y:      list,
     tipo:   str = "bar"
 ) -> str:
-    logger.info(f"[generate_chart] tipo={tipo}, title={titulo}, points={len(x)}")
-    import matplotlib.pyplot as plt, io
-    fig, ax = plt.subplots(figsize=(6,4))
+    """
+    Generate a base64-encoded chart image.
+    """
+    logger.info(f"[generate_chart] tipo={tipo}, titulo={titulo}, points={len(x)}")
+    import matplotlib.pyplot as plt
+    import io
+
+    fig, ax = plt.subplots(figsize=(6, 4))
     if tipo == "line":
         ax.plot(x, y, marker='o', linewidth=2)
     else:
@@ -155,58 +194,63 @@ def generate_chart(
     buf = io.BytesIO()
     plt.savefig(buf, format='png')
     plt.close(fig)
-    img_b64 = base64.b64encode(buf.getvalue()).decode('utf-8')
-    logger.info(f"[generate_chart] generated image ({len(img_b64)} chars)")
-    return img_b64
+
+    img_data = base64.b64encode(buf.getvalue()).decode("utf-8")
+    logger.info(f"[generate_chart] image size={len(img_data)} bytes")
+    return img_data
 
 
-# — Build the Crew —
+# — Build and expose the CrewAI instance —
 
-def build_crew():
-    llm = LLM(model="openai/gpt-4", temperature=0.6, stream=False)
+def build_crew() -> Crew:
+    """
+    Assemble and return the CrewAI instance with configured tools.
+    """
+    llm = LLM(model="openai/gpt-4o-mini", temperature=0.1, stream=False)
     agent = Agent(
         role="Assistente de Analytics",
-        goal="Auxiliar na análise de dados, aplicar filtros, alternar tema e gerar gráficos.",
-        backstory="Você é uma IA especialista em e-commerce e visualização de dados.",
-        tools=[set_filters, toggle_theme, query_sql, sales_by_category, vendas_por_mes, generate_chart],
+        goal="Auxiliar na análise de dados, filtros, tema e gráficos",
+        backstory="IA especialista em e-commerce e visualização de dados",
+        tools=[
+            set_filters,
+            toggle_theme,
+            query_sql,
+            sales_by_category,
+            vendas_por_mes,
+            generate_chart
+        ],
         allow_delegation=False,
         llm=llm
     )
+
     task = Task(
+        name="processa_consulta",
         description="Processa consulta do usuário: {input}",
         agent=agent,
-        expected_output="Resposta de texto ou gráfico conforme necessário."
+        expected_output="Resposta em texto com insights e/ou gráficos"
     )
-    crew = Crew(
+
+    return Crew(
         agents=[agent],
         tasks=[task],
         process=Process.sequential,
         verbose=False
     )
-    return crew
+
 
 analytics_crew = build_crew()
-logger.info("Crew assembled successfully")
+logger.info("analytics_crew ready")
 
 
-# — Stream tool-usage events into our SSE queue —
+# — Stream tool usage events into SSE queue —
+
 @crewai_event_bus.on(ToolUsageFinishedEvent)
-def _on_tool_finished(source, ev: ToolUsageFinishedEvent):
-    logger.info(f"[ToolFinished] {ev.tool_name} on thread={ev.thread_id}")
-    name, output = ev.tool_name, ev.output or ""
-    # Build AG-UI raw payload
-    if name == "set_filters":
-        payload = {"type":"filter_update", "filters": json.loads(output)}
-    elif name == "toggle_theme":
-        payload = {"type":"toggle_theme", "theme": output}
-    elif name == "generate_chart":
-        payload = {"type":"chart", "image": output}
-    else:
-        payload = {"type":"tool_response", "tool": name, "content": output}
-
-    # Only default "data:" so front end onmessage fires
-    msg = "data: " + EventEncoder().encode(
-        RawEvent(EventType.RAW, ev.thread_id, ev.run_id, payload)
-    ) + "\n\n"
+def on_tool(ev: ToolUsageFinishedEvent):
+    """
+    Capture tool execution events and enqueue as SSE messages.
+    """
+    payload = {"tool": ev.tool_name, "output": ev.output or ""}
+    raw = RawEvent(EventType.RAW, ev.thread_id, ev.run_id, payload)
+    msg = "data: " + EventEncoder().encode(raw) + "\n\n"
     event_queue.put(msg)
-    logger.info(f"[Queued] {name} ▶ {len(msg)} chars")
+    logger.info(f"[queued] {ev.tool_name}")

@@ -2,15 +2,20 @@
 
 import uuid
 import sqlite3
-from pathlib import Path
 import logging
+import sys
+import asyncio
+import os
+from pathlib import Path
 
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse, StreamingResponse, JSONResponse
 
-from agent import run_analytics
-from db_agent import analytics_crew, event_queue   # leave SSE in place if you still want it
+# <-- import your new runner module -->
+from analytics_runner import run_analytics
+
+from db_agent import analytics_crew, event_queue  # SSE queue lives here
 from ag_ui.encoder import EventEncoder
 from ag_ui.core import RunStartedEvent, RunFinishedEvent, EventType
 
@@ -58,7 +63,7 @@ def build_filters(params: dict) -> str:
         conds.append(f"date(order_date)<=date('{params['end_date']}')")
     return " AND ".join(conds)
 
-# — Chart endpoints —
+# — Chart endpoints (unchanged) —
 @app.get("/charts/aov")
 def aov(start_date: str = None, end_date: str = None,
         product_id: int = None, category: str = None):
@@ -134,6 +139,7 @@ def vendas_por_mes_api(start_date: str = None, end_date: str = None):
     conn.close()
     return {"data": [{"mes": m, "total": t} for m, t in rows]}
 
+
 # — Schema endpoints —
 @app.get("/schema")
 def get_schema():
@@ -154,13 +160,10 @@ def schema_diagram():
         logging.error("schema.png not found at %s", img_path)
     return FileResponse(img_path)
 
-# — JSON chat endpoint —
+
+# — JSON chat endpoint — 
 @app.post("/chat")
 async def chat_json(request: Request):
-    """
-    A simple POST /chat that returns the parsed JSON from CrewAI,
-    and logs it in agent.log.
-    """
     payload = await request.json()
     user_message = payload.get("message")
     if not user_message:
@@ -182,12 +185,9 @@ def chat_stream(user_message: str):
 
     async def event_gen():
         yield enc.encode(RunStartedEvent(
-            type=EventType.RUN_STARTED,
-            threadId=tid,
-            runId=rid
+            type=EventType.RUN_STARTED, threadId=tid, runId=rid
         ))
 
-        # Trigger your existing SSE-driven crew:
         analytics_crew.kickoff(inputs={"input": user_message})
 
         while True:
@@ -197,9 +197,7 @@ def chat_stream(user_message: str):
             yield ev[0] + ev[1]
 
         yield enc.encode(RunFinishedEvent(
-            type=EventType.RUN_FINISHED,
-            threadId=tid,
-            runId=rid
+            type=EventType.RUN_FINISHED, threadId=tid, runId=rid
         ))
 
     return StreamingResponse(event_gen(), media_type="text/event-stream")
