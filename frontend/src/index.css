@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Utilitários customizados */
+.bg-dark-navy { background-color: #0A183D; }
+.text-accent-blue { color: #1E90FF; }
+.bg-accent-blue { background-color: #1E90FF; }
+.header-gradient { @apply bg-gradient-to-r from-dark-navy to-deep-blue text-white; }
+.card { @apply bg-white dark:bg-gray-700 rounded-lg shadow p-6 transition-transform duration-300 ease-in-out; }
+.chart-expanded { @apply fixed top-0 left-0 w-full h-full bg-white dark:bg-gray-800 z-50 p-8 overflow-auto; }

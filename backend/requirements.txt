@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+crewai       
+ag-ui-protocol
+pandas
+matplotlib
+python-dotenv

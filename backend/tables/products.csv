@@ -1,0 +1,121 @@
+product_id,name,category,price
+1,Runner Sneaker Alpha,Footwear,29.99
+2,Canvas Sneaker Beta,Footwear,24.99
+3,Leather Boot Cedar,Footwear,44.5
+4,Trail Boot Delta,Footwear,39.95
+5,Slip-On Loafer Echo,Footwear,27.49
+6,Mesh Trainer Foxtrot,Footwear,22.99
+7,Hiking Sandal Golf,Footwear,25.0
+8,High-Top Sneaker Hotel,Footwear,31.25
+9,Skate Shoe India,Footwear,28.75
+10,Performance Runner Juliet,Footwear,33.4
+11,Winter Boot Kilo,Footwear,46.9
+12,Espadrille Lima,Footwear,19.99
+13,Classic Oxford Mike,Footwear,38.6
+14,Lightweight Slider November,Footwear,18.5
+15,Racing Flat Oscar,Footwear,41.2
+16,Court Sneaker Papa,Footwear,26.3
+17,Trekking Boot Quebec,Footwear,49.9
+18,Retro Sneaker Romeo,Footwear,34.15
+19,Platform Sneaker Sierra,Footwear,37.8
+20,Waterproof Loafer Tango,Footwear,23.45
+21,Cotton Tee Alpha,Apparel,18.99
+22,Graphic Tee Beta,Apparel,22.5
+23,Long-Sleeve Henley Cedar,Apparel,29.0
+24,Polo Shirt Delta,Apparel,32.75
+25,Chambray Shirt Echo,Apparel,41.2
+26,Linen Blouse Foxtrot,Apparel,38.6
+27,Hooded Sweatshirt Golf,Apparel,44.95
+28,Zippered Hoodie Hotel,Apparel,49.5
+29,Basic Tank India,Apparel,14.99
+30,Slim Jeans Juliet,Apparel,55.0
+31,Relaxed Jeans Kilo,Apparel,52.4
+32,Chino Pants Lima,Apparel,39.9
+33,Jogger Pants Mike,Apparel,35.25
+34,Denim Jacket November,Apparel,60.0
+35,Bomber Jacket Oscar,Apparel,59.95
+36,Quilted Vest Papa,Apparel,47.8
+37,Fleece Shorts Quebec,Apparel,24.99
+38,Running Shorts Romeo,Apparel,27.3
+39,Maxi Dress Sierra,Apparel,48.5
+40,Wrap Dress Tango,Apparel,56.75
+41,Leather Belt Alpha,Accessories,19.5
+42,Canvas Belt Beta,Accessories,12.99
+43,Knit Beanie Cedar,Accessories,9.99
+44,Baseball Cap Delta,Accessories,14.75
+45,Suede Cap Echo,Accessories,17.8
+46,Wool Scarf Foxtrot,Accessories,28.0
+47,Silk Scarf Golf,Accessories,34.9
+48,Faux-Leather Wallet Hotel,Accessories,22.45
+49,RFID Wallet India,Accessories,29.99
+50,Wayfarer Sunglasses Juliet,Accessories,39.95
+51,Blue-Light Glasses Kilo,Accessories,24.9
+52,Aviator Sunglasses Lima,Accessories,42.6
+53,Chain Necklace Mike,Accessories,35.0
+54,Stud Earrings November,Accessories,15.3
+55,Hoop Earrings Oscar,Accessories,18.2
+56,Statement Ring Papa,Accessories,26.75
+57,Travel Backpack Quebec,Accessories,59.9
+58,Gym Duffel Romeo,Accessories,44.5
+59,Laptop Sleeve Sierra,Accessories,27.15
+60,Passport Holder Tango,Accessories,11.8
+61,Ceramic Mug Alpha,Home,9.99
+62,Glass Tumbler Beta,Home,8.95
+63,Bamboo Cutting Board Cedar,Home,14.5
+64,Chef Knife Delta,Home,29.99
+65,Santoku Knife Echo,Home,32.25
+66,Cast-Iron Skillet Foxtrot,Home,46.8
+67,Bedside Lamp Golf,Home,39.9
+68,LED Desk Lamp Hotel,Home,35.5
+69,Cotton Throw India,Home,24.99
+70,Wool Blanket Juliet,Home,54.75
+71,Decorative Pillow Kilo,Home,19.8
+72,Area Rug Lima,Home,89.0
+73,Aromatherapy Diffuser Mike,Home,27.6
+74,Scented Candle November,Home,12.4
+75,Wall Clock Oscar,Home,25.3
+76,Picture Frame Papa,Home,14.2
+77,Floor Vase Quebec,Home,49.99
+78,Serving Tray Romeo,Home,22.5
+79,Non-stick Pan Sierra,Home,34.15
+80,Knife Block Tango,Home,79.9
+81,Wireless Earbuds Alpha,Electronics,149.99
+82,Noise-Cancel Headphones Beta,Electronics,249.9
+83,Smartwatch Cedar,Electronics,199.0
+84,Fitness Tracker Delta,Electronics,119.5
+85,Portable Speaker Echo,Electronics,99.99
+86,Bluetooth Soundbar Foxtrot,Electronics,179.95
+87,4K Action Camera Golf,Electronics,289.0
+88,Instant Camera Hotel,Electronics,129.99
+89,Tablet 10-inch India,Electronics,329.0
+90,E-Reader Juliet,Electronics,149.5
+91,USB-C Power Bank Kilo,Electronics,69.9
+92,GaN Charger Lima,Electronics,54.2
+93,Smart Home Hub Mike,Electronics,199.99
+94,Video Doorbell November,Electronics,179.0
+95,Wi-Fi Mesh Router Oscar,Electronics,249.0
+96,Gaming Controller Papa,Electronics,59.95
+97,Drone Mini Quebec,Electronics,399.0
+98,VR Headset Romeo,Electronics,349.9
+99,Streaming Stick Sierra,Electronics,49.99
+100,Webcam HD Tango,Electronics,89.5
+101,Lip Balm Alpha,Beauty,5.99
+102,Lipstick Beta,Beauty,14.9
+103,Liquid Foundation Cedar,Beauty,24.5
+104,Blush Palette Delta,Beauty,19.99
+105,Highlighter Stick Echo,Beauty,17.45
+106,Mascara Foxtrot,Beauty,15.75
+107,Eyeliner Pencil Golf,Beauty,9.9
+108,Eyeshadow Quad Hotel,Beauty,22.3
+109,Setting Spray India,Beauty,13.5
+110,BB Cream Juliet,Beauty,18.2
+111,Face Serum Kilo,Beauty,27.6
+112,Moisturizer Lima,Beauty,23.99
+113,Clay Mask Mike,Beauty,12.8
+114,Sunscreen SPF50 November,Beauty,16.9
+115,Body Lotion Oscar,Beauty,19.5
+116,Hand Cream Papa,Beauty,8.4
+117,Nail Polish Quebec,Beauty,6.75
+118,Nail Polish Remover Romeo,Beauty,7.25
+119,Hair Oil Sierra,Beauty,21.9
+120,Dry Shampoo Tango,Beauty,11.6
