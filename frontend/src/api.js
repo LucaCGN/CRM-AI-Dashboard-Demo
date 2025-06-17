@@ -1,32 +1,30 @@
-const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:8000'
+const API = import.meta.env.VITE_API_URL || 'http://localhost:8000';
 
+/* helper with console logging */
 async function request(path, params = {}) {
-  const url = new URL(`${API_BASE}${path}`)
-  Object.entries(params).forEach(([k,v]) => v != null && url.searchParams.append(k, v))
-  const res = await fetch(url)
-  if (!res.ok) throw new Error(`Erro ${res.status}`)
-  return res.json()
+  const url = new URL(`${API}${path}`);
+  Object.entries(params).forEach(([k, v]) => v != null && url.searchParams.append(k, v));
+  console.info(`[API] → ${url.toString()}`);
+  const res = await fetch(url);
+  console.info(`[API] ← ${res.status}`);
+  if (!res.ok) throw new Error(res.statusText);
+  return res.json();
 }
 
-export function fetchAOV(data_inicial, data_final) {
-  return request('/charts/aov', { data_inicial, data_final })
-}
-export function fetchCategoryMix(data_inicial, data_final) {
-  return request('/charts/category-mix', { data_inicial, data_final })
-}
-export function fetchRepeatFunnel(data_inicial, data_final) {
-  return request('/charts/repeat-funnel', { data_inicial, data_final })
-}
-export function fetchVendasPorMes(data_inicial, data_final) {
-  return request('/charts/vendas_por_mes', { data_inicial, data_final })
-}
-export function fetchEsquema() {
-  return fetch(`${API_BASE}/schema-diagram`).then(r => r.blob())
-}
+/* charts */
+export const fetchAOV          = (di,df,c) => request('/charts/aov',            { data_inicial:di, data_final:df, categoria:c });
+export const fetchCategoryMix  = (di,df,c) => request('/charts/category-mix',   { data_inicial:di, data_final:df, categoria:c });
+export const fetchRepeatFunnel = (di,df,c) => request('/charts/repeat-funnel',  { data_inicial:di, data_final:df, categoria:c });
+export const fetchVendasPorMes = (di,df,c) => request('/charts/vendas_por_mes', { data_inicial:di, data_final:df, categoria:c });
 
-export function connectChat(userMessage, onEvent) {
-  const source = new EventSource(`${API_BASE}/chat-stream?user_message=${encodeURIComponent(userMessage)}`)
-  source.onmessage = e => e.data && onEvent(JSON.parse(e.data))
-  source.onerror = () => source.close()
-  return source
+/* schema image */
+export const fetchEsquema = () =>
+  fetch(`${API}/schema-diagram`).then(r => r.blob());
+
+/* chat SSE */
+export function connectChat(msg, onEvt) {
+  const src = new EventSource(`${API}/chat-stream?user_message=${encodeURIComponent(msg)}`);
+  src.onmessage = e => e.data && onEvt(JSON.parse(e.data));
+  src.onerror   = () => src.close();
+  return src;
 }
