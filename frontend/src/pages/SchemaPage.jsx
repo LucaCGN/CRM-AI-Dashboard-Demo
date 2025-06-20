@@ -1,30 +1,20 @@
-import React, { useEffect, useState } from 'react';
-import { fetchEsquema } from '../api';
+// frontend/src/pages/SchemaPage.jsx
+
+import React, { useEffect, useState } from 'react'
+import { fetchEsquema } from '../api'
 
 export default function SchemaPage() {
-  const [img,  setImg] = useState(null);
-  const [erro, setErr] = useState(false);
+  const [url, setUrl] = useState(null)
 
   useEffect(() => {
     fetchEsquema()
-      .then(blob => setImg(URL.createObjectURL(blob)))
-      .catch(()   => setErr(true));
-  }, []);
+      .then(blob => {
+        const objectUrl = URL.createObjectURL(blob)
+        setUrl(objectUrl)
+      })
+      .catch(console.error)
+  }, [])
 
-  return (
-    <div className="p-6 space-y-6">
-      <h1 className="text-2xl font-semibold">Diagrama de Esquema de Dados</h1>
-
-      {erro      && <p className="text-red-500">Não foi possível carregar a imagem.</p>}
-      {!img && !erro && <p>Carregando…</p>}
-
-      {img && (
-        <img
-          src={img}
-          alt="ER diagram"
-          className="mx-auto max-w-full shadow rounded"
-        />
-      )}
-    </div>
-  );
+  if (!url) return <div>Loading schema…</div>
+  return <img src={url} alt="Database schema diagram" className="rounded shadow" />
 }
