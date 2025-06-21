@@ -1,20 +1,22 @@
-// frontend/src/pages/SchemaPage.jsx
-
-import React, { useEffect, useState } from 'react'
-import { fetchEsquema } from '../api'
+import React from 'react';
+import schemaImg from '../assets/schema.png'; // local asset (no fetch)
 
 export default function SchemaPage() {
-  const [url, setUrl] = useState(null)
+  return (
+    <div className="p-6 flex flex-col items-center space-y-6">
+      <h1 className="text-2xl font-semibold">Esquema de Dados</h1>
 
-  useEffect(() => {
-    fetchEsquema()
-      .then(blob => {
-        const objectUrl = URL.createObjectURL(blob)
-        setUrl(objectUrl)
-      })
-      .catch(console.error)
-  }, [])
+      {/* diagram straight from /assets/ */}
+      <img
+        src={schemaImg}
+        alt="Diagrama do banco de dados"
+        className="max-w-full rounded-lg shadow-md"
+      />
 
-  if (!url) return <div>Loading schema…</div>
-  return <img src={url} alt="Database schema diagram" className="rounded shadow" />
+      <p className="max-w-2xl text-sm text-gray-600">
+        O diagrama acima faz parte dos assets do frontend, portanto é servido
+        diretamente pelo Vite (ou Nginx em produção) sem chamadas adicionais à API.
+      </p>
+    </div>
+  );
 }
