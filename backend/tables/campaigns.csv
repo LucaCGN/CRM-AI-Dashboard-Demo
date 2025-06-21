@@ -1,0 +1,1001 @@
+send_date,email_job_id,email_sender_name,email_content_name,email_subject,email_sends,email_unique_opens,email_unique_clicks,email_unique_unsubscribes
+30/03/2025,4124127,Relacionamento,CAMPANHA 2025 - Volta às Aulas,Corre! Estoques limitados para volta às aulas,499398,114922,17855,1067
+02/05/2025,4396741,Equipe Vendas,CAMPANHA 2025 - Férias,Você foi selecionado(a) para descontos de férias,743635,147885,10328,970
+29/01/2025,4703961,Equipe CRM,CAMPANHA 2025 - Black Friday,Últimos dias da promoção black friday,331937,71033,4827,582
+17/03/2025,4652052,Newsletter Especial,CAMPANHA 2025 - Férias,Preços imperdíveis nesta férias,432003,57037,10922,710
+11/06/2025,4638137,Suporte ao Cliente,CAMPANHA 2025 - Natal,É hoje: campanha especial natal,144315,35517,5727,190
+29/04/2025,4713207,Equipe Produtos,CAMPANHA 2025 - Volta às Aulas,Corre! Estoques limitados para volta às aulas,302026,81834,7782,137
+14/03/2025,4328070,Equipe Marketing,CAMPANHA 2025 - Dia das Mães,Últimos dias da promoção dia das mães,551189,143036,9994,1190
+07/05/2025,4344364,Marketing Digital,CAMPANHA 2025 - Black Friday,É hoje: campanha especial black friday,392527,99660,14069,764
+07/04/2025,4614000,Relacionamento,CAMPANHA 2025 - Aniversário da Loja,Só até amanhã: aniversário da loja com frete grátis,186592,34754,4810,280
+17/02/2025,4509915,Equipe Vendas,CAMPANHA 2025 - Dia das Mães,Corre! Estoques limitados para dia das mães,534009,151672,15206,784
+18/02/2025,4422925,Time Promoções,CAMPANHA 2025 - Liquidação,Você foi selecionado(a) para descontos de liquidação,155356,36171,3453,110
+01/06/2025,4278845,Equipe CRM,CAMPANHA 2025 - Inverno,Só até amanhã: inverno com frete grátis,196111,41858,4232,387
+27/03/2025,4800931,Time Promoções,CAMPANHA 2025 - Natal,Não perca: novidades de natal,565679,67881,7294,614
+15/04/2025,4259455,Time Promoções,CAMPANHA 2025 - Dia das Mães,Só até amanhã: dia das mães com frete grátis,785594,212818,13631,865
+15/03/2025,4310719,Time Promoções,CAMPANHA 2025 - Verão,Preços imperdíveis nesta verão,602615,155396,13886,1364
+09/06/2025,4378151,Comunicação Interna,CAMPANHA 2025 - Lançamento de Coleção,Só até amanhã: lançamento de coleção com frete grátis,554698,222708,48693,739
+22/02/2025,4608589,Equipe Vendas,CAMPANHA 2025 - Natal,Corre! Estoques limitados para natal,270796,44252,3233,261
+21/04/2025,4820858,Suporte ao Cliente,CAMPANHA 2025 - Aniversário da Loja,Descubra nossa nova coleção de aniversário da loja,165463,43854,9178,173
+23/03/2025,4300631,Equipe Produtos,CAMPANHA 2025 - Natal,Corre! Estoques limitados para natal,450062,90046,8155,954
+08/02/2025,4307009,Relacionamento,CAMPANHA 2025 - Liquidação,Surpresa! Presentes de liquidação esperando por você,385294,100561,6071,876
+30/05/2025,4767474,Relacionamento,CAMPANHA 2025 - Dia das Mães,Oferta exclusiva de dia das mães só para você,370220,100615,19067,641
+06/01/2025,4633221,Equipe Marketing,CAMPANHA 2025 - Lançamento de Coleção,Descubra nossa nova coleção de lançamento de coleção,792408,151383,19083,1325
+06/04/2025,4037220,Newsletter Especial,CAMPANHA 2025 - Férias,Surpresa! Presentes de férias esperando por você,490009,140884,15209,588
+27/02/2025,4349382,Comunicação Interna,CAMPANHA 2025 - Liquidação,Preços imperdíveis nesta liquidação,625937,125718,11509,1342
+21/02/2025,4020382,Equipe CRM,CAMPANHA 2025 - Aniversário da Loja,Você foi selecionado(a) para descontos de aniversário da loja,123277,24395,1749,71
+22/05/2025,4560538,Equipe Vendas,CAMPANHA 2025 - Volta às Aulas,Últimos dias da promoção volta às aulas,605574,185106,26642,768
+04/02/2025,4519357,Marketing Digital,CAMPANHA 2025 - Black Friday,Só até amanhã: black friday com frete grátis,116034,39244,4648,122
+19/04/2025,4959987,Equipe Vendas,CAMPANHA 2025 - Lançamento de Coleção,Não perca: novidades de lançamento de coleção,257143,69574,9036,569
+04/02/2025,4941639,Equipe Produtos,CAMPANHA 2025 - Ano Novo,Não perca: novidades de ano novo,533106,147380,26438,246
+23/04/2025,4926813,Equipe Vendas,CAMPANHA 2025 - Lançamento de Coleção,Só até amanhã: lançamento de coleção com frete grátis,583637,198590,38443,280
+30/04/2025,4131350,Suporte ao Cliente,CAMPANHA 2025 - Aniversário da Loja,Só até amanhã: aniversário da loja com frete grátis,253782,84977,14001,247
+28/04/2025,4861139,Newsletter Especial,CAMPANHA 2025 - Dia dos Pais,Você foi selecionado(a) para descontos de dia dos pais,89902,27557,2234,116
+08/05/2025,4647294,Equipe CRM,CAMPANHA 2025 - Verão,Só até amanhã: verão com frete grátis,426370,123081,19645,900
+08/02/2025,4847308,Suporte ao Cliente,CAMPANHA 2025 - Férias,Surpresa! Presentes de férias esperando por você,236901,51437,7912,107
+22/04/2025,4120952,Equipe Produtos,CAMPANHA 2025 - Férias,É hoje: campanha especial férias,481792,109818,22849,985
+20/03/2025,4440944,Comunicação Interna,CAMPANHA 2025 - Black Friday,Não perca: novidades de black friday,177264,58551,6081,347
+11/05/2025,4997546,Equipe Marketing,CAMPANHA 2025 - Black Friday,Você foi selecionado(a) para descontos de black friday,345709,95851,13221,372
+17/05/2025,4718327,Comunicação Interna,CAMPANHA 2025 - Dia das Mães,Preços imperdíveis nesta dia das mães,140282,31584,4530,269
+20/03/2025,4081712,Newsletter Especial,CAMPANHA 2025 - Dia dos Pais,Oferta exclusiva de dia dos pais só para você,412140,94663,9974,199
+22/04/2025,4738008,Marketing Digital,CAMPANHA 2025 - Aniversário da Loja,Corre! Estoques limitados para aniversário da loja,244771,79027,15874,369
+02/02/2025,4841812,Marketing Digital,CAMPANHA 2025 - Aniversário da Loja,Descubra nossa nova coleção de aniversário da loja,682204,204451,26264,429
+23/03/2025,4318625,Equipe Marketing,CAMPANHA 2025 - Dia dos Pais,Você foi selecionado(a) para descontos de dia dos pais,737379,193952,13743,1694
+05/06/2025,4584523,Equipe Vendas,CAMPANHA 2025 - Liquidação,Surpresa! Presentes de liquidação esperando por você,149896,25510,2100,76
+08/01/2025,4746354,Equipe CRM,CAMPANHA 2025 - Natal,Não perca: novidades de natal,308998,82604,10569,127
+03/01/2025,4598721,Equipe CRM,CAMPANHA 2025 - Dia das Mães,Não perca: novidades de dia das mães,45657,21764,2908,63
+18/01/2025,4741215,Equipe Marketing,CAMPANHA 2025 - Férias,Não perca: novidades de férias,670351,181933,21641,432
+22/02/2025,4732331,Newsletter Especial,CAMPANHA 2025 - Ano Novo,Só até amanhã: ano novo com frete grátis,618546,152268,12891,817
+11/01/2025,4195991,Comunicação Interna,CAMPANHA 2025 - Férias,Só até amanhã: férias com frete grátis,651050,157368,12372,675
+17/02/2025,4453611,Relacionamento,CAMPANHA 2025 - Aniversário da Loja,Oferta exclusiva de aniversário da loja só para você,31483,7381,1573,41
+20/04/2025,4115381,Equipe Produtos,CAMPANHA 2025 - Natal,Últimos dias da promoção natal,625867,144985,18112,366
+20/05/2025,4032197,Marketing Digital,CAMPANHA 2025 - Lançamento de Coleção,Últimos dias da promoção lançamento de coleção,484120,77074,4531,436
+31/01/2025,4243911,Relacionamento,CAMPANHA 2025 - Aniversário da Loja,É hoje: campanha especial aniversário da loja,202043,65221,12093,491
+05/01/2025,4277769,Marketing Digital,CAMPANHA 2025 - Black Friday,Corre! Estoques limitados para black friday,453408,143980,11581,514
+18/02/2025,4916627,Relacionamento,CAMPANHA 2025 - Dia das Mães,Descubra nossa nova coleção de dia das mães,155451,39407,2413,329
+16/01/2025,4948579,Comunicação Interna,CAMPANHA 2025 - Liquidação,Você foi selecionado(a) para descontos de liquidação,156066,29753,1910,250
+09/06/2025,4773212,Equipe CRM,CAMPANHA 2025 - Verão,Você foi selecionado(a) para descontos de verão,268687,79052,7602,539
+17/04/2025,4618417,Equipe Marketing,CAMPANHA 2025 - Férias,Surpresa! Presentes de férias esperando por você,77356,19158,1604,150
+17/01/2025,4898540,Equipe Marketing,CAMPANHA 2025 - Lançamento de Coleção,Preços imperdíveis nesta lançamento de coleção,529999,137063,29307,402
+02/03/2025,4743955,Equipe Marketing,CAMPANHA 2025 - Dia das Mães,Preços imperdíveis nesta dia das mães,619766,151819,13325,1042
+22/01/2025,4649409,Equipe Marketing,CAMPANHA 2025 - Volta às Aulas,Últimos dias da promoção volta às aulas,518642,99663,15017,1168
+31/05/2025,4491561,Equipe Marketing,CAMPANHA 2025 - Ano Novo,Corre! Estoques limitados para ano novo,298389,84410,16802,689
+27/01/2025,4962565,Suporte ao Cliente,CAMPANHA 2025 - Black Friday,É hoje: campanha especial black friday,81190,15897,1484,181
+28/04/2025,4766248,Equipe Vendas,CAMPANHA 2025 - Férias,Você foi selecionado(a) para descontos de férias,694918,143105,8419,510
+03/03/2025,4232855,Time Promoções,CAMPANHA 2025 - Inverno,Você foi selecionado(a) para descontos de inverno,505337,183080,13496,295
+29/01/2025,4624470,Equipe CRM,CAMPANHA 2025 - Ano Novo,Oferta exclusiva de ano novo só para você,150791,52362,9562,206
+25/04/2025,4074393,Marketing Digital,CAMPANHA 2025 - Ano Novo,Descubra nossa nova coleção de ano novo,471672,127147,6695,573
+18/05/2025,4134615,Time Promoções,CAMPANHA 2025 - Dia das Mães,Você foi selecionado(a) para descontos de dia das mães,52410,11907,1148,121
+27/02/2025,4210395,Newsletter Especial,CAMPANHA 2025 - Lançamento de Coleção,Oferta exclusiva de lançamento de coleção só para você,559119,168104,19003,945
+15/04/2025,4458386,Relacionamento,CAMPANHA 2025 - Volta às Aulas,Não perca: novidades de volta às aulas,795553,215362,22087,341
+16/03/2025,4949765,Suporte ao Cliente,CAMPANHA 2025 - Liquidação,Você foi selecionado(a) para descontos de liquidação,757689,101213,21172,572
+20/05/2025,4047075,Equipe CRM,CAMPANHA 2025 - Liquidação,Descubra nossa nova coleção de liquidação,87857,22037,2706,73
+27/02/2025,4791873,Newsletter Especial,CAMPANHA 2025 - Dia das Mães,Só até amanhã: dia das mães com frete grátis,286106,81808,14089,495
+06/06/2025,4995975,Suporte ao Cliente,CAMPANHA 2025 - Ano Novo,Últimos dias da promoção ano novo,316865,99975,15644,790
+28/02/2025,4771167,Equipe CRM,CAMPANHA 2025 - Ano Novo,Oferta exclusiva de ano novo só para você,793942,222684,38092,1656
+17/05/2025,4302774,Relacionamento,CAMPANHA 2025 - Lançamento de Coleção,Oferta exclusiva de lançamento de coleção só para você,443566,139865,16242,645
+12/06/2025,4326191,Comunicação Interna,CAMPANHA 2025 - Liquidação,Preços imperdíveis nesta liquidação,356172,42741,5302,255
+21/04/2025,4434133,Equipe Marketing,CAMPANHA 2025 - Verão,Não perca: novidades de verão,612754,137824,19667,1219
+21/03/2025,4571704,Newsletter Especial,CAMPANHA 2025 - Dia das Mães,Preços imperdíveis nesta dia das mães,123849,36583,3669,300
+25/04/2025,4097729,Equipe Produtos,CAMPANHA 2025 - Ano Novo,Surpresa! Presentes de ano novo esperando por você,8711,1862,329,14
+09/04/2025,4887843,Equipe Vendas,CAMPANHA 2025 - Volta às Aulas,Últimos dias da promoção volta às aulas,789367,120594,16818,788
+06/05/2025,4726563,Comunicação Interna,CAMPANHA 2025 - Ano Novo,Preços imperdíveis nesta ano novo,301281,111992,23885,371
+13/04/2025,4706377,Equipe Produtos,CAMPANHA 2025 - Dia das Mães,Preços imperdíveis nesta dia das mães,228052,35523,6028,170
+15/03/2025,4247403,Suporte ao Cliente,CAMPANHA 2025 - Dia dos Pais,Não perca: novidades de dia dos pais,203479,46144,4661,237
+03/03/2025,4322789,Newsletter Especial,CAMPANHA 2025 - Aniversário da Loja,Não perca: novidades de aniversário da loja,456845,66464,10987,735
+06/05/2025,4139772,Equipe Vendas,CAMPANHA 2025 - Verão,Oferta exclusiva de verão só para você,398826,95359,11044,682
+12/06/2025,4522340,Equipe CRM,CAMPANHA 2025 - Volta às Aulas,Você foi selecionado(a) para descontos de volta às aulas,358395,89925,9977,607
+02/06/2025,4786763,Time Promoções,CAMPANHA 2025 - Natal,Não perca: novidades de natal,353959,48247,4150,799
+10/04/2025,4477047,Equipe Marketing,CAMPANHA 2025 - Natal,Preços imperdíveis nesta natal,728990,241681,20913,1005
+12/04/2025,4830034,Equipe CRM,CAMPANHA 2025 - Aniversário da Loja,Últimos dias da promoção aniversário da loja,671010,204686,38277,1550
+19/05/2025,4554681,Comunicação Interna,CAMPANHA 2025 - Dia dos Pais,Surpresa! Presentes de dia dos pais esperando por você,251162,30984,5036,362
+25/05/2025,4218662,Newsletter Especial,CAMPANHA 2025 - Férias,Surpresa! Presentes de férias esperando por você,362082,119026,18760,251
+23/02/2025,4415176,Equipe Produtos,CAMPANHA 2025 - Férias,Preços imperdíveis nesta férias,724018,124316,16553,857
+11/02/2025,4619576,Time Promoções,CAMPANHA 2025 - Aniversário da Loja,Oferta exclusiva de aniversário da loja só para você,683114,235302,30893,339
+19/04/2025,4231196,Marketing Digital,CAMPANHA 2025 - Black Friday,É hoje: campanha especial black friday,682691,188542,14928,951
+20/05/2025,4964997,Equipe CRM,CAMPANHA 2025 - Inverno,Surpresa! Presentes de inverno esperando por você,683967,207742,38449,785
+19/03/2025,4539274,Equipe CRM,CAMPANHA 2025 - Verão,Você foi selecionado(a) para descontos de verão,518381,73767,14374,239
+01/01/2025,4191516,Equipe Vendas,CAMPANHA 2025 - Black Friday,Preços imperdíveis nesta black friday,552524,203836,15037,566
+25/04/2025,4992948,Suporte ao Cliente,CAMPANHA 2025 - Lançamento de Coleção,Não perca: novidades de lançamento de coleção,414660,96399,10770,663
+03/05/2025,4530099,Equipe Marketing,CAMPANHA 2025 - Férias,Descubra nossa nova coleção de férias,503962,101983,7987,313
+11/01/2025,4945703,Equipe Produtos,CAMPANHA 2025 - Dia dos Pais,Preços imperdíveis nesta dia dos pais,779943,268255,41459,1595
+25/04/2025,4198020,Marketing Digital,CAMPANHA 2025 - Natal,É hoje: campanha especial natal,662471,143648,30014,1651
+07/02/2025,4147991,Equipe Marketing,CAMPANHA 2025 - Ano Novo,Você foi selecionado(a) para descontos de ano novo,344536,71177,4234,462
+25/01/2025,4932873,Time Promoções,CAMPANHA 2025 - Volta às Aulas,Descubra nossa nova coleção de volta às aulas,372805,87176,10845,246
+02/06/2025,4494965,Equipe Produtos,CAMPANHA 2025 - Lançamento de Coleção,Preços imperdíveis nesta lançamento de coleção,109405,22902,2429,231
+12/05/2025,4663413,Newsletter Especial,CAMPANHA 2025 - Aniversário da Loja,Preços imperdíveis nesta aniversário da loja,347773,88276,6227,633
+26/01/2025,4516521,Relacionamento,CAMPANHA 2025 - Liquidação,Você foi selecionado(a) para descontos de liquidação,366071,117299,19827,164
+13/05/2025,4573189,Time Promoções,CAMPANHA 2025 - Dia das Mães,Descubra nossa nova coleção de dia das mães,778032,218104,14793,776
+18/03/2025,4755358,Newsletter Especial,CAMPANHA 2025 - Verão,Surpresa! Presentes de verão esperando por você,293051,100379,14818,672
+21/05/2025,4011508,Time Promoções,CAMPANHA 2025 - Liquidação,Você foi selecionado(a) para descontos de liquidação,502014,152843,8060,612
+31/05/2025,4391396,Time Promoções,CAMPANHA 2025 - Liquidação,Preços imperdíveis nesta liquidação,180707,38111,2106,394
+23/04/2025,4921403,Equipe Marketing,CAMPANHA 2025 - Férias,Você foi selecionado(a) para descontos de férias,523586,130516,23674,956
+08/05/2025,4472211,Relacionamento,CAMPANHA 2025 - Volta às Aulas,Surpresa! Presentes de volta às aulas esperando por você,325146,54945,7037,501
+16/04/2025,4605338,Relacionamento,CAMPANHA 2025 - Lançamento de Coleção,Você foi selecionado(a) para descontos de lançamento de coleção,567149,154244,31690,800
+11/04/2025,4262296,Time Promoções,CAMPANHA 2025 - Férias,Surpresa! Presentes de férias esperando por você,580143,139029,13062,850
+09/05/2025,4614643,Relacionamento,CAMPANHA 2025 - Dia das Mães,Surpresa! Presentes de dia das mães esperando por você,780725,276308,43856,464
+18/02/2025,4473636,Marketing Digital,CAMPANHA 2025 - Verão,Oferta exclusiva de verão só para você,442540,87335,12282,325
+02/03/2025,4266862,Time Promoções,CAMPANHA 2025 - Volta às Aulas,É hoje: campanha especial volta às aulas,372600,121388,20257,389
+06/06/2025,4822700,Suporte ao Cliente,CAMPANHA 2025 - Inverno,Não perca: novidades de inverno,30351,10574,1963,44
+27/01/2025,4081737,Marketing Digital,CAMPANHA 2025 - Dia dos Pais,Oferta exclusiva de dia dos pais só para você,353186,130516,11398,653
+26/01/2025,4104925,Time Promoções,CAMPANHA 2025 - Dia das Mães,Corre! Estoques limitados para dia das mães,62403,16767,1669,154
+16/04/2025,4880680,Equipe Vendas,CAMPANHA 2025 - Black Friday,Você foi selecionado(a) para descontos de black friday,301449,110685,22133,338
+13/05/2025,4561389,Marketing Digital,CAMPANHA 2025 - Lançamento de Coleção,Preços imperdíveis nesta lançamento de coleção,36914,9930,1584,40
+03/03/2025,4688095,Equipe Vendas,CAMPANHA 2025 - Ano Novo,Você foi selecionado(a) para descontos de ano novo,734449,206941,42668,1728
+28/04/2025,4884802,Marketing Digital,CAMPANHA 2025 - Inverno,Corre! Estoques limitados para inverno,146342,30669,5750,231
+02/04/2025,4988954,Comunicação Interna,CAMPANHA 2025 - Dia dos Pais,É hoje: campanha especial dia dos pais,720173,161556,25428,1253
+19/03/2025,4986178,Equipe Vendas,CAMPANHA 2025 - Dia dos Pais,Só até amanhã: dia dos pais com frete grátis,752269,119913,6491,1438
+07/06/2025,4430460,Marketing Digital,CAMPANHA 2025 - Verão,Últimos dias da promoção verão,230183,34569,3808,524
+24/02/2025,4836172,Marketing Digital,CAMPANHA 2025 - Verão,Descubra nossa nova coleção de verão,547047,153652,18426,984
+10/03/2025,4101657,Equipe Vendas,CAMPANHA 2025 - Aniversário da Loja,Surpresa! Presentes de aniversário da loja esperando por você,418911,146870,18626,967
+16/05/2025,4749863,Marketing Digital,CAMPANHA 2025 - Natal,Preços imperdíveis nesta natal,251991,45959,9841,422
+07/02/2025,4486063,Time Promoções,CAMPANHA 2025 - Aniversário da Loja,Só até amanhã: aniversário da loja com frete grátis,204296,39030,6836,339
+28/05/2025,4484915,Equipe Vendas,CAMPANHA 2025 - Natal,Preços imperdíveis nesta natal,44862,15402,2353,45
+13/02/2025,4445763,Time Promoções,CAMPANHA 2025 - Dia dos Pais,Você foi selecionado(a) para descontos de dia dos pais,203335,57544,9266,293
+09/02/2025,4445205,Equipe Produtos,CAMPANHA 2025 - Lançamento de Coleção,Surpresa! Presentes de lançamento de coleção esperando por você,169633,45523,8050,229
+19/03/2025,4641242,Equipe Produtos,CAMPANHA 2025 - Ano Novo,É hoje: campanha especial ano novo,426274,111207,16766,256
+12/05/2025,4920868,Equipe Vendas,CAMPANHA 2025 - Inverno,É hoje: campanha especial inverno,295639,53669,8759,732
+07/01/2025,4541475,Marketing Digital,CAMPANHA 2025 - Liquidação,Só até amanhã: liquidação com frete grátis,549193,202630,42642,860
+01/01/2025,4032534,Time Promoções,CAMPANHA 2025 - Black Friday,Não perca: novidades de black friday,662840,211892,38002,1078
+28/05/2025,4158185,Equipe Marketing,CAMPANHA 2025 - Liquidação,Corre! Estoques limitados para liquidação,612989,161643,18589,544
+20/05/2025,4425696,Equipe Vendas,CAMPANHA 2025 - Dia das Mães,Só até amanhã: dia das mães com frete grátis,439802,109099,5501,322
+18/04/2025,4847845,Suporte ao Cliente,CAMPANHA 2025 - Lançamento de Coleção,Descubra nossa nova coleção de lançamento de coleção,167912,29111,1725,158
+12/03/2025,4352793,Marketing Digital,CAMPANHA 2025 - Dia dos Pais,Descubra nossa nova coleção de dia dos pais,273554,38779,2672,559
+22/04/2025,4973469,Relacionamento,CAMPANHA 2025 - Black Friday,Descubra nossa nova coleção de black friday,279875,67953,13438,166
+18/01/2025,4980376,Equipe CRM,CAMPANHA 2025 - Aniversário da Loja,É hoje: campanha especial aniversário da loja,251263,77387,12288,341
+25/02/2025,4375524,Marketing Digital,CAMPANHA 2025 - Inverno,Surpresa! Presentes de inverno esperando por você,594857,102487,20657,1482
+08/05/2025,4513811,Newsletter Especial,CAMPANHA 2025 - Dia das Mães,Oferta exclusiva de dia das mães só para você,681226,237160,47247,1208
+29/05/2025,4085464,Comunicação Interna,CAMPANHA 2025 - Black Friday,Só até amanhã: black friday com frete grátis,549526,140440,12252,1246
+07/05/2025,4124170,Equipe Marketing,CAMPANHA 2025 - Natal,É hoje: campanha especial natal,504763,202030,42794,486
+25/01/2025,4670502,Equipe CRM,CAMPANHA 2025 - Liquidação,Descubra nossa nova coleção de liquidação,738605,290503,61783,839
+14/03/2025,4457871,Comunicação Interna,CAMPANHA 2025 - Verão,Descubra nossa nova coleção de verão,739647,198929,29089,1814
+15/03/2025,4211606,Time Promoções,CAMPANHA 2025 - Inverno,Preços imperdíveis nesta inverno,760366,190740,31136,567
+29/04/2025,4800566,Comunicação Interna,CAMPANHA 2025 - Liquidação,Preços imperdíveis nesta liquidação,676077,192320,26046,398
+29/03/2025,4871532,Equipe Produtos,CAMPANHA 2025 - Liquidação,Preços imperdíveis nesta liquidação,765650,273272,53759,1055
+27/04/2025,4823115,Marketing Digital,CAMPANHA 2025 - Ano Novo,É hoje: campanha especial ano novo,794693,95363,16614,1225
+21/05/2025,4014015,Newsletter Especial,CAMPANHA 2025 - Natal,Últimos dias da promoção natal,64520,17683,1138,95
+08/04/2025,4097210,Comunicação Interna,CAMPANHA 2025 - Inverno,Oferta exclusiva de inverno só para você,694129,131632,18062,721
+14/05/2025,4560173,Newsletter Especial,CAMPANHA 2025 - Verão,Últimos dias da promoção verão,214556,25747,4948,253
+10/01/2025,4964754,Suporte ao Cliente,CAMPANHA 2025 - Aniversário da Loja,Últimos dias da promoção aniversário da loja,366501,95387,16542,451
+23/01/2025,4956334,Equipe Vendas,CAMPANHA 2025 - Black Friday,Corre! Estoques limitados para black friday,750978,167314,12687,710
+10/02/2025,4788278,Marketing Digital,CAMPANHA 2025 - Natal,Corre! Estoques limitados para natal,71922,15592,3050,63
+22/05/2025,4511722,Equipe Produtos,CAMPANHA 2025 - Natal,É hoje: campanha especial natal,238804,62234,11743,313
+14/05/2025,4055805,Equipe CRM,CAMPANHA 2025 - Black Friday,Oferta exclusiva de black friday só para você,550317,131405,18081,783
+26/03/2025,4924457,Equipe CRM,CAMPANHA 2025 - Liquidação,Últimos dias da promoção liquidação,671075,285162,46377,624
+30/04/2025,4937362,Comunicação Interna,CAMPANHA 2025 - Férias,Preços imperdíveis nesta férias,295632,74361,12475,421
+22/05/2025,4522176,Equipe CRM,CAMPANHA 2025 - Liquidação,Preços imperdíveis nesta liquidação,148683,32123,4681,65
+02/06/2025,4649809,Equipe Vendas,CAMPANHA 2025 - Inverno,Últimos dias da promoção inverno,184875,50999,7430,252
+01/01/2025,4718607,Marketing Digital,CAMPANHA 2025 - Aniversário da Loja,Corre! Estoques limitados para aniversário da loja,189258,51881,3474,113
+18/03/2025,4309496,Comunicação Interna,CAMPANHA 2025 - Férias,Não perca: novidades de férias,145231,37649,2154,333
+21/04/2025,4868905,Marketing Digital,CAMPANHA 2025 - Dia dos Pais,Surpresa! Presentes de dia dos pais esperando por você,452524,139292,20439,645
+21/03/2025,4429842,Comunicação Interna,CAMPANHA 2025 - Dia das Mães,É hoje: campanha especial dia das mães,210376,36775,5807,361
+04/06/2025,4851014,Equipe Marketing,CAMPANHA 2025 - Verão,Você foi selecionado(a) para descontos de verão,64542,12667,1131,94
+27/02/2025,4161046,Equipe CRM,CAMPANHA 2025 - Lançamento de Coleção,É hoje: campanha especial lançamento de coleção,322078,76699,4985,377
+15/05/2025,4144551,Equipe Vendas,CAMPANHA 2025 - Dia das Mães,Preços imperdíveis nesta dia das mães,628829,116039,18660,1389
+18/03/2025,4936593,Suporte ao Cliente,CAMPANHA 2025 - Volta às Aulas,Preços imperdíveis nesta volta às aulas,184701,59367,11654,221
+26/02/2025,4362384,Comunicação Interna,CAMPANHA 2025 - Férias,Não perca: novidades de férias,543593,65231,4913,589
+31/01/2025,4036140,Equipe Marketing,CAMPANHA 2025 - Lançamento de Coleção,É hoje: campanha especial lançamento de coleção,263930,70771,14884,404
+04/01/2025,4520412,Time Promoções,CAMPANHA 2025 - Liquidação,Descubra nossa nova coleção de liquidação,609281,185942,28973,815
+17/04/2025,4972805,Equipe Produtos,CAMPANHA 2025 - Dia dos Pais,Preços imperdíveis nesta dia dos pais,89701,15462,3264,135
+08/03/2025,4958696,Relacionamento,CAMPANHA 2025 - Ano Novo,Só até amanhã: ano novo com frete grátis,77527,29207,5551,194
+12/02/2025,4146515,Newsletter Especial,CAMPANHA 2025 - Dia das Mães,Descubra nossa nova coleção de dia das mães,507817,140816,29649,1038
+12/01/2025,4835432,Equipe Vendas,CAMPANHA 2025 - Black Friday,Só até amanhã: black friday com frete grátis,539844,108398,21582,984
+16/05/2025,4705904,Equipe CRM,CAMPANHA 2025 - Dia dos Pais,Não perca: novidades de dia dos pais,655658,217890,44246,1356
+12/05/2025,4114053,Suporte ao Cliente,CAMPANHA 2025 - Inverno,Oferta exclusiva de inverno só para você,684950,159278,11179,1654
+02/01/2025,4466821,Relacionamento,CAMPANHA 2025 - Inverno,É hoje: campanha especial inverno,261625,62142,13539,542
+15/05/2025,4981261,Relacionamento,CAMPANHA 2025 - Verão,Você foi selecionado(a) para descontos de verão,742185,308985,42519,686
+19/04/2025,4303988,Equipe CRM,CAMPANHA 2025 - Liquidação,Você foi selecionado(a) para descontos de liquidação,73475,12208,1591,49
+15/02/2025,4393113,Equipe Marketing,CAMPANHA 2025 - Ano Novo,Surpresa! Presentes de ano novo esperando por você,525672,163037,18595,1047
+16/05/2025,4416092,Equipe CRM,CAMPANHA 2025 - Black Friday,Surpresa! Presentes de black friday esperando por você,385096,109742,15790,321
+08/03/2025,4730386,Comunicação Interna,CAMPANHA 2025 - Black Friday,Preços imperdíveis nesta black friday,70400,13538,2400,144
+20/05/2025,4054838,Marketing Digital,CAMPANHA 2025 - Lançamento de Coleção,Oferta exclusiva de lançamento de coleção só para você,311088,72161,10322,454
+14/02/2025,4994639,Equipe Vendas,CAMPANHA 2025 - Dia dos Pais,Só até amanhã: dia dos pais com frete grátis,764915,268694,14118,1010
+14/04/2025,4247011,Relacionamento,CAMPANHA 2025 - Volta às Aulas,Descubra nossa nova coleção de volta às aulas,713063,180809,19912,1714
+01/05/2025,4234358,Time Promoções,CAMPANHA 2025 - Férias,Só até amanhã: férias com frete grátis,339192,96615,7411,704
+20/05/2025,4305795,Marketing Digital,CAMPANHA 2025 - Ano Novo,Só até amanhã: ano novo com frete grátis,427095,81495,13801,378
+28/05/2025,4193543,Time Promoções,CAMPANHA 2025 - Inverno,Só até amanhã: inverno com frete grátis,252528,92117,12487,300
+25/04/2025,4489700,Equipe Produtos,CAMPANHA 2025 - Lançamento de Coleção,Só até amanhã: lançamento de coleção com frete grátis,346054,100908,18270,545
+10/04/2025,4434161,Comunicação Interna,CAMPANHA 2025 - Dia das Mães,Você foi selecionado(a) para descontos de dia das mães,79660,13933,2407,48
+14/03/2025,4005156,Equipe Produtos,CAMPANHA 2025 - Inverno,Surpresa! Presentes de inverno esperando por você,59047,11936,1012,88
+08/02/2025,4189397,Suporte ao Cliente,CAMPANHA 2025 - Ano Novo,É hoje: campanha especial ano novo,664786,157945,11678,636
+30/04/2025,4547471,Time Promoções,CAMPANHA 2025 - Natal,Surpresa! Presentes de natal esperando por você,722551,177090,22554,1699
+26/02/2025,4876104,Time Promoções,CAMPANHA 2025 - Natal,Preços imperdíveis nesta natal,394559,113074,13928,449
+08/06/2025,4320489,Suporte ao Cliente,CAMPANHA 2025 - Lançamento de Coleção,Descubra nossa nova coleção de lançamento de coleção,795495,170797,18292,926
+08/02/2025,4281345,Equipe Vendas,CAMPANHA 2025 - Aniversário da Loja,Últimos dias da promoção aniversário da loja,438709,74095,7387,740
+20/03/2025,4768456,Suporte ao Cliente,CAMPANHA 2025 - Aniversário da Loja,Corre! Estoques limitados para aniversário da loja,155416,38892,4850,172
+15/04/2025,4622606,Equipe Vendas,CAMPANHA 2025 - Black Friday,Não perca: novidades de black friday,548107,139016,8897,294
+13/01/2025,4048350,Equipe Marketing,CAMPANHA 2025 - Volta às Aulas,Você foi selecionado(a) para descontos de volta às aulas,635711,218166,33620,1008
+22/02/2025,4972566,Equipe Marketing,CAMPANHA 2025 - Inverno,Não perca: novidades de inverno,233173,58109,3583,333
+09/03/2025,4518267,Newsletter Especial,CAMPANHA 2025 - Volta às Aulas,É hoje: campanha especial volta às aulas,210960,68867,14177,493
+06/05/2025,4782470,Equipe Produtos,CAMPANHA 2025 - Lançamento de Coleção,Preços imperdíveis nesta lançamento de coleção,271707,32605,2801,383
+09/02/2025,4238198,Comunicação Interna,CAMPANHA 2025 - Dia dos Pais,Últimos dias da promoção dia dos pais,349356,72560,13329,837
+11/02/2025,4857802,Marketing Digital,CAMPANHA 2025 - Black Friday,Preços imperdíveis nesta black friday,622034,143046,14027,1026
+03/02/2025,4987181,Marketing Digital,CAMPANHA 2025 - Lançamento de Coleção,Só até amanhã: lançamento de coleção com frete grátis,533035,109403,17658,320
+28/03/2025,4647394,Suporte ao Cliente,CAMPANHA 2025 - Verão,Surpresa! Presentes de verão esperando por você,624089,136610,22814,908
+30/03/2025,4785135,Equipe Produtos,CAMPANHA 2025 - Aniversário da Loja,É hoje: campanha especial aniversário da loja,730790,203544,15152,1499
+25/05/2025,4696367,Suporte ao Cliente,CAMPANHA 2025 - Ano Novo,Não perca: novidades de ano novo,660224,217914,19585,332
+16/02/2025,4733251,Suporte ao Cliente,CAMPANHA 2025 - Lançamento de Coleção,Surpresa! Presentes de lançamento de coleção esperando por você,446193,135658,24431,547
+30/01/2025,4174363,Time Promoções,CAMPANHA 2025 - Inverno,Oferta exclusiva de inverno só para você,235759,70081,3884,282
+28/05/2025,4837288,Relacionamento,CAMPANHA 2025 - Dia das Mães,Corre! Estoques limitados para dia das mães,257767,96519,8995,396
+13/02/2025,4582955,Time Promoções,CAMPANHA 2025 - Lançamento de Coleção,Você foi selecionado(a) para descontos de lançamento de coleção,48673,13731,2579,39
+03/05/2025,4239985,Marketing Digital,CAMPANHA 2025 - Lançamento de Coleção,Descubra nossa nova coleção de lançamento de coleção,499730,142402,23291,674
+27/04/2025,4577152,Newsletter Especial,CAMPANHA 2025 - Inverno,Surpresa! Presentes de inverno esperando por você,342521,88564,18187,180
+18/04/2025,4142846,Equipe CRM,CAMPANHA 2025 - Férias,Últimos dias da promoção férias,559734,134693,15428,1257
+06/05/2025,4137048,Marketing Digital,CAMPANHA 2025 - Aniversário da Loja,Surpresa! Presentes de aniversário da loja esperando por você,301694,65930,4989,163
+24/01/2025,4968879,Equipe Marketing,CAMPANHA 2025 - Férias,Últimos dias da promoção férias,101014,30858,5371,53
+16/02/2025,4170372,Relacionamento,CAMPANHA 2025 - Natal,Corre! Estoques limitados para natal,418646,111350,12871,400
+31/05/2025,4828092,Relacionamento,CAMPANHA 2025 - Férias,Preços imperdíveis nesta férias,139157,22197,2362,129
+30/05/2025,4755415,Equipe Produtos,CAMPANHA 2025 - Lançamento de Coleção,Oferta exclusiva de lançamento de coleção só para você,70457,17855,1510,119
+24/03/2025,4528140,Equipe Marketing,CAMPANHA 2025 - Black Friday,Surpresa! Presentes de black friday esperando por você,538010,145030,10433,744
+20/02/2025,4510305,Marketing Digital,CAMPANHA 2025 - Volta às Aulas,Você foi selecionado(a) para descontos de volta às aulas,218231,39180,5610,519
+06/02/2025,4560135,Marketing Digital,CAMPANHA 2025 - Inverno,Corre! Estoques limitados para inverno,375816,69208,8645,862
+30/01/2025,4628947,Equipe Produtos,CAMPANHA 2025 - Liquidação,Surpresa! Presentes de liquidação esperando por você,611211,152147,25678,1020
+08/01/2025,4008980,Relacionamento,CAMPANHA 2025 - Liquidação,Surpresa! Presentes de liquidação esperando por você,476827,103345,10126,317
+28/02/2025,4876040,Newsletter Especial,CAMPANHA 2025 - Volta às Aulas,Oferta exclusiva de volta às aulas só para você,149604,36711,2004,353
+13/05/2025,4293991,Marketing Digital,CAMPANHA 2025 - Lançamento de Coleção,Últimos dias da promoção lançamento de coleção,432731,91540,14246,368
+12/01/2025,4087293,Newsletter Especial,CAMPANHA 2025 - Volta às Aulas,Últimos dias da promoção volta às aulas,538995,125148,7542,852
+19/03/2025,4630294,Equipe Vendas,CAMPANHA 2025 - Lançamento de Coleção,Oferta exclusiva de lançamento de coleção só para você,137176,29209,5477,151
+04/04/2025,4056566,Equipe Marketing,CAMPANHA 2025 - Natal,Não perca: novidades de natal,753067,259999,51198,1296
+13/05/2025,4311713,Time Promoções,CAMPANHA 2025 - Volta às Aulas,Oferta exclusiva de volta às aulas só para você,352569,84636,18126,754
+03/04/2025,4562200,Time Promoções,CAMPANHA 2025 - Volta às Aulas,Últimos dias da promoção volta às aulas,501083,138136,20370,640
+19/03/2025,4568527,Time Promoções,CAMPANHA 2025 - Férias,Últimos dias da promoção férias,166298,56825,10992,141
+08/04/2025,4835417,Suporte ao Cliente,CAMPANHA 2025 - Liquidação,Preços imperdíveis nesta liquidação,283868,94985,9291,370
+17/01/2025,4546986,Equipe Vendas,CAMPANHA 2025 - Verão,É hoje: campanha especial verão,414103,113025,11044,302
+04/02/2025,4816266,Equipe Marketing,CAMPANHA 2025 - Ano Novo,Oferta exclusiva de ano novo só para você,498526,117867,25086,1179
+03/02/2025,4591627,Time Promoções,CAMPANHA 2025 - Liquidação,É hoje: campanha especial liquidação,541682,126159,24760,663
+01/06/2025,4494251,Equipe CRM,CAMPANHA 2025 - Volta às Aulas,Descubra nossa nova coleção de volta às aulas,197439,56723,6894,130
+26/02/2025,4962734,Equipe CRM,CAMPANHA 2025 - Dia das Mães,Preços imperdíveis nesta dia das mães,127336,25372,4049,136
+24/02/2025,4769105,Marketing Digital,CAMPANHA 2025 - Inverno,Não perca: novidades de inverno,610195,174338,20511,1042
+07/02/2025,4090494,Newsletter Especial,CAMPANHA 2025 - Dia das Mães,Descubra nossa nova coleção de dia das mães,191802,23016,3996,295
+09/06/2025,4956678,Equipe Vendas,CAMPANHA 2025 - Verão,Não perca: novidades de verão,746826,187289,28968,1828
+30/04/2025,4423508,Time Promoções,CAMPANHA 2025 - Ano Novo,Oferta exclusiva de ano novo só para você,370577,96876,17127,656
+04/04/2025,4299844,Time Promoções,CAMPANHA 2025 - Dia das Mães,Não perca: novidades de dia das mães,210149,32704,4175,238
+19/05/2025,4462700,Equipe Produtos,CAMPANHA 2025 - Inverno,Corre! Estoques limitados para inverno,733035,168195,24305,1433
+04/05/2025,4933712,Comunicação Interna,CAMPANHA 2025 - Natal,Corre! Estoques limitados para natal,708738,85049,4631,683
+05/06/2025,4071222,Relacionamento,CAMPANHA 2025 - Lançamento de Coleção,Últimos dias da promoção lançamento de coleção,747820,231086,45385,1457
+03/06/2025,4932233,Equipe Produtos,CAMPANHA 2025 - Liquidação,Não perca: novidades de liquidação,410162,105143,6911,745
+05/04/2025,4726115,Equipe Produtos,CAMPANHA 2025 - Lançamento de Coleção,Não perca: novidades de lançamento de coleção,714368,111458,22490,921
+16/05/2025,4430321,Marketing Digital,CAMPANHA 2025 - Dia dos Pais,Só até amanhã: dia dos pais com frete grátis,195630,55691,11181,122
+09/03/2025,4890631,Equipe Produtos,CAMPANHA 2025 - Black Friday,Você foi selecionado(a) para descontos de black friday,340460,89926,9152,843
+26/04/2025,4087279,Time Promoções,CAMPANHA 2025 - Volta às Aulas,É hoje: campanha especial volta às aulas,605475,119229,8706,349
+09/03/2025,4914005,Equipe CRM,CAMPANHA 2025 - Verão,Últimos dias da promoção verão,747172,209397,20604,1284
+11/02/2025,4371021,Marketing Digital,CAMPANHA 2025 - Aniversário da Loja,Oferta exclusiva de aniversário da loja só para você,719533,226150,30074,447
+21/04/2025,4545558,Marketing Digital,CAMPANHA 2025 - Inverno,É hoje: campanha especial inverno,733619,174105,17708,324
+20/02/2025,4059349,Newsletter Especial,CAMPANHA 2025 - Ano Novo,Descubra nossa nova coleção de ano novo,71882,24544,2344,120
+26/03/2025,4567071,Equipe CRM,CAMPANHA 2025 - Dia dos Pais,Surpresa! Presentes de dia dos pais esperando por você,301359,83428,17660,674
+03/03/2025,4282636,Marketing Digital,CAMPANHA 2025 - Aniversário da Loja,Surpresa! Presentes de aniversário da loja esperando por você,628891,235067,38549,501
+18/01/2025,4992662,Marketing Digital,CAMPANHA 2025 - Black Friday,Você foi selecionado(a) para descontos de black friday,723570,173459,24197,356
+04/04/2025,4753025,Newsletter Especial,CAMPANHA 2025 - Volta às Aulas,Oferta exclusiva de volta às aulas só para você,418984,62780,11474,697
+24/02/2025,4844175,Newsletter Especial,CAMPANHA 2025 - Verão,Corre! Estoques limitados para verão,158603,45660,9961,243
+18/03/2025,4326377,Equipe Vendas,CAMPANHA 2025 - Black Friday,Últimos dias da promoção black friday,794648,146915,20736,666
+04/03/2025,4179445,Equipe CRM,CAMPANHA 2025 - Férias,Oferta exclusiva de férias só para você,712448,267446,46006,1163
+03/02/2025,4824845,Comunicação Interna,CAMPANHA 2025 - Lançamento de Coleção,Surpresa! Presentes de lançamento de coleção esperando por você,577039,96754,6516,926
+02/04/2025,4176005,Equipe Vendas,CAMPANHA 2025 - Dia das Mães,Surpresa! Presentes de dia das mães esperando por você,165751,55583,8063,343
+02/02/2025,4600979,Suporte ao Cliente,CAMPANHA 2025 - Aniversário da Loja,Descubra nossa nova coleção de aniversário da loja,344178,88619,7069,296
+05/02/2025,4599379,Equipe Produtos,CAMPANHA 2025 - Liquidação,Não perca: novidades de liquidação,256348,93571,16561,327
+01/04/2025,4038294,Equipe Vendas,CAMPANHA 2025 - Verão,Preços imperdíveis nesta verão,196417,48399,3928,116
+03/02/2025,4831550,Suporte ao Cliente,CAMPANHA 2025 - Dia das Mães,Corre! Estoques limitados para dia das mães,319109,107349,16289,224
+01/04/2025,4494621,Relacionamento,CAMPANHA 2025 - Férias,Descubra nossa nova coleção de férias,582852,77681,16324,948
+19/04/2025,4892290,Equipe Produtos,CAMPANHA 2025 - Inverno,Últimos dias da promoção inverno,104594,29296,3041,120
+18/03/2025,4916385,Equipe Produtos,CAMPANHA 2025 - Aniversário da Loja,Últimos dias da promoção aniversário da loja,593940,71273,5644,1045
+11/04/2025,4820180,Suporte ao Cliente,CAMPANHA 2025 - Ano Novo,Corre! Estoques limitados para ano novo,133771,47294,6226,162
+17/02/2025,4324826,Relacionamento,CAMPANHA 2025 - Dia dos Pais,Corre! Estoques limitados para dia dos pais,202861,29585,3971,405
+21/03/2025,4568584,Suporte ao Cliente,CAMPANHA 2025 - Liquidação,Só até amanhã: liquidação com frete grátis,443856,111047,6677,1028
+11/03/2025,4859776,Relacionamento,CAMPANHA 2025 - Liquidação,Não perca: novidades de liquidação,679430,145676,12786,1628
+01/01/2025,4841197,Equipe Produtos,CAMPANHA 2025 - Volta às Aulas,É hoje: campanha especial volta às aulas,268792,66575,14494,181
+10/05/2025,4779041,Equipe Produtos,CAMPANHA 2025 - Black Friday,Últimos dias da promoção black friday,737077,184147,14969,1613
+10/01/2025,4402459,Comunicação Interna,CAMPANHA 2025 - Dia das Mães,É hoje: campanha especial dia das mães,324049,66465,10084,307
+05/02/2025,4943270,Equipe Produtos,CAMPANHA 2025 - Natal,Oferta exclusiva de natal só para você,186738,41986,7902,372
+09/02/2025,4445036,Equipe CRM,CAMPANHA 2025 - Volta às Aulas,Não perca: novidades de volta às aulas,666076,141560,10546,1456
+08/04/2025,4242189,Equipe Vendas,CAMPANHA 2025 - Férias,Preços imperdíveis nesta férias,419299,113383,19866,794
+08/02/2025,4000231,Equipe Produtos,CAMPANHA 2025 - Volta às Aulas,Descubra nossa nova coleção de volta às aulas,170443,49766,5787,204
+24/05/2025,4771641,Suporte ao Cliente,CAMPANHA 2025 - Black Friday,É hoje: campanha especial black friday,137815,36835,4599,103
+23/05/2025,4935996,Suporte ao Cliente,CAMPANHA 2025 - Verão,Descubra nossa nova coleção de verão,646457,189411,13453,281
+06/06/2025,4897315,Comunicação Interna,CAMPANHA 2025 - Verão,Descubra nossa nova coleção de verão,586690,184646,23581,675
+05/06/2025,4132957,Time Promoções,CAMPANHA 2025 - Inverno,Preços imperdíveis nesta inverno,406426,122977,18674,835
+12/03/2025,4490343,Relacionamento,CAMPANHA 2025 - Inverno,Oferta exclusiva de inverno só para você,349548,92711,14718,707
+03/01/2025,4098695,Equipe CRM,CAMPANHA 2025 - Liquidação,Surpresa! Presentes de liquidação esperando por você,748884,239284,47070,828
+02/01/2025,4009617,Relacionamento,CAMPANHA 2025 - Ano Novo,Corre! Estoques limitados para ano novo,487466,143797,28795,509
+06/02/2025,4279772,Relacionamento,CAMPANHA 2025 - Black Friday,Não perca: novidades de black friday,784481,220572,42329,1704
+25/05/2025,4174171,Comunicação Interna,CAMPANHA 2025 - Verão,Preços imperdíveis nesta verão,187687,56059,7371,345
+21/03/2025,4347958,Time Promoções,CAMPANHA 2025 - Black Friday,Corre! Estoques limitados para black friday,555086,110863,12871,1220
+12/06/2025,4148711,Newsletter Especial,CAMPANHA 2025 - Dia dos Pais,Surpresa! Presentes de dia dos pais esperando por você,224498,88885,8126,309
+20/01/2025,4099451,Equipe Vendas,CAMPANHA 2025 - Dia dos Pais,Descubra nossa nova coleção de dia dos pais,102327,30154,6619,224
+13/02/2025,4705879,Marketing Digital,CAMPANHA 2025 - Lançamento de Coleção,Preços imperdíveis nesta lançamento de coleção,702352,92476,20138,1519
+25/04/2025,4801264,Newsletter Especial,CAMPANHA 2025 - Lançamento de Coleção,Corre! Estoques limitados para lançamento de coleção,213519,63340,7942,318
+10/05/2025,4656663,Equipe Vendas,CAMPANHA 2025 - Liquidação,Descubra nossa nova coleção de liquidação,131212,46886,9874,131
+19/04/2025,4701927,Equipe Marketing,CAMPANHA 2025 - Dia dos Pais,Surpresa! Presentes de dia dos pais esperando por você,464204,110184,10141,344
+07/03/2025,4188729,Equipe Produtos,CAMPANHA 2025 - Volta às Aulas,Só até amanhã: volta às aulas com frete grátis,759334,221520,34910,1351
+06/04/2025,4376557,Equipe Marketing,CAMPANHA 2025 - Verão,Você foi selecionado(a) para descontos de verão,475693,77702,11482,781
+13/01/2025,4572858,Time Promoções,CAMPANHA 2025 - Black Friday,Oferta exclusiva de black friday só para você,463413,127407,23703,878
+16/05/2025,4112483,Comunicação Interna,CAMPANHA 2025 - Black Friday,Últimos dias da promoção black friday,570824,139495,19334,883
+28/01/2025,4452741,Equipe CRM,CAMPANHA 2025 - Lançamento de Coleção,Surpresa! Presentes de lançamento de coleção esperando por você,250182,66176,3401,490
+19/04/2025,4320424,Equipe Produtos,CAMPANHA 2025 - Lançamento de Coleção,Últimos dias da promoção lançamento de coleção,574865,178646,9580,696
+03/01/2025,4010457,Equipe CRM,CAMPANHA 2025 - Volta às Aulas,Últimos dias da promoção volta às aulas,376036,101397,21369,435
+10/02/2025,4223289,Newsletter Especial,CAMPANHA 2025 - Dia dos Pais,Oferta exclusiva de dia dos pais só para você,118364,26625,3031,256
+08/06/2025,4372929,Equipe Produtos,CAMPANHA 2025 - Dia dos Pais,Últimos dias da promoção dia dos pais,309931,48045,3534,300
+07/06/2025,4289057,Marketing Digital,CAMPANHA 2025 - Lançamento de Coleção,É hoje: campanha especial lançamento de coleção,729193,256729,14092,1275
+07/01/2025,4010388,Newsletter Especial,CAMPANHA 2025 - Black Friday,Últimos dias da promoção black friday,63907,13161,1419,59
+26/05/2025,4125404,Marketing Digital,CAMPANHA 2025 - Inverno,É hoje: campanha especial inverno,18776,2826,621,29
+10/02/2025,4251892,Newsletter Especial,CAMPANHA 2025 - Ano Novo,Só até amanhã: ano novo com frete grátis,624497,135071,7212,866
+15/02/2025,4930819,Time Promoções,CAMPANHA 2025 - Aniversário da Loja,Corre! Estoques limitados para aniversário da loja,708302,236919,23056,525
+15/05/2025,4912781,Equipe Vendas,CAMPANHA 2025 - Volta às Aulas,Não perca: novidades de volta às aulas,260143,54758,11530,580
+22/02/2025,4770497,Marketing Digital,CAMPANHA 2025 - Natal,Últimos dias da promoção natal,774364,193733,40025,1867
+06/05/2025,4736347,Time Promoções,CAMPANHA 2025 - Dia das Mães,Descubra nossa nova coleção de dia das mães,491077,144249,12300,575
+25/05/2025,4362216,Equipe Vendas,CAMPANHA 2025 - Férias,Surpresa! Presentes de férias esperando por você,698253,144367,20531,357
+29/05/2025,4129559,Relacionamento,CAMPANHA 2025 - Verão,Só até amanhã: verão com frete grátis,85414,13018,2150,144
+23/03/2025,4245944,Comunicação Interna,CAMPANHA 2025 - Liquidação,Últimos dias da promoção liquidação,561145,157375,23654,631
+16/01/2025,4473290,Equipe Vendas,CAMPANHA 2025 - Ano Novo,Preços imperdíveis nesta ano novo,773141,223699,35937,378
+20/01/2025,4664839,Equipe Marketing,CAMPANHA 2025 - Aniversário da Loja,Oferta exclusiva de aniversário da loja só para você,766128,160105,33180,1499
+19/03/2025,4390002,Comunicação Interna,CAMPANHA 2025 - Volta às Aulas,Corre! Estoques limitados para volta às aulas,83096,15400,1924,33
+04/03/2025,4592696,Marketing Digital,CAMPANHA 2025 - Verão,Só até amanhã: verão com frete grátis,190342,39085,5211,219
+04/01/2025,4546273,Equipe Vendas,CAMPANHA 2025 - Black Friday,Preços imperdíveis nesta black friday,317583,40973,8404,283
+09/01/2025,4568625,Suporte ao Cliente,CAMPANHA 2025 - Inverno,Oferta exclusiva de inverno só para você,614341,90457,8712,497
+17/03/2025,4868877,Marketing Digital,CAMPANHA 2025 - Natal,Você foi selecionado(a) para descontos de natal,430009,51601,4161,670
+28/01/2025,4913447,Equipe Vendas,CAMPANHA 2025 - Dia das Mães,Você foi selecionado(a) para descontos de dia das mães,106439,23984,4900,120
+23/01/2025,4147597,Equipe Marketing,CAMPANHA 2025 - Volta às Aulas,Oferta exclusiva de volta às aulas só para você,478913,118378,25874,686
+26/05/2025,4004533,Equipe CRM,CAMPANHA 2025 - Dia dos Pais,Oferta exclusiva de dia dos pais só para você,788025,216909,46515,1242
+09/04/2025,4269579,Equipe CRM,CAMPANHA 2025 - Dia dos Pais,Surpresa! Presentes de dia dos pais esperando por você,227087,62784,8873,338
+10/06/2025,4079558,Equipe Marketing,CAMPANHA 2025 - Ano Novo,Você foi selecionado(a) para descontos de ano novo,460129,64748,5631,351
+16/01/2025,4249783,Equipe Marketing,CAMPANHA 2025 - Aniversário da Loja,Só até amanhã: aniversário da loja com frete grátis,66184,15419,1027,127
+04/05/2025,4808353,Equipe CRM,CAMPANHA 2025 - Dia dos Pais,Preços imperdíveis nesta dia dos pais,637480,236850,21021,1048
+10/03/2025,4280145,Marketing Digital,CAMPANHA 2025 - Volta às Aulas,É hoje: campanha especial volta às aulas,194561,59463,11520,391
+05/02/2025,4613031,Newsletter Especial,CAMPANHA 2025 - Black Friday,Não perca: novidades de black friday,398727,134959,17775,324
+30/01/2025,4829713,Relacionamento,CAMPANHA 2025 - Volta às Aulas,Você foi selecionado(a) para descontos de volta às aulas,86087,12868,1066,191
+13/02/2025,4942086,Suporte ao Cliente,CAMPANHA 2025 - Liquidação,Não perca: novidades de liquidação,273724,90392,17929,316
+22/02/2025,4323746,Comunicação Interna,CAMPANHA 2025 - Aniversário da Loja,Não perca: novidades de aniversário da loja,249024,73593,10790,492
+09/05/2025,4896556,Suporte ao Cliente,CAMPANHA 2025 - Dia dos Pais,Não perca: novidades de dia dos pais,446913,92142,12539,580
+28/02/2025,4414610,Suporte ao Cliente,CAMPANHA 2025 - Natal,Preços imperdíveis nesta natal,253849,85128,15777,434
+18/04/2025,4117869,Time Promoções,CAMPANHA 2025 - Natal,Últimos dias da promoção natal,205127,70384,3865,182
+07/05/2025,4718070,Comunicação Interna,CAMPANHA 2025 - Black Friday,Só até amanhã: black friday com frete grátis,666145,185104,37365,1478
+18/05/2025,4705619,Suporte ao Cliente,CAMPANHA 2025 - Aniversário da Loja,Preços imperdíveis nesta aniversário da loja,657124,116437,20510,821
+01/01/2025,4035913,Newsletter Especial,CAMPANHA 2025 - Férias,Descubra nossa nova coleção de férias,520927,159084,27629,892
+17/02/2025,4849724,Relacionamento,CAMPANHA 2025 - Lançamento de Coleção,É hoje: campanha especial lançamento de coleção,611565,73388,11726,1135
+31/01/2025,4479223,Relacionamento,CAMPANHA 2025 - Dia dos Pais,Oferta exclusiva de dia dos pais só para você,115436,30142,6141,48
+12/06/2025,4428106,Equipe Vendas,CAMPANHA 2025 - Verão,Preços imperdíveis nesta verão,557246,154542,21261,1123
+13/01/2025,4153934,Newsletter Especial,CAMPANHA 2025 - Inverno,Preços imperdíveis nesta inverno,224773,58279,7563,555
+15/04/2025,4938472,Comunicação Interna,CAMPANHA 2025 - Volta às Aulas,Você foi selecionado(a) para descontos de volta às aulas,441308,152112,24561,290
+14/03/2025,4509822,Newsletter Especial,CAMPANHA 2025 - Lançamento de Coleção,Oferta exclusiva de lançamento de coleção só para você,593456,226273,19828,588
+17/05/2025,4473512,Suporte ao Cliente,CAMPANHA 2025 - Natal,Descubra nossa nova coleção de natal,490070,151948,31158,644
+04/03/2025,4865000,Time Promoções,CAMPANHA 2025 - Dia dos Pais,Você foi selecionado(a) para descontos de dia dos pais,400363,122946,23176,615
+18/05/2025,4699828,Equipe CRM,CAMPANHA 2025 - Volta às Aulas,Oferta exclusiva de volta às aulas só para você,188915,28681,2163,186
+30/01/2025,4073349,Equipe Vendas,CAMPANHA 2025 - Aniversário da Loja,Só até amanhã: aniversário da loja com frete grátis,255704,67687,3987,325
+13/04/2025,4726404,Equipe Produtos,CAMPANHA 2025 - Férias,Corre! Estoques limitados para férias,346777,92803,5257,187
+13/03/2025,4877862,Time Promoções,CAMPANHA 2025 - Natal,Descubra nossa nova coleção de natal,262470,44655,9356,153
+12/03/2025,4797538,Marketing Digital,CAMPANHA 2025 - Black Friday,Corre! Estoques limitados para black friday,336090,127378,9077,525
+19/03/2025,4670478,Equipe Vendas,CAMPANHA 2025 - Férias,Oferta exclusiva de férias só para você,736377,201509,37042,336
+22/01/2025,4596492,Equipe Marketing,CAMPANHA 2025 - Liquidação,Preços imperdíveis nesta liquidação,387868,125510,18800,414
+20/01/2025,4033223,Newsletter Especial,CAMPANHA 2025 - Liquidação,Corre! Estoques limitados para liquidação,488554,87112,18725,634
+04/06/2025,4032985,Comunicação Interna,CAMPANHA 2025 - Dia das Mães,Últimos dias da promoção dia das mães,247425,76354,10241,171
+13/01/2025,4283265,Suporte ao Cliente,CAMPANHA 2025 - Dia das Mães,Não perca: novidades de dia das mães,499493,91948,15835,1232
+24/05/2025,4157210,Comunicação Interna,CAMPANHA 2025 - Dia dos Pais,Só até amanhã: dia dos pais com frete grátis,140442,29705,2618,99
+20/05/2025,4213509,Comunicação Interna,CAMPANHA 2025 - Liquidação,Surpresa! Presentes de liquidação esperando por você,477040,134396,26521,892
+31/01/2025,4397533,Time Promoções,CAMPANHA 2025 - Lançamento de Coleção,Surpresa! Presentes de lançamento de coleção esperando por você,738023,131431,26977,1500
+18/05/2025,4502399,Comunicação Interna,CAMPANHA 2025 - Inverno,É hoje: campanha especial inverno,429076,86748,17274,407
+08/04/2025,4881431,Equipe Produtos,CAMPANHA 2025 - Inverno,Não perca: novidades de inverno,576638,107767,9233,701
+05/03/2025,4065524,Equipe CRM,CAMPANHA 2025 - Ano Novo,Oferta exclusiva de ano novo só para você,510292,161732,29495,226
+13/05/2025,4325733,Equipe Produtos,CAMPANHA 2025 - Dia dos Pais,Preços imperdíveis nesta dia dos pais,415805,99939,21842,316
+13/04/2025,4698416,Suporte ao Cliente,CAMPANHA 2025 - Inverno,É hoje: campanha especial inverno,91603,20075,1913,185
+16/05/2025,4271493,Newsletter Especial,CAMPANHA 2025 - Aniversário da Loja,É hoje: campanha especial aniversário da loja,439180,138303,19138,369
+22/02/2025,4604318,Equipe Marketing,CAMPANHA 2025 - Liquidação,Só até amanhã: liquidação com frete grátis,93558,36347,3695,67
+19/05/2025,4603148,Equipe CRM,CAMPANHA 2025 - Férias,Preços imperdíveis nesta férias,29996,11549,2266,65
+19/03/2025,4627788,Equipe Produtos,CAMPANHA 2025 - Black Friday,Corre! Estoques limitados para black friday,528915,170136,30031,1142
+16/01/2025,4881113,Time Promoções,CAMPANHA 2025 - Black Friday,Não perca: novidades de black friday,138351,36002,2925,122
+25/01/2025,4192816,Time Promoções,CAMPANHA 2025 - Dia das Mães,Oferta exclusiva de dia das mães só para você,549580,180522,29150,1077
+01/02/2025,4055559,Newsletter Especial,CAMPANHA 2025 - Black Friday,É hoje: campanha especial black friday,15722,5235,1133,35
+09/04/2025,4093155,Marketing Digital,CAMPANHA 2025 - Verão,Corre! Estoques limitados para verão,206533,34740,4470,466
+08/04/2025,4579681,Equipe Marketing,CAMPANHA 2025 - Férias,Descubra nossa nova coleção de férias,25222,3174,192,55
+25/04/2025,4676373,Equipe CRM,CAMPANHA 2025 - Aniversário da Loja,Preços imperdíveis nesta aniversário da loja,698476,229246,42914,1610
+12/06/2025,4958587,Equipe CRM,CAMPANHA 2025 - Verão,Oferta exclusiva de verão só para você,347113,124380,21275,704
+31/03/2025,4275711,Marketing Digital,CAMPANHA 2025 - Natal,Você foi selecionado(a) para descontos de natal,572312,68677,5062,335
+15/03/2025,4198326,Comunicação Interna,CAMPANHA 2025 - Ano Novo,É hoje: campanha especial ano novo,689527,82743,14379,1526
+14/04/2025,4516210,Marketing Digital,CAMPANHA 2025 - Aniversário da Loja,Preços imperdíveis nesta aniversário da loja,242787,69589,6217,521
+23/05/2025,4110170,Relacionamento,CAMPANHA 2025 - Volta às Aulas,É hoje: campanha especial volta às aulas,462022,111642,8349,1068
+08/06/2025,4448838,Equipe Vendas,CAMPANHA 2025 - Liquidação,É hoje: campanha especial liquidação,496339,121872,9938,335
+12/05/2025,4041986,Equipe Vendas,CAMPANHA 2025 - Dia dos Pais,Últimos dias da promoção dia dos pais,193750,23250,4082,132
+20/03/2025,4282385,Equipe Produtos,CAMPANHA 2025 - Dia dos Pais,Oferta exclusiva de dia dos pais só para você,476174,152786,18136,705
+16/04/2025,4347866,Relacionamento,CAMPANHA 2025 - Inverno,Oferta exclusiva de inverno só para você,493406,152863,10227,1037
+04/05/2025,4778705,Equipe Marketing,CAMPANHA 2025 - Ano Novo,É hoje: campanha especial ano novo,469873,136662,19195,536
+24/02/2025,4977804,Relacionamento,CAMPANHA 2025 - Aniversário da Loja,Só até amanhã: aniversário da loja com frete grátis,190250,51040,2955,287
+18/05/2025,4905915,Time Promoções,CAMPANHA 2025 - Lançamento de Coleção,Você foi selecionado(a) para descontos de lançamento de coleção,720484,259686,20184,1430
+25/04/2025,4362656,Equipe CRM,CAMPANHA 2025 - Lançamento de Coleção,Corre! Estoques limitados para lançamento de coleção,176175,44130,6070,141
+03/05/2025,4454142,Time Promoções,CAMPANHA 2025 - Dia dos Pais,Não perca: novidades de dia dos pais,507287,85600,4768,860
+14/05/2025,4090769,Newsletter Especial,CAMPANHA 2025 - Férias,Você foi selecionado(a) para descontos de férias,749467,219634,44194,1352
+08/02/2025,4949278,Equipe Produtos,CAMPANHA 2025 - Inverno,Não perca: novidades de inverno,406659,52040,8940,928
+20/03/2025,4234427,Equipe Produtos,CAMPANHA 2025 - Lançamento de Coleção,Últimos dias da promoção lançamento de coleção,67908,12201,1048,100
+27/03/2025,4155945,Relacionamento,CAMPANHA 2025 - Verão,Surpresa! Presentes de verão esperando por você,405733,135405,28806,313
+11/06/2025,4462342,Time Promoções,CAMPANHA 2025 - Natal,Corre! Estoques limitados para natal,195286,64108,11610,346
+27/03/2025,4862200,Equipe Marketing,CAMPANHA 2025 - Aniversário da Loja,Surpresa! Presentes de aniversário da loja esperando por você,317143,38057,6197,472
+09/01/2025,4874255,Time Promoções,CAMPANHA 2025 - Volta às Aulas,Preços imperdíveis nesta volta às aulas,241992,67145,13265,358
+17/02/2025,4378960,Relacionamento,CAMPANHA 2025 - Natal,Não perca: novidades de natal,145548,43904,6622,87
+07/06/2025,4584771,Equipe Produtos,CAMPANHA 2025 - Aniversário da Loja,Só até amanhã: aniversário da loja com frete grátis,201735,35103,2796,495
+16/01/2025,4614008,Equipe Produtos,CAMPANHA 2025 - Dia dos Pais,Descubra nossa nova coleção de dia dos pais,720674,214364,41344,1087
+05/02/2025,4245338,Marketing Digital,CAMPANHA 2025 - Liquidação,Preços imperdíveis nesta liquidação,365585,63858,10481,879
+09/03/2025,4548672,Relacionamento,CAMPANHA 2025 - Férias,É hoje: campanha especial férias,771717,131297,27625,961
+03/02/2025,4689655,Equipe CRM,CAMPANHA 2025 - Lançamento de Coleção,Você foi selecionado(a) para descontos de lançamento de coleção,315456,77700,11724,328
+07/04/2025,4527849,Equipe Vendas,CAMPANHA 2025 - Aniversário da Loja,Você foi selecionado(a) para descontos de aniversário da loja,508834,95750,9346,1078
+18/05/2025,4406706,Relacionamento,CAMPANHA 2025 - Dia dos Pais,Não perca: novidades de dia dos pais,273412,85220,17965,121
+07/04/2025,4631508,Suporte ao Cliente,CAMPANHA 2025 - Natal,Surpresa! Presentes de natal esperando por você,395547,126401,27576,458
+09/04/2025,4177905,Comunicação Interna,CAMPANHA 2025 - Lançamento de Coleção,Não perca: novidades de lançamento de coleção,139654,21906,1737,264
+26/04/2025,4072355,Relacionamento,CAMPANHA 2025 - Volta às Aulas,Corre! Estoques limitados para volta às aulas,392950,53272,8098,902
+06/05/2025,4483203,Suporte ao Cliente,CAMPANHA 2025 - Liquidação,É hoje: campanha especial liquidação,30635,5756,605,42
+11/06/2025,4739326,Suporte ao Cliente,CAMPANHA 2025 - Dia das Mães,Preços imperdíveis nesta dia das mães,298638,79965,11032,499
+02/04/2025,4964102,Relacionamento,CAMPANHA 2025 - Dia dos Pais,Só até amanhã: dia dos pais com frete grátis,660747,117619,19590,1510
+13/04/2025,4208964,Equipe Marketing,CAMPANHA 2025 - Liquidação,É hoje: campanha especial liquidação,526154,136131,29043,870
+27/05/2025,4098576,Comunicação Interna,CAMPANHA 2025 - Volta às Aulas,Só até amanhã: volta às aulas com frete grátis,465143,141650,18482,236
+05/04/2025,4068564,Marketing Digital,CAMPANHA 2025 - Liquidação,Últimos dias da promoção liquidação,547182,109725,15468,1313
+26/04/2025,4618586,Time Promoções,CAMPANHA 2025 - Liquidação,Últimos dias da promoção liquidação,489689,169344,19258,829
+02/04/2025,4488608,Time Promoções,CAMPANHA 2025 - Volta às Aulas,Não perca: novidades de volta às aulas,266875,61433,6633,204
+07/02/2025,4411423,Time Promoções,CAMPANHA 2025 - Black Friday,Corre! Estoques limitados para black friday,792607,184376,28034,1807
+01/05/2025,4953591,Equipe Marketing,CAMPANHA 2025 - Verão,É hoje: campanha especial verão,390789,117385,8147,784
+27/05/2025,4188025,Equipe Marketing,CAMPANHA 2025 - Lançamento de Coleção,Preços imperdíveis nesta lançamento de coleção,628824,149964,31225,1139
+02/03/2025,4133675,Time Promoções,CAMPANHA 2025 - Volta às Aulas,Corre! Estoques limitados para volta às aulas,202460,41929,7906,316
+19/05/2025,4318903,Relacionamento,CAMPANHA 2025 - Volta às Aulas,Oferta exclusiva de volta às aulas só para você,552782,129537,13654,485
+30/05/2025,4637882,Equipe CRM,CAMPANHA 2025 - Dia dos Pais,Surpresa! Presentes de dia dos pais esperando por você,20626,2986,160,36
+22/03/2025,4423840,Equipe CRM,CAMPANHA 2025 - Verão,Preços imperdíveis nesta verão,490305,130831,24985,387
+02/03/2025,4182244,Equipe Vendas,CAMPANHA 2025 - Liquidação,Surpresa! Presentes de liquidação esperando por você,737415,164276,31091,1639
+17/01/2025,4337211,Equipe CRM,CAMPANHA 2025 - Natal,Você foi selecionado(a) para descontos de natal,71921,18295,3681,62
+13/03/2025,4367578,Relacionamento,CAMPANHA 2025 - Volta às Aulas,Descubra nossa nova coleção de volta às aulas,526439,113111,6386,775
+24/03/2025,4266434,Relacionamento,CAMPANHA 2025 - Ano Novo,Descubra nossa nova coleção de ano novo,365557,65966,13047,405
+11/02/2025,4705790,Equipe Vendas,CAMPANHA 2025 - Ano Novo,Surpresa! Presentes de ano novo esperando por você,509764,178908,18949,1070
+17/03/2025,4152314,Suporte ao Cliente,CAMPANHA 2025 - Black Friday,Não perca: novidades de black friday,186350,52446,2732,130
+07/04/2025,4679400,Marketing Digital,CAMPANHA 2025 - Natal,Oferta exclusiva de natal só para você,688988,172757,37967,653
+01/06/2025,4390492,Equipe Vendas,CAMPANHA 2025 - Aniversário da Loja,Últimos dias da promoção aniversário da loja,334980,105806,15216,606
+22/03/2025,4224191,Newsletter Especial,CAMPANHA 2025 - Inverno,Surpresa! Presentes de inverno esperando por você,223984,44682,4285,534
+28/01/2025,4588995,Comunicação Interna,CAMPANHA 2025 - Aniversário da Loja,É hoje: campanha especial aniversário da loja,728664,157561,8047,1454
+08/04/2025,4677641,Equipe Produtos,CAMPANHA 2025 - Black Friday,Não perca: novidades de black friday,734491,214879,38867,986
+19/03/2025,4129175,Marketing Digital,CAMPANHA 2025 - Volta às Aulas,Não perca: novidades de volta às aulas,788715,138938,26021,1968
+17/04/2025,4495907,Equipe Marketing,CAMPANHA 2025 - Inverno,Preços imperdíveis nesta inverno,425863,151583,18576,707
+09/04/2025,4475674,Equipe CRM,CAMPANHA 2025 - Férias,Corre! Estoques limitados para férias,266002,67053,5373,241
+11/03/2025,4870231,Time Promoções,CAMPANHA 2025 - Verão,Preços imperdíveis nesta verão,789832,303999,35944,428
+12/01/2025,4892295,Suporte ao Cliente,CAMPANHA 2025 - Aniversário da Loja,Descubra nossa nova coleção de aniversário da loja,465360,65908,5006,933
+23/03/2025,4178306,Equipe CRM,CAMPANHA 2025 - Dia dos Pais,Descubra nossa nova coleção de dia dos pais,413717,108564,5573,227
+03/02/2025,4624308,Equipe CRM,CAMPANHA 2025 - Black Friday,Só até amanhã: black friday com frete grátis,709937,232310,48097,637
+04/04/2025,4185279,Equipe Produtos,CAMPANHA 2025 - Ano Novo,É hoje: campanha especial ano novo,76697,17636,3181,85
+28/04/2025,4976749,Equipe CRM,CAMPANHA 2025 - Liquidação,É hoje: campanha especial liquidação,748871,163579,34800,1845
+12/01/2025,4226497,Equipe Vendas,CAMPANHA 2025 - Verão,Não perca: novidades de verão,591431,131442,18298,1035
+20/03/2025,4812568,Relacionamento,CAMPANHA 2025 - Liquidação,Corre! Estoques limitados para liquidação,103016,27682,3759,178
+12/02/2025,4603311,Time Promoções,CAMPANHA 2025 - Lançamento de Coleção,Oferta exclusiva de lançamento de coleção só para você,727932,236609,24951,1576
+18/05/2025,4382449,Relacionamento,CAMPANHA 2025 - Aniversário da Loja,Descubra nossa nova coleção de aniversário da loja,538879,142645,8341,1134
+07/03/2025,4109446,Relacionamento,CAMPANHA 2025 - Natal,Você foi selecionado(a) para descontos de natal,521165,129175,7019,852
+18/04/2025,4817996,Time Promoções,CAMPANHA 2025 - Liquidação,Corre! Estoques limitados para liquidação,288744,65630,10007,518
+10/01/2025,4067296,Equipe CRM,CAMPANHA 2025 - Lançamento de Coleção,Corre! Estoques limitados para lançamento de coleção,699387,165396,35476,1383
+26/02/2025,4528959,Time Promoções,CAMPANHA 2025 - Dia dos Pais,Surpresa! Presentes de dia dos pais esperando por você,273228,40669,2197,286
+21/05/2025,4436367,Equipe Vendas,CAMPANHA 2025 - Black Friday,Você foi selecionado(a) para descontos de black friday,302296,86009,10086,442
+09/01/2025,4223917,Suporte ao Cliente,CAMPANHA 2025 - Ano Novo,Só até amanhã: ano novo com frete grátis,167342,34610,2041,390
+15/02/2025,4507325,Relacionamento,CAMPANHA 2025 - Natal,Corre! Estoques limitados para natal,707688,235520,35915,1557
+08/06/2025,4211198,Comunicação Interna,CAMPANHA 2025 - Lançamento de Coleção,Corre! Estoques limitados para lançamento de coleção,652286,199906,43630,1159
+28/02/2025,4657584,Relacionamento,CAMPANHA 2025 - Dia das Mães,Corre! Estoques limitados para dia das mães,153584,32309,5346,354
+21/04/2025,4011355,Suporte ao Cliente,CAMPANHA 2025 - Lançamento de Coleção,É hoje: campanha especial lançamento de coleção,340861,111786,15102,566
+20/04/2025,4451652,Relacionamento,CAMPANHA 2025 - Lançamento de Coleção,Você foi selecionado(a) para descontos de lançamento de coleção,756179,167576,28037,716
+01/03/2025,4326836,Equipe Marketing,CAMPANHA 2025 - Black Friday,É hoje: campanha especial black friday,310924,80320,15597,442
+10/02/2025,4699877,Time Promoções,CAMPANHA 2025 - Aniversário da Loja,Surpresa! Presentes de aniversário da loja esperando por você,330157,70411,11926,335
+11/04/2025,4823772,Equipe Vendas,CAMPANHA 2025 - Dia das Mães,Preços imperdíveis nesta dia das mães,95106,33050,7161,172
+06/05/2025,4678167,Suporte ao Cliente,CAMPANHA 2025 - Verão,Você foi selecionado(a) para descontos de verão,771460,218827,13206,1659
+05/02/2025,4513518,Newsletter Especial,CAMPANHA 2025 - Black Friday,Você foi selecionado(a) para descontos de black friday,72300,25588,4645,171
+20/04/2025,4249620,Equipe CRM,CAMPANHA 2025 - Lançamento de Coleção,Surpresa! Presentes de lançamento de coleção esperando por você,589048,158621,12899,1046
+30/04/2025,4295423,Equipe Vendas,CAMPANHA 2025 - Natal,Só até amanhã: natal com frete grátis,769688,155828,11738,1838
+29/05/2025,4561036,Time Promoções,CAMPANHA 2025 - Ano Novo,É hoje: campanha especial ano novo,425242,86810,13192,697
+14/02/2025,4079307,Newsletter Especial,CAMPANHA 2025 - Black Friday,Só até amanhã: black friday com frete grátis,744890,169011,31337,540
+07/01/2025,4850922,Comunicação Interna,CAMPANHA 2025 - Ano Novo,Preços imperdíveis nesta ano novo,650381,237897,36356,816
+07/05/2025,4645426,Relacionamento,CAMPANHA 2025 - Verão,Só até amanhã: verão com frete grátis,324140,71566,6225,788
+01/06/2025,4430842,Equipe Marketing,CAMPANHA 2025 - Volta às Aulas,Oferta exclusiva de volta às aulas só para você,292574,58630,3317,244
+03/02/2025,4824080,Equipe Vendas,CAMPANHA 2025 - Dia dos Pais,Surpresa! Presentes de dia dos pais esperando por você,433014,178940,37323,665
+12/05/2025,4748800,Equipe Marketing,CAMPANHA 2025 - Dia dos Pais,Descubra nossa nova coleção de dia dos pais,653512,266115,34167,1495
+29/05/2025,4551478,Marketing Digital,CAMPANHA 2025 - Dia dos Pais,Não perca: novidades de dia dos pais,59427,10892,1851,77
+16/05/2025,4478320,Equipe Vendas,CAMPANHA 2025 - Ano Novo,Surpresa! Presentes de ano novo esperando por você,728931,163505,17292,912
+22/02/2025,4594502,Relacionamento,CAMPANHA 2025 - Férias,Corre! Estoques limitados para férias,664001,156158,25713,384
+30/01/2025,4007973,Equipe CRM,CAMPANHA 2025 - Verão,Surpresa! Presentes de verão esperando por você,404046,66233,5213,465
+28/05/2025,4599196,Equipe Vendas,CAMPANHA 2025 - Liquidação,É hoje: campanha especial liquidação,779249,241543,20035,1709
+15/03/2025,4182047,Newsletter Especial,CAMPANHA 2025 - Dia das Mães,Só até amanhã: dia das mães com frete grátis,460201,146080,7442,730
+20/05/2025,4677235,Suporte ao Cliente,CAMPANHA 2025 - Verão,É hoje: campanha especial verão,771635,152519,24405,690
+23/02/2025,4794456,Relacionamento,CAMPANHA 2025 - Aniversário da Loja,Surpresa! Presentes de aniversário da loja esperando por você,179276,48076,9606,435
+29/05/2025,4410700,Equipe Produtos,CAMPANHA 2025 - Volta às Aulas,Últimos dias da promoção volta às aulas,202163,38867,2291,292
+15/04/2025,4917528,Relacionamento,CAMPANHA 2025 - Lançamento de Coleção,É hoje: campanha especial lançamento de coleção,200905,35000,2555,491
+20/04/2025,4703335,Equipe Vendas,CAMPANHA 2025 - Ano Novo,Corre! Estoques limitados para ano novo,16138,4882,712,30
+22/04/2025,4119663,Equipe Marketing,CAMPANHA 2025 - Dia dos Pais,Oferta exclusiva de dia dos pais só para você,285014,102300,10890,295
+03/01/2025,4557234,Comunicação Interna,CAMPANHA 2025 - Dia das Mães,Últimos dias da promoção dia das mães,518785,183269,31780,535
+20/04/2025,4053203,Relacionamento,CAMPANHA 2025 - Verão,Corre! Estoques limitados para verão,200680,45353,9052,182
+24/04/2025,4035394,Equipe CRM,CAMPANHA 2025 - Dia dos Pais,Preços imperdíveis nesta dia dos pais,387655,103475,21729,525
+06/03/2025,4389118,Relacionamento,CAMPANHA 2025 - Aniversário da Loja,É hoje: campanha especial aniversário da loja,678394,170659,16030,1133
+02/04/2025,4398779,Newsletter Especial,CAMPANHA 2025 - Black Friday,Oferta exclusiva de black friday só para você,208758,51984,7875,428
+07/05/2025,4629304,Relacionamento,CAMPANHA 2025 - Lançamento de Coleção,Corre! Estoques limitados para lançamento de coleção,114147,31613,2796,83
+06/04/2025,4577143,Equipe CRM,CAMPANHA 2025 - Dia das Mães,Surpresa! Presentes de dia das mães esperando por você,106907,32702,3629,185
+13/02/2025,4323200,Equipe Marketing,CAMPANHA 2025 - Lançamento de Coleção,É hoje: campanha especial lançamento de coleção,509421,177468,31215,295
+28/05/2025,4089432,Equipe Vendas,CAMPANHA 2025 - Dia das Mães,Você foi selecionado(a) para descontos de dia das mães,680111,190657,21243,1610
+21/03/2025,4050372,Marketing Digital,CAMPANHA 2025 - Lançamento de Coleção,Só até amanhã: lançamento de coleção com frete grátis,366587,154184,26856,658
+28/02/2025,4810025,Time Promoções,CAMPANHA 2025 - Ano Novo,Oferta exclusiva de ano novo só para você,682249,137139,18276,1107
+04/03/2025,4775966,Equipe Vendas,CAMPANHA 2025 - Dia dos Pais,Oferta exclusiva de dia dos pais só para você,794287,278248,22170,869
+10/03/2025,4639364,Relacionamento,CAMPANHA 2025 - Dia das Mães,Só até amanhã: dia das mães com frete grátis,70451,19692,3428,124
+15/02/2025,4872801,Equipe Vendas,CAMPANHA 2025 - Lançamento de Coleção,Oferta exclusiva de lançamento de coleção só para você,240921,42556,2265,507
+09/04/2025,4823162,Comunicação Interna,CAMPANHA 2025 - Lançamento de Coleção,Descubra nossa nova coleção de lançamento de coleção,655107,162341,23123,330
+20/02/2025,4349175,Relacionamento,CAMPANHA 2025 - Lançamento de Coleção,Você foi selecionado(a) para descontos de lançamento de coleção,37348,4482,703,49
+16/02/2025,4628844,Equipe Marketing,CAMPANHA 2025 - Volta às Aulas,Não perca: novidades de volta às aulas,523208,182481,39085,880
+13/04/2025,4646495,Relacionamento,CAMPANHA 2025 - Black Friday,Últimos dias da promoção black friday,390246,124102,22331,503
+01/05/2025,4005528,Relacionamento,CAMPANHA 2025 - Dia das Mães,Não perca: novidades de dia das mães,626703,236245,17601,1204
+27/02/2025,4196841,Marketing Digital,CAMPANHA 2025 - Ano Novo,Não perca: novidades de ano novo,442383,82878,10797,392
+31/05/2025,4899572,Suporte ao Cliente,CAMPANHA 2025 - Liquidação,Surpresa! Presentes de liquidação esperando por você,301858,92356,17798,420
+18/02/2025,4692085,Time Promoções,CAMPANHA 2025 - Férias,Descubra nossa nova coleção de férias,370357,89645,8676,195
+10/06/2025,4157723,Equipe CRM,CAMPANHA 2025 - Verão,Descubra nossa nova coleção de verão,226980,49948,7730,517
+02/03/2025,4008236,Marketing Digital,CAMPANHA 2025 - Black Friday,É hoje: campanha especial black friday,546169,76906,9485,1012
+12/03/2025,4375352,Equipe Produtos,CAMPANHA 2025 - Liquidação,Não perca: novidades de liquidação,523266,133809,9795,792
+15/03/2025,4880211,Equipe Produtos,CAMPANHA 2025 - Aniversário da Loja,Surpresa! Presentes de aniversário da loja esperando por você,147794,41013,5157,296
+27/03/2025,4654972,Equipe Vendas,CAMPANHA 2025 - Inverno,Só até amanhã: inverno com frete grátis,258215,84799,6577,277
+29/03/2025,4176007,Marketing Digital,CAMPANHA 2025 - Volta às Aulas,Surpresa! Presentes de volta às aulas esperando por você,40224,11905,2199,45
+24/03/2025,4052965,Comunicação Interna,CAMPANHA 2025 - Inverno,Só até amanhã: inverno com frete grátis,433726,107664,10076,219
+11/02/2025,4792822,Comunicação Interna,CAMPANHA 2025 - Férias,Você foi selecionado(a) para descontos de férias,505436,123339,25818,1126
+25/05/2025,4054645,Comunicação Interna,CAMPANHA 2025 - Verão,Surpresa! Presentes de verão esperando por você,245097,72758,13210,308
+01/03/2025,4136160,Time Promoções,CAMPANHA 2025 - Natal,É hoje: campanha especial natal,689835,101652,10649,914
+21/05/2025,4060329,Comunicação Interna,CAMPANHA 2025 - Férias,É hoje: campanha especial férias,738873,250585,27077,1734
+15/03/2025,4753738,Newsletter Especial,CAMPANHA 2025 - Liquidação,Últimos dias da promoção liquidação,175430,37698,4841,92
+19/03/2025,4879445,Comunicação Interna,CAMPANHA 2025 - Inverno,Não perca: novidades de inverno,484034,96356,15992,485
+02/04/2025,4524881,Time Promoções,CAMPANHA 2025 - Férias,Preços imperdíveis nesta férias,272946,72896,13843,331
+13/01/2025,4210647,Relacionamento,CAMPANHA 2025 - Natal,Oferta exclusiva de natal só para você,320054,95874,7393,253
+31/01/2025,4696501,Comunicação Interna,CAMPANHA 2025 - Inverno,Você foi selecionado(a) para descontos de inverno,172791,38659,3017,303
+10/05/2025,4901605,Time Promoções,CAMPANHA 2025 - Dia dos Pais,Corre! Estoques limitados para dia dos pais,566080,155896,7868,841
+09/05/2025,4917729,Equipe CRM,CAMPANHA 2025 - Lançamento de Coleção,Preços imperdíveis nesta lançamento de coleção,535415,140227,12285,1267
+29/04/2025,4126535,Equipe Produtos,CAMPANHA 2025 - Férias,Oferta exclusiva de férias só para você,237807,65723,12659,278
+04/04/2025,4319654,Marketing Digital,CAMPANHA 2025 - Inverno,Só até amanhã: inverno com frete grátis,43029,10317,1780,83
+07/03/2025,4547155,Equipe Marketing,CAMPANHA 2025 - Férias,Você foi selecionado(a) para descontos de férias,306558,84526,17536,464
+30/01/2025,4486283,Marketing Digital,CAMPANHA 2025 - Aniversário da Loja,É hoje: campanha especial aniversário da loja,651946,204033,29267,783
+24/03/2025,4409554,Comunicação Interna,CAMPANHA 2025 - Dia dos Pais,Oferta exclusiva de dia dos pais só para você,538794,141179,15633,499
+20/02/2025,4660468,Marketing Digital,CAMPANHA 2025 - Volta às Aulas,Preços imperdíveis nesta volta às aulas,519596,186501,33029,754
+12/06/2025,4066930,Equipe Marketing,CAMPANHA 2025 - Aniversário da Loja,Surpresa! Presentes de aniversário da loja esperando por você,28027,4964,1025,38
+23/05/2025,4383446,Time Promoções,CAMPANHA 2025 - Férias,Descubra nossa nova coleção de férias,270288,66323,8382,627
+08/03/2025,4082234,Comunicação Interna,CAMPANHA 2025 - Inverno,Descubra nossa nova coleção de inverno,377156,82961,12121,782
+06/01/2025,4582329,Equipe Vendas,CAMPANHA 2025 - Black Friday,É hoje: campanha especial black friday,753696,168239,26849,776
+02/03/2025,4346408,Suporte ao Cliente,CAMPANHA 2025 - Liquidação,Surpresa! Presentes de liquidação esperando por você,775382,254196,26967,1147
+10/04/2025,4404495,Newsletter Especial,CAMPANHA 2025 - Aniversário da Loja,É hoje: campanha especial aniversário da loja,286576,84273,10503,492
+23/05/2025,4610486,Comunicação Interna,CAMPANHA 2025 - Lançamento de Coleção,Descubra nossa nova coleção de lançamento de coleção,729888,200060,32205,1138
+02/02/2025,4813162,Marketing Digital,CAMPANHA 2025 - Natal,Não perca: novidades de natal,615536,140732,11664,1457
+26/03/2025,4113063,Suporte ao Cliente,CAMPANHA 2025 - Black Friday,Surpresa! Presentes de black friday esperando por você,459498,100429,15438,466
+24/04/2025,4549722,Equipe Produtos,CAMPANHA 2025 - Verão,Só até amanhã: verão com frete grátis,704973,231294,47930,1226
+15/04/2025,4410432,Comunicação Interna,CAMPANHA 2025 - Verão,Descubra nossa nova coleção de verão,645321,148452,11623,997
+25/03/2025,4594650,Comunicação Interna,CAMPANHA 2025 - Liquidação,Não perca: novidades de liquidação,146038,50059,7057,180
+19/03/2025,4000109,Newsletter Especial,CAMPANHA 2025 - Lançamento de Coleção,Oferta exclusiva de lançamento de coleção só para você,761875,159131,18149,501
+13/03/2025,4845707,Relacionamento,CAMPANHA 2025 - Dia dos Pais,É hoje: campanha especial dia dos pais,716092,156895,20261,339
+14/01/2025,4414779,Relacionamento,CAMPANHA 2025 - Férias,Você foi selecionado(a) para descontos de férias,519736,81523,7676,663
+10/05/2025,4591456,Comunicação Interna,CAMPANHA 2025 - Dia dos Pais,Oferta exclusiva de dia dos pais só para você,138423,18631,2957,61
+22/02/2025,4431942,Comunicação Interna,CAMPANHA 2025 - Volta às Aulas,Descubra nossa nova coleção de volta às aulas,217680,30845,2011,209
+07/03/2025,4406208,Equipe CRM,CAMPANHA 2025 - Lançamento de Coleção,Preços imperdíveis nesta lançamento de coleção,671627,241534,29445,1282
+09/01/2025,4236137,Comunicação Interna,CAMPANHA 2025 - Volta às Aulas,Últimos dias da promoção volta às aulas,51286,12140,1737,121
+23/02/2025,4282880,Equipe Marketing,CAMPANHA 2025 - Volta às Aulas,Só até amanhã: volta às aulas com frete grátis,311340,120174,19480,251
+28/02/2025,4833742,Equipe Produtos,CAMPANHA 2025 - Volta às Aulas,Oferta exclusiva de volta às aulas só para você,776604,203299,30166,1296
+28/03/2025,4961262,Newsletter Especial,CAMPANHA 2025 - Aniversário da Loja,Corre! Estoques limitados para aniversário da loja,732661,186429,26443,1817
+07/06/2025,4915673,Newsletter Especial,CAMPANHA 2025 - Liquidação,Não perca: novidades de liquidação,547398,94652,9228,244
+03/02/2025,4569776,Equipe CRM,CAMPANHA 2025 - Férias,Descubra nossa nova coleção de férias,475395,104661,13818,255
+06/02/2025,4453061,Equipe Vendas,CAMPANHA 2025 - Black Friday,Corre! Estoques limitados para black friday,94398,21692,1812,60
+26/04/2025,4800562,Suporte ao Cliente,CAMPANHA 2025 - Liquidação,Só até amanhã: liquidação com frete grátis,260337,56418,11116,337
+11/05/2025,4922863,Equipe CRM,CAMPANHA 2025 - Verão,Descubra nossa nova coleção de verão,313195,79761,13374,610
+31/01/2025,4329180,Marketing Digital,CAMPANHA 2025 - Inverno,É hoje: campanha especial inverno,147377,33770,4471,222
+31/05/2025,4453556,Relacionamento,CAMPANHA 2025 - Ano Novo,Só até amanhã: ano novo com frete grátis,79296,24701,1822,187
+27/01/2025,4821335,Equipe Produtos,CAMPANHA 2025 - Inverno,Últimos dias da promoção inverno,698965,145793,7466,430
+23/05/2025,4593070,Comunicação Interna,CAMPANHA 2025 - Dia dos Pais,Últimos dias da promoção dia dos pais,125643,42192,6955,169
+11/03/2025,4242127,Relacionamento,CAMPANHA 2025 - Inverno,Corre! Estoques limitados para inverno,78978,18550,2134,145
+31/05/2025,4637668,Marketing Digital,CAMPANHA 2025 - Ano Novo,Descubra nossa nova coleção de ano novo,46950,14027,1704,40
+23/01/2025,4867495,Comunicação Interna,CAMPANHA 2025 - Natal,Corre! Estoques limitados para natal,520522,93977,19611,255
+08/02/2025,4698091,Equipe Vendas,CAMPANHA 2025 - Volta às Aulas,Não perca: novidades de volta às aulas,138535,45180,6644,144
+25/04/2025,4698953,Equipe Produtos,CAMPANHA 2025 - Férias,É hoje: campanha especial férias,775194,215273,36242,488
+05/06/2025,4086979,Equipe Produtos,CAMPANHA 2025 - Natal,Você foi selecionado(a) para descontos de natal,783109,199450,23871,933
+07/02/2025,4054105,Suporte ao Cliente,CAMPANHA 2025 - Dia dos Pais,Você foi selecionado(a) para descontos de dia dos pais,26659,7925,918,33
+13/04/2025,4067127,Comunicação Interna,CAMPANHA 2025 - Férias,Descubra nossa nova coleção de férias,764876,126739,27474,1619
+02/04/2025,4192667,Equipe Vendas,CAMPANHA 2025 - Black Friday,Só até amanhã: black friday com frete grátis,53074,12698,2502,122
+10/06/2025,4177225,Suporte ao Cliente,CAMPANHA 2025 - Natal,Surpresa! Presentes de natal esperando por você,659283,171787,36580,1183
+09/05/2025,4732723,Equipe Produtos,CAMPANHA 2025 - Black Friday,Preços imperdíveis nesta black friday,229997,50213,7531,501
+09/04/2025,4538770,Time Promoções,CAMPANHA 2025 - Dia das Mães,Últimos dias da promoção dia das mães,335516,83601,9676,432
+28/01/2025,4172473,Equipe Marketing,CAMPANHA 2025 - Inverno,Preços imperdíveis nesta inverno,132022,30979,2574,287
+02/04/2025,4316217,Marketing Digital,CAMPANHA 2025 - Férias,Descubra nossa nova coleção de férias,661582,79390,4179,825
+15/05/2025,4926651,Equipe Produtos,CAMPANHA 2025 - Ano Novo,Oferta exclusiva de ano novo só para você,356061,85449,9733,605
+04/03/2025,4234699,Equipe CRM,CAMPANHA 2025 - Lançamento de Coleção,É hoje: campanha especial lançamento de coleção,398809,111059,16928,375
+27/04/2025,4436467,Time Promoções,CAMPANHA 2025 - Liquidação,Preços imperdíveis nesta liquidação,612345,155655,13664,579
+25/01/2025,4327236,Equipe CRM,CAMPANHA 2025 - Natal,Descubra nossa nova coleção de natal,522345,142241,14548,1283
+11/05/2025,4108128,Equipe CRM,CAMPANHA 2025 - Verão,Não perca: novidades de verão,266828,72324,6282,395
+05/06/2025,4248599,Equipe Marketing,CAMPANHA 2025 - Férias,Não perca: novidades de férias,435993,77518,5425,829
+20/02/2025,4380723,Equipe Marketing,CAMPANHA 2025 - Liquidação,Você foi selecionado(a) para descontos de liquidação,666866,148587,19209,890
+18/01/2025,4827116,Marketing Digital,CAMPANHA 2025 - Férias,Você foi selecionado(a) para descontos de férias,759931,239210,47181,612
+06/03/2025,4191828,Equipe Produtos,CAMPANHA 2025 - Aniversário da Loja,Surpresa! Presentes de aniversário da loja esperando por você,734949,240607,34792,1118
+12/02/2025,4138625,Equipe Produtos,CAMPANHA 2025 - Ano Novo,Não perca: novidades de ano novo,312450,66040,3839,388
+12/05/2025,4273029,Comunicação Interna,CAMPANHA 2025 - Volta às Aulas,Não perca: novidades de volta às aulas,656174,165372,25189,463
+09/01/2025,4025345,Equipe Marketing,CAMPANHA 2025 - Liquidação,Corre! Estoques limitados para liquidação,46131,5536,379,111
+04/05/2025,4990343,Equipe Produtos,CAMPANHA 2025 - Dia das Mães,Você foi selecionado(a) para descontos de dia das mães,113733,13648,2691,217
+19/04/2025,4702637,Time Promoções,CAMPANHA 2025 - Volta às Aulas,Corre! Estoques limitados para volta às aulas,145433,44398,9439,305
+22/05/2025,4418234,Equipe CRM,CAMPANHA 2025 - Volta às Aulas,Você foi selecionado(a) para descontos de volta às aulas,394295,107784,5955,933
+21/03/2025,4278261,Newsletter Especial,CAMPANHA 2025 - Dia dos Pais,Oferta exclusiva de dia dos pais só para você,351702,106719,18000,164
+06/02/2025,4852484,Equipe CRM,CAMPANHA 2025 - Lançamento de Coleção,Oferta exclusiva de lançamento de coleção só para você,669628,206658,35699,428
+11/05/2025,4496405,Time Promoções,CAMPANHA 2025 - Natal,Não perca: novidades de natal,355996,127747,24502,671
+08/05/2025,4196775,Marketing Digital,CAMPANHA 2025 - Black Friday,Últimos dias da promoção black friday,258464,39528,3792,385
+05/04/2025,4697957,Newsletter Especial,CAMPANHA 2025 - Dia dos Pais,Corre! Estoques limitados para dia dos pais,545786,156514,16562,814
+10/03/2025,4329407,Equipe Produtos,CAMPANHA 2025 - Férias,Surpresa! Presentes de férias esperando por você,124442,17109,3202,80
+31/05/2025,4710250,Marketing Digital,CAMPANHA 2025 - Férias,É hoje: campanha especial férias,223172,51608,3130,385
+02/06/2025,4491420,Suporte ao Cliente,CAMPANHA 2025 - Ano Novo,Surpresa! Presentes de ano novo esperando por você,8309,1515,324,10
+08/04/2025,4802672,Newsletter Especial,CAMPANHA 2025 - Lançamento de Coleção,Surpresa! Presentes de lançamento de coleção esperando por você,395373,50722,5612,772
+18/05/2025,4085876,Equipe CRM,CAMPANHA 2025 - Inverno,Últimos dias da promoção inverno,503562,158239,29611,750
+12/05/2025,4875667,Equipe Vendas,CAMPANHA 2025 - Volta às Aulas,Corre! Estoques limitados para volta às aulas,103298,17058,1740,148
+18/02/2025,4177863,Equipe Vendas,CAMPANHA 2025 - Volta às Aulas,Preços imperdíveis nesta volta às aulas,612433,231832,16860,343
+31/01/2025,4562462,Suporte ao Cliente,CAMPANHA 2025 - Natal,Descubra nossa nova coleção de natal,550884,171478,28308,704
+13/03/2025,4781189,Time Promoções,CAMPANHA 2025 - Dia das Mães,Oferta exclusiva de dia das mães só para você,622767,192388,22894,512
+13/05/2025,4988193,Equipe Vendas,CAMPANHA 2025 - Dia das Mães,Descubra nossa nova coleção de dia das mães,578960,146044,28432,1369
+05/04/2025,4431149,Equipe CRM,CAMPANHA 2025 - Volta às Aulas,Preços imperdíveis nesta volta às aulas,670593,135956,11241,475
+18/02/2025,4800607,Newsletter Especial,CAMPANHA 2025 - Black Friday,É hoje: campanha especial black friday,110507,33539,3984,232
+02/02/2025,4453626,Marketing Digital,CAMPANHA 2025 - Natal,Preços imperdíveis nesta natal,151046,37628,8183,103
+14/03/2025,4104759,Time Promoções,CAMPANHA 2025 - Inverno,Oferta exclusiva de inverno só para você,260371,64659,10923,539
+05/06/2025,4015155,Equipe Marketing,CAMPANHA 2025 - Verão,É hoje: campanha especial verão,659336,140391,28866,1380
+28/04/2025,4947461,Comunicação Interna,CAMPANHA 2025 - Verão,Corre! Estoques limitados para verão,379153,110155,16947,386
+01/01/2025,4147370,Suporte ao Cliente,CAMPANHA 2025 - Dia dos Pais,Últimos dias da promoção dia dos pais,662926,195641,35090,1267
+02/05/2025,4635956,Equipe Marketing,CAMPANHA 2025 - Natal,Oferta exclusiva de natal só para você,112273,29436,4524,280
+02/01/2025,4925538,Marketing Digital,CAMPANHA 2025 - Natal,Corre! Estoques limitados para natal,390259,96642,8235,456
+24/04/2025,4159980,Equipe CRM,CAMPANHA 2025 - Volta às Aulas,Oferta exclusiva de volta às aulas só para você,464447,149497,21308,808
+14/03/2025,4103930,Newsletter Especial,CAMPANHA 2025 - Natal,Últimos dias da promoção natal,218902,60428,5169,288
+08/04/2025,4860208,Comunicação Interna,CAMPANHA 2025 - Liquidação,Você foi selecionado(a) para descontos de liquidação,383621,62207,3640,515
+31/03/2025,4471647,Equipe Vendas,CAMPANHA 2025 - Inverno,Só até amanhã: inverno com frete grátis,150775,43488,5511,87
+30/05/2025,4191673,Marketing Digital,CAMPANHA 2025 - Lançamento de Coleção,Descubra nossa nova coleção de lançamento de coleção,58605,16639,2577,78
+05/02/2025,4545640,Comunicação Interna,CAMPANHA 2025 - Black Friday,Você foi selecionado(a) para descontos de black friday,87298,19635,1302,195
+07/03/2025,4425945,Time Promoções,CAMPANHA 2025 - Ano Novo,Oferta exclusiva de ano novo só para você,169611,45323,2886,380
+02/02/2025,4256027,Newsletter Especial,CAMPANHA 2025 - Dia das Mães,Oferta exclusiva de dia das mães só para você,677252,165482,19691,1428
+15/01/2025,4300172,Suporte ao Cliente,CAMPANHA 2025 - Volta às Aulas,Você foi selecionado(a) para descontos de volta às aulas,695499,250091,26717,402
+23/04/2025,4890476,Time Promoções,CAMPANHA 2025 - Verão,É hoje: campanha especial verão,619089,162303,9428,534
+28/03/2025,4137013,Equipe Marketing,CAMPANHA 2025 - Dia das Mães,Surpresa! Presentes de dia das mães esperando por você,527688,119897,17009,544
+11/05/2025,4710447,Equipe Marketing,CAMPANHA 2025 - Lançamento de Coleção,Surpresa! Presentes de lançamento de coleção esperando por você,760747,269591,13802,1173
+09/04/2025,4904992,Equipe Marketing,CAMPANHA 2025 - Liquidação,Não perca: novidades de liquidação,642278,134287,11381,1380
+07/06/2025,4775970,Equipe Marketing,CAMPANHA 2025 - Lançamento de Coleção,Surpresa! Presentes de lançamento de coleção esperando por você,701392,153147,12065,369
+01/06/2025,4498570,Time Promoções,CAMPANHA 2025 - Liquidação,Preços imperdíveis nesta liquidação,430218,85963,16416,261
+29/03/2025,4571200,Equipe Produtos,CAMPANHA 2025 - Liquidação,Últimos dias da promoção liquidação,133020,40112,3474,143
+31/03/2025,4669060,Newsletter Especial,CAMPANHA 2025 - Aniversário da Loja,Oferta exclusiva de aniversário da loja só para você,459893,163724,17850,303
+22/01/2025,4151864,Newsletter Especial,CAMPANHA 2025 - Dia dos Pais,Você foi selecionado(a) para descontos de dia dos pais,444776,150913,26941,784
+15/04/2025,4472452,Equipe Vendas,CAMPANHA 2025 - Volta às Aulas,Não perca: novidades de volta às aulas,181549,77892,5332,454
+16/05/2025,4490287,Time Promoções,CAMPANHA 2025 - Volta às Aulas,Não perca: novidades de volta às aulas,754945,192871,35888,1510
+06/01/2025,4560377,Time Promoções,CAMPANHA 2025 - Black Friday,Só até amanhã: black friday com frete grátis,87079,17837,3265,104
+23/01/2025,4024243,Newsletter Especial,CAMPANHA 2025 - Liquidação,Preços imperdíveis nesta liquidação,363765,116183,8728,471
+24/01/2025,4565356,Relacionamento,CAMPANHA 2025 - Liquidação,Só até amanhã: liquidação com frete grátis,328495,86326,9064,235
+01/03/2025,4715691,Marketing Digital,CAMPANHA 2025 - Volta às Aulas,Surpresa! Presentes de volta às aulas esperando por você,400738,62895,6572,850
+27/05/2025,4495806,Equipe Produtos,CAMPANHA 2025 - Verão,Só até amanhã: verão com frete grátis,378716,70089,9554,316
+09/05/2025,4716701,Time Promoções,CAMPANHA 2025 - Ano Novo,Últimos dias da promoção ano novo,88111,20509,4143,80
+08/03/2025,4142463,Newsletter Especial,CAMPANHA 2025 - Liquidação,Corre! Estoques limitados para liquidação,55682,13581,2879,108
+07/02/2025,4606297,Equipe Marketing,CAMPANHA 2025 - Férias,Só até amanhã: férias com frete grátis,524937,127190,13833,809
+05/03/2025,4233542,Time Promoções,CAMPANHA 2025 - Liquidação,Oferta exclusiva de liquidação só para você,595851,185702,16506,1440
+28/01/2025,4645968,Time Promoções,CAMPANHA 2025 - Dia dos Pais,Corre! Estoques limitados para dia dos pais,667434,198301,25462,1282
+23/03/2025,4036843,Marketing Digital,CAMPANHA 2025 - Lançamento de Coleção,Não perca: novidades de lançamento de coleção,452355,79381,16835,293
+15/01/2025,4216045,Comunicação Interna,CAMPANHA 2025 - Aniversário da Loja,Preços imperdíveis nesta aniversário da loja,700113,220253,29870,548
+03/06/2025,4181845,Equipe CRM,CAMPANHA 2025 - Dia dos Pais,Últimos dias da promoção dia dos pais,606602,102330,21234,394
+23/05/2025,4651013,Equipe Produtos,CAMPANHA 2025 - Volta às Aulas,É hoje: campanha especial volta às aulas,34011,4107,226,55
+14/01/2025,4603061,Suporte ao Cliente,CAMPANHA 2025 - Dia dos Pais,Só até amanhã: dia dos pais com frete grátis,6363,1744,359,3
+20/05/2025,4507921,Equipe Produtos,CAMPANHA 2025 - Volta às Aulas,Descubra nossa nova coleção de volta às aulas,43466,11607,1078,38
+16/02/2025,4601091,Equipe CRM,CAMPANHA 2025 - Inverno,Surpresa! Presentes de inverno esperando por você,102923,41769,5135,61
+14/02/2025,4567158,Equipe Vendas,CAMPANHA 2025 - Verão,Surpresa! Presentes de verão esperando por você,760359,258220,29143,312
+19/03/2025,4317688,Comunicação Interna,CAMPANHA 2025 - Volta às Aulas,Não perca: novidades de volta às aulas,102598,27572,2602,205
+13/02/2025,4894115,Time Promoções,CAMPANHA 2025 - Liquidação,Você foi selecionado(a) para descontos de liquidação,224247,30561,3210,348
+27/02/2025,4495191,Equipe Produtos,CAMPANHA 2025 - Dia dos Pais,Você foi selecionado(a) para descontos de dia dos pais,6851,1453,137,13
+15/03/2025,4709907,Equipe Marketing,CAMPANHA 2025 - Aniversário da Loja,Corre! Estoques limitados para aniversário da loja,385409,138213,20437,526
+29/04/2025,4283610,Equipe CRM,CAMPANHA 2025 - Dia das Mães,Descubra nossa nova coleção de dia das mães,555269,118447,11088,921
+05/04/2025,4593296,Comunicação Interna,CAMPANHA 2025 - Inverno,Oferta exclusiva de inverno só para você,329650,51674,7719,752
+21/04/2025,4578911,Suporte ao Cliente,CAMPANHA 2025 - Aniversário da Loja,Oferta exclusiva de aniversário da loja só para você,121967,42290,2174,177
+02/06/2025,4903339,Newsletter Especial,CAMPANHA 2025 - Verão,Preços imperdíveis nesta verão,575272,195838,19719,848
+02/02/2025,4771920,Suporte ao Cliente,CAMPANHA 2025 - Black Friday,Últimos dias da promoção black friday,378790,91426,15422,513
+24/05/2025,4501256,Equipe Produtos,CAMPANHA 2025 - Natal,Só até amanhã: natal com frete grátis,564568,127871,25598,976
+27/03/2025,4213263,Equipe Marketing,CAMPANHA 2025 - Black Friday,Você foi selecionado(a) para descontos de black friday,524742,173234,13729,1094
+25/04/2025,4312244,Time Promoções,CAMPANHA 2025 - Volta às Aulas,Últimos dias da promoção volta às aulas,751712,137664,19750,1364
+09/05/2025,4725449,Comunicação Interna,CAMPANHA 2025 - Dia dos Pais,Só até amanhã: dia dos pais com frete grátis,199906,61855,10169,409
+31/03/2025,4993569,Suporte ao Cliente,CAMPANHA 2025 - Liquidação,Não perca: novidades de liquidação,543213,82306,11781,1347
+20/04/2025,4891228,Equipe Marketing,CAMPANHA 2025 - Inverno,Corre! Estoques limitados para inverno,264029,38879,4982,538
+22/03/2025,4348865,Suporte ao Cliente,CAMPANHA 2025 - Lançamento de Coleção,Não perca: novidades de lançamento de coleção,396285,122033,9123,778
+15/02/2025,4178147,Equipe Vendas,CAMPANHA 2025 - Férias,Surpresa! Presentes de férias esperando por você,62039,19193,1970,88
+02/04/2025,4046375,Equipe Vendas,CAMPANHA 2025 - Lançamento de Coleção,Últimos dias da promoção lançamento de coleção,655169,208353,37796,1408
+04/06/2025,4470250,Marketing Digital,CAMPANHA 2025 - Volta às Aulas,É hoje: campanha especial volta às aulas,645062,189557,11687,1609
+27/01/2025,4124045,Relacionamento,CAMPANHA 2025 - Natal,Não perca: novidades de natal,499841,188075,34970,880
+28/02/2025,4953843,Marketing Digital,CAMPANHA 2025 - Dia dos Pais,Corre! Estoques limitados para dia dos pais,504919,80051,10083,646
+15/01/2025,4740547,Time Promoções,CAMPANHA 2025 - Black Friday,Preços imperdíveis nesta black friday,634830,139311,27439,301
+26/03/2025,4286185,Relacionamento,CAMPANHA 2025 - Ano Novo,Só até amanhã: ano novo com frete grátis,599910,211392,38130,875
+06/03/2025,4297342,Relacionamento,CAMPANHA 2025 - Inverno,Corre! Estoques limitados para inverno,743593,215714,11626,974
+16/05/2025,4716183,Comunicação Interna,CAMPANHA 2025 - Verão,Corre! Estoques limitados para verão,412502,86513,8147,410
+06/01/2025,4798544,Marketing Digital,CAMPANHA 2025 - Dia das Mães,Só até amanhã: dia das mães com frete grátis,408201,55307,9909,503
+05/03/2025,4199048,Marketing Digital,CAMPANHA 2025 - Verão,Você foi selecionado(a) para descontos de verão,131989,27270,5121,114
+26/04/2025,4493544,Marketing Digital,CAMPANHA 2025 - Natal,Corre! Estoques limitados para natal,516091,135707,7883,934
+12/04/2025,4722676,Time Promoções,CAMPANHA 2025 - Volta às Aulas,Preços imperdíveis nesta volta às aulas,526948,168970,32234,634
+23/05/2025,4293449,Equipe Vendas,CAMPANHA 2025 - Férias,Últimos dias da promoção férias,457102,90809,8706,744
+13/05/2025,4210459,Equipe CRM,CAMPANHA 2025 - Volta às Aulas,Preços imperdíveis nesta volta às aulas,193027,36619,2056,126
+02/06/2025,4021786,Equipe CRM,CAMPANHA 2025 - Lançamento de Coleção,Descubra nossa nova coleção de lançamento de coleção,482840,104662,17993,1106
+04/06/2025,4225755,Equipe Marketing,CAMPANHA 2025 - Natal,Surpresa! Presentes de natal esperando por você,191429,45280,9561,461
+26/05/2025,4776308,Relacionamento,CAMPANHA 2025 - Volta às Aulas,É hoje: campanha especial volta às aulas,468096,141175,21620,375
+03/03/2025,4107287,Equipe Vendas,CAMPANHA 2025 - Férias,Últimos dias da promoção férias,725029,244380,18019,981
+22/04/2025,4924064,Time Promoções,CAMPANHA 2025 - Natal,Preços imperdíveis nesta natal,184501,43065,4718,226
+04/01/2025,4024727,Newsletter Especial,CAMPANHA 2025 - Ano Novo,Descubra nossa nova coleção de ano novo,274846,99206,19946,437
+17/04/2025,4873479,Equipe Vendas,CAMPANHA 2025 - Dia das Mães,Corre! Estoques limitados para dia das mães,519488,100417,15714,821
+02/03/2025,4648279,Equipe Marketing,CAMPANHA 2025 - Black Friday,Descubra nossa nova coleção de black friday,695669,163939,29196,1148
+04/06/2025,4234483,Equipe Vendas,CAMPANHA 2025 - Dia das Mães,Não perca: novidades de dia das mães,687998,180708,13624,1131
+30/04/2025,4359436,Equipe Produtos,CAMPANHA 2025 - Dia dos Pais,Últimos dias da promoção dia dos pais,764316,268768,57186,1144
+04/02/2025,4303440,Time Promoções,CAMPANHA 2025 - Inverno,Corre! Estoques limitados para inverno,663480,258050,37297,1457
+25/04/2025,4018717,Time Promoções,CAMPANHA 2025 - Lançamento de Coleção,Não perca: novidades de lançamento de coleção,541082,100102,21693,383
+25/05/2025,4587130,Equipe Marketing,CAMPANHA 2025 - Férias,Você foi selecionado(a) para descontos de férias,697436,153409,13018,1618
+27/01/2025,4814200,Equipe CRM,CAMPANHA 2025 - Ano Novo,É hoje: campanha especial ano novo,683821,130374,9147,959
+27/05/2025,4071846,Equipe Produtos,CAMPANHA 2025 - Black Friday,Você foi selecionado(a) para descontos de black friday,331623,74198,6423,501
+01/06/2025,4547323,Marketing Digital,CAMPANHA 2025 - Verão,Descubra nossa nova coleção de verão,542228,188407,18501,867
+08/04/2025,4364822,Newsletter Especial,CAMPANHA 2025 - Férias,Só até amanhã: férias com frete grátis,168960,40586,6818,418
+29/04/2025,4833698,Comunicação Interna,CAMPANHA 2025 - Dia dos Pais,Corre! Estoques limitados para dia dos pais,440604,131596,18805,736
+14/05/2025,4410954,Relacionamento,CAMPANHA 2025 - Black Friday,Oferta exclusiva de black friday só para você,625575,141352,23667,1259
+16/02/2025,4898623,Equipe CRM,CAMPANHA 2025 - Lançamento de Coleção,Surpresa! Presentes de lançamento de coleção esperando por você,78017,21100,3591,64
+20/03/2025,4750950,Suporte ao Cliente,CAMPANHA 2025 - Natal,Oferta exclusiva de natal só para você,31816,7769,1627,62
+18/03/2025,4446513,Equipe Vendas,CAMPANHA 2025 - Lançamento de Coleção,Não perca: novidades de lançamento de coleção,249515,79011,13816,434
+13/03/2025,4116210,Equipe CRM,CAMPANHA 2025 - Black Friday,Oferta exclusiva de black friday só para você,98687,28562,5397,201
+10/06/2025,4792694,Equipe Vendas,CAMPANHA 2025 - Natal,Não perca: novidades de natal,637000,125878,12154,1246
+23/03/2025,4236218,Time Promoções,CAMPANHA 2025 - Ano Novo,Oferta exclusiva de ano novo só para você,366863,44024,4204,282
+23/02/2025,4049604,Equipe Vendas,CAMPANHA 2025 - Aniversário da Loja,Você foi selecionado(a) para descontos de aniversário da loja,661476,180754,15175,889
+06/01/2025,4102153,Relacionamento,CAMPANHA 2025 - Ano Novo,É hoje: campanha especial ano novo,228670,60407,11970,97
+16/03/2025,4996375,Equipe Vendas,CAMPANHA 2025 - Black Friday,Oferta exclusiva de black friday só para você,521833,130879,13766,1061
+20/04/2025,4444778,Newsletter Especial,CAMPANHA 2025 - Dia das Mães,Surpresa! Presentes de dia das mães esperando por você,380535,49471,4351,915
+19/05/2025,4389506,Equipe Vendas,CAMPANHA 2025 - Volta às Aulas,Oferta exclusiva de volta às aulas só para você,617820,98020,5897,715
+18/01/2025,4824228,Time Promoções,CAMPANHA 2025 - Ano Novo,Só até amanhã: ano novo com frete grátis,679232,258566,15399,645
+14/01/2025,4299427,Marketing Digital,CAMPANHA 2025 - Volta às Aulas,Últimos dias da promoção volta às aulas,448445,88620,8253,958
+05/03/2025,4594163,Comunicação Interna,CAMPANHA 2025 - Aniversário da Loja,É hoje: campanha especial aniversário da loja,343901,103348,18684,475
+26/01/2025,4747078,Time Promoções,CAMPANHA 2025 - Dia das Mães,Oferta exclusiva de dia das mães só para você,244240,35542,4845,386
+11/06/2025,4023801,Comunicação Interna,CAMPANHA 2025 - Dia das Mães,Oferta exclusiva de dia das mães só para você,229815,55709,10862,381
+18/02/2025,4724139,Equipe CRM,CAMPANHA 2025 - Dia das Mães,Surpresa! Presentes de dia das mães esperando por você,258935,95181,8863,180
+12/06/2025,4957994,Equipe Produtos,CAMPANHA 2025 - Aniversário da Loja,Só até amanhã: aniversário da loja com frete grátis,331134,76616,4048,321
+10/06/2025,4132263,Equipe Produtos,CAMPANHA 2025 - Natal,Oferta exclusiva de natal só para você,557552,155673,21693,662
+09/03/2025,4916814,Relacionamento,CAMPANHA 2025 - Férias,Últimos dias da promoção férias,239813,33038,5087,532
+06/03/2025,4449715,Time Promoções,CAMPANHA 2025 - Férias,Não perca: novidades de férias,251690,72035,5071,178
+27/05/2025,4878365,Equipe Marketing,CAMPANHA 2025 - Volta às Aulas,Surpresa! Presentes de volta às aulas esperando por você,399067,100940,5397,838
+11/04/2025,4328583,Newsletter Especial,CAMPANHA 2025 - Férias,É hoje: campanha especial férias,493558,140775,19761,803
+01/06/2025,4526879,Marketing Digital,CAMPANHA 2025 - Inverno,Preços imperdíveis nesta inverno,412052,84399,4229,990
+31/05/2025,4694100,Equipe Marketing,CAMPANHA 2025 - Ano Novo,Preços imperdíveis nesta ano novo,560072,111672,18225,805
+13/04/2025,4672237,Newsletter Especial,CAMPANHA 2025 - Verão,Corre! Estoques limitados para verão,552783,135947,22731,1142
+25/04/2025,4799512,Time Promoções,CAMPANHA 2025 - Dia dos Pais,Descubra nossa nova coleção de dia dos pais,608291,168852,20391,1126
+01/05/2025,4361411,Equipe Produtos,CAMPANHA 2025 - Férias,Descubra nossa nova coleção de férias,770415,245064,37107,1444
+10/03/2025,4092780,Equipe Produtos,CAMPANHA 2025 - Férias,É hoje: campanha especial férias,608544,73025,7691,1012
+14/05/2025,4938025,Suporte ao Cliente,CAMPANHA 2025 - Dia dos Pais,Descubra nossa nova coleção de dia dos pais,789995,213454,45640,1899
+09/06/2025,4628209,Equipe Vendas,CAMPANHA 2025 - Verão,Oferta exclusiva de verão só para você,16787,5122,822,34
+13/02/2025,4686012,Marketing Digital,CAMPANHA 2025 - Inverno,Corre! Estoques limitados para inverno,794230,180716,30030,1204
+21/04/2025,4678566,Equipe CRM,CAMPANHA 2025 - Ano Novo,É hoje: campanha especial ano novo,238853,64064,11063,159
+18/02/2025,4175268,Comunicação Interna,CAMPANHA 2025 - Dia dos Pais,Corre! Estoques limitados para dia dos pais,81318,23606,4018,114
+14/04/2025,4565757,Comunicação Interna,CAMPANHA 2025 - Dia dos Pais,Oferta exclusiva de dia dos pais só para você,277610,35334,3780,400
+13/05/2025,4541373,Equipe CRM,CAMPANHA 2025 - Inverno,Não perca: novidades de inverno,549907,113966,15842,1028
+27/01/2025,4219975,Equipe Produtos,CAMPANHA 2025 - Natal,Você foi selecionado(a) para descontos de natal,213583,62579,8640,429
+07/03/2025,4942746,Equipe CRM,CAMPANHA 2025 - Dia dos Pais,Surpresa! Presentes de dia dos pais esperando por você,27399,8908,1674,24
+26/05/2025,4108240,Relacionamento,CAMPANHA 2025 - Inverno,Últimos dias da promoção inverno,735575,172434,23826,1026
+30/04/2025,4753974,Time Promoções,CAMPANHA 2025 - Black Friday,Oferta exclusiva de black friday só para você,76511,10001,1184,119
+24/05/2025,4744998,Time Promoções,CAMPANHA 2025 - Aniversário da Loja,Últimos dias da promoção aniversário da loja,467718,135508,22235,518
+13/03/2025,4618538,Suporte ao Cliente,CAMPANHA 2025 - Black Friday,É hoje: campanha especial black friday,779841,113671,6423,769
+14/05/2025,4773214,Suporte ao Cliente,CAMPANHA 2025 - Volta às Aulas,Descubra nossa nova coleção de volta às aulas,352971,56656,10002,794
+13/01/2025,4661710,Marketing Digital,CAMPANHA 2025 - Liquidação,Só até amanhã: liquidação com frete grátis,130910,35762,6868,56
+23/02/2025,4060089,Equipe Marketing,CAMPANHA 2025 - Dia dos Pais,Preços imperdíveis nesta dia dos pais,406502,127977,19751,942
+24/02/2025,4077503,Equipe Vendas,CAMPANHA 2025 - Férias,Descubra nossa nova coleção de férias,359718,55367,11061,623
+17/01/2025,4816344,Marketing Digital,CAMPANHA 2025 - Volta às Aulas,Surpresa! Presentes de volta às aulas esperando por você,254315,73061,15593,560
+19/03/2025,4145548,Marketing Digital,CAMPANHA 2025 - Inverno,Surpresa! Presentes de inverno esperando por você,654172,117556,10403,1498
+03/04/2025,4496845,Comunicação Interna,CAMPANHA 2025 - Liquidação,Surpresa! Presentes de liquidação esperando por você,419296,126430,26686,264
+03/05/2025,4330787,Newsletter Especial,CAMPANHA 2025 - Férias,Preços imperdíveis nesta férias,328064,109929,11014,139
+08/06/2025,4166492,Equipe Marketing,CAMPANHA 2025 - Volta às Aulas,Só até amanhã: volta às aulas com frete grátis,427176,124431,12736,254
+10/01/2025,4044890,Time Promoções,CAMPANHA 2025 - Dia das Mães,Surpresa! Presentes de dia das mães esperando por você,595712,90349,4964,475
+21/02/2025,4894502,Relacionamento,CAMPANHA 2025 - Inverno,Surpresa! Presentes de inverno esperando por você,568229,192464,10357,814
+13/04/2025,4862783,Time Promoções,CAMPANHA 2025 - Lançamento de Coleção,Só até amanhã: lançamento de coleção com frete grátis,668791,132104,15888,1587
+05/06/2025,4669908,Equipe Marketing,CAMPANHA 2025 - Dia dos Pais,Preços imperdíveis nesta dia dos pais,430877,131955,9936,224
+05/02/2025,4824359,Equipe Produtos,CAMPANHA 2025 - Ano Novo,Não perca: novidades de ano novo,663192,197471,42473,1469
+08/01/2025,4932849,Equipe CRM,CAMPANHA 2025 - Lançamento de Coleção,Corre! Estoques limitados para lançamento de coleção,657523,198712,36370,753
+01/05/2025,4392871,Equipe Vendas,CAMPANHA 2025 - Férias,Não perca: novidades de férias,136411,32521,6945,238
+14/01/2025,4459319,Equipe Vendas,CAMPANHA 2025 - Dia dos Pais,Descubra nossa nova coleção de dia dos pais,487057,108263,22099,488
+16/04/2025,4425504,Equipe Marketing,CAMPANHA 2025 - Ano Novo,Surpresa! Presentes de ano novo esperando por você,73600,16394,1263,104
+01/06/2025,4679959,Equipe CRM,CAMPANHA 2025 - Verão,Só até amanhã: verão com frete grátis,428765,116538,21893,441
+20/05/2025,4880305,Equipe Vendas,CAMPANHA 2025 - Dia dos Pais,Surpresa! Presentes de dia dos pais esperando por você,521439,165121,16314,1163
+05/05/2025,4116858,Newsletter Especial,CAMPANHA 2025 - Inverno,Você foi selecionado(a) para descontos de inverno,786095,168636,36395,1119
+16/04/2025,4129314,Equipe Produtos,CAMPANHA 2025 - Dia das Mães,Não perca: novidades de dia das mães,614776,73773,14390,831
+24/01/2025,4038258,Marketing Digital,CAMPANHA 2025 - Aniversário da Loja,Preços imperdíveis nesta aniversário da loja,89511,25718,4843,173
+17/01/2025,4985681,Newsletter Especial,CAMPANHA 2025 - Volta às Aulas,Descubra nossa nova coleção de volta às aulas,798938,267259,26027,1065
+21/02/2025,4443494,Equipe Produtos,CAMPANHA 2025 - Ano Novo,Só até amanhã: ano novo com frete grátis,619371,198298,42300,401
+25/01/2025,4107923,Comunicação Interna,CAMPANHA 2025 - Natal,Corre! Estoques limitados para natal,605793,201146,41461,1160
+22/02/2025,4307854,Newsletter Especial,CAMPANHA 2025 - Lançamento de Coleção,Você foi selecionado(a) para descontos de lançamento de coleção,390723,95521,20494,560
+26/04/2025,4473526,Equipe Marketing,CAMPANHA 2025 - Ano Novo,Descubra nossa nova coleção de ano novo,72830,11604,2236,133
+29/01/2025,4352419,Newsletter Especial,CAMPANHA 2025 - Natal,Descubra nossa nova coleção de natal,515623,189717,25505,659
+09/06/2025,4256599,Equipe CRM,CAMPANHA 2025 - Inverno,Oferta exclusiva de inverno só para você,148070,36670,4999,368
+13/04/2025,4842238,Marketing Digital,CAMPANHA 2025 - Natal,Você foi selecionado(a) para descontos de natal,705094,176365,15274,1347
+11/04/2025,4722460,Time Promoções,CAMPANHA 2025 - Verão,Não perca: novidades de verão,84883,17436,1289,120
+18/01/2025,4784573,Marketing Digital,CAMPANHA 2025 - Natal,Descubra nossa nova coleção de natal,386445,97209,14522,573
+06/06/2025,4945791,Comunicação Interna,CAMPANHA 2025 - Dia das Mães,Você foi selecionado(a) para descontos de dia das mães,414242,123180,13641,869
+25/03/2025,4982421,Marketing Digital,CAMPANHA 2025 - Lançamento de Coleção,Você foi selecionado(a) para descontos de lançamento de coleção,47106,9966,2130,74
+17/03/2025,4455394,Newsletter Especial,CAMPANHA 2025 - Lançamento de Coleção,Últimos dias da promoção lançamento de coleção,515118,68500,13814,956
+20/03/2025,4731317,Equipe Vendas,CAMPANHA 2025 - Natal,É hoje: campanha especial natal,14497,3339,182,30
+15/04/2025,4867860,Equipe Vendas,CAMPANHA 2025 - Aniversário da Loja,É hoje: campanha especial aniversário da loja,28875,11225,1109,29
+07/01/2025,4798324,Suporte ao Cliente,CAMPANHA 2025 - Dia das Mães,Últimos dias da promoção dia das mães,427116,104242,12646,251
+28/02/2025,4925425,Equipe Marketing,CAMPANHA 2025 - Lançamento de Coleção,Surpresa! Presentes de lançamento de coleção esperando por você,543718,65246,14067,620
+21/04/2025,4221543,Relacionamento,CAMPANHA 2025 - Dia dos Pais,Só até amanhã: dia dos pais com frete grátis,424109,78836,7224,900
+19/02/2025,4334443,Newsletter Especial,CAMPANHA 2025 - Natal,Preços imperdíveis nesta natal,383542,81953,11257,762
+12/03/2025,4169116,Relacionamento,CAMPANHA 2025 - Natal,É hoje: campanha especial natal,652310,195435,11611,655
+19/05/2025,4910023,Comunicação Interna,CAMPANHA 2025 - Verão,Preços imperdíveis nesta verão,530335,82929,18144,800
+30/01/2025,4315300,Equipe Marketing,CAMPANHA 2025 - Volta às Aulas,Corre! Estoques limitados para volta às aulas,162868,56632,11837,171
+29/03/2025,4728789,Comunicação Interna,CAMPANHA 2025 - Férias,Oferta exclusiva de férias só para você,480467,115513,19281,502
+14/01/2025,4783076,Marketing Digital,CAMPANHA 2025 - Dia das Mães,Você foi selecionado(a) para descontos de dia das mães,576850,158884,32872,1170
+13/01/2025,4974811,Equipe CRM,CAMPANHA 2025 - Férias,Corre! Estoques limitados para férias,83006,16919,3512,64
+27/01/2025,4825689,Suporte ao Cliente,CAMPANHA 2025 - Lançamento de Coleção,Não perca: novidades de lançamento de coleção,492545,94062,6408,897
+06/05/2025,4539326,Marketing Digital,CAMPANHA 2025 - Dia das Mães,Preços imperdíveis nesta dia das mães,285594,105082,22791,203
+18/03/2025,4662470,Equipe CRM,CAMPANHA 2025 - Dia dos Pais,Corre! Estoques limitados para dia dos pais,489317,93988,12850,876
+11/06/2025,4284015,Equipe Produtos,CAMPANHA 2025 - Liquidação,É hoje: campanha especial liquidação,649827,125961,13921,1100
+04/06/2025,4713064,Equipe CRM,CAMPANHA 2025 - Aniversário da Loja,Descubra nossa nova coleção de aniversário da loja,508904,84772,13243,1211
+12/04/2025,4408089,Equipe CRM,CAMPANHA 2025 - Férias,Corre! Estoques limitados para férias,13144,5580,982,29
+04/05/2025,4916344,Equipe CRM,CAMPANHA 2025 - Dia dos Pais,Descubra nossa nova coleção de dia dos pais,335948,90918,7072,289
+05/02/2025,4684441,Suporte ao Cliente,CAMPANHA 2025 - Dia dos Pais,É hoje: campanha especial dia dos pais,650114,190299,33670,360
+07/01/2025,4683537,Equipe Produtos,CAMPANHA 2025 - Férias,Preços imperdíveis nesta férias,432164,105891,15520,427
+20/03/2025,4096252,Marketing Digital,CAMPANHA 2025 - Ano Novo,Descubra nossa nova coleção de ano novo,599137,194988,35564,872
+30/03/2025,4586790,Marketing Digital,CAMPANHA 2025 - Black Friday,Preços imperdíveis nesta black friday,153819,22591,4694,256
+13/05/2025,4237731,Equipe Marketing,CAMPANHA 2025 - Aniversário da Loja,Corre! Estoques limitados para aniversário da loja,660593,212503,39012,951
+11/03/2025,4744598,Equipe Produtos,CAMPANHA 2025 - Lançamento de Coleção,Corre! Estoques limitados para lançamento de coleção,142008,37982,6419,320
+07/04/2025,4573580,Comunicação Interna,CAMPANHA 2025 - Verão,Só até amanhã: verão com frete grátis,573745,190244,36679,1128
+24/05/2025,4999666,Marketing Digital,CAMPANHA 2025 - Dia dos Pais,Descubra nossa nova coleção de dia dos pais,207364,46930,3296,268
+02/06/2025,4606965,Equipe Marketing,CAMPANHA 2025 - Ano Novo,Oferta exclusiva de ano novo só para você,394084,57990,12226,660
+12/01/2025,4892553,Equipe CRM,CAMPANHA 2025 - Dia das Mães,Descubra nossa nova coleção de dia das mães,231195,51975,8592,557
+20/04/2025,4812205,Suporte ao Cliente,CAMPANHA 2025 - Dia das Mães,Oferta exclusiva de dia das mães só para você,396669,118875,20906,807
+22/04/2025,4154444,Equipe CRM,CAMPANHA 2025 - Dia dos Pais,Preços imperdíveis nesta dia dos pais,726391,150074,25718,1655
+03/02/2025,4514550,Equipe CRM,CAMPANHA 2025 - Liquidação,É hoje: campanha especial liquidação,112635,27600,3956,106
+02/03/2025,4310226,Equipe Produtos,CAMPANHA 2025 - Black Friday,Oferta exclusiva de black friday só para você,243944,90954,15715,482
+15/03/2025,4228576,Relacionamento,CAMPANHA 2025 - Liquidação,Só até amanhã: liquidação com frete grátis,423976,151084,12055,1045
+17/02/2025,4551504,Equipe Produtos,CAMPANHA 2025 - Black Friday,É hoje: campanha especial black friday,137230,53575,3190,243
+22/05/2025,4109728,Marketing Digital,CAMPANHA 2025 - Ano Novo,Só até amanhã: ano novo com frete grátis,396664,112916,9009,548
+31/01/2025,4318584,Suporte ao Cliente,CAMPANHA 2025 - Ano Novo,Não perca: novidades de ano novo,127210,38748,3007,96
+12/06/2025,4494611,Comunicação Interna,CAMPANHA 2025 - Liquidação,Você foi selecionado(a) para descontos de liquidação,708704,190578,15820,1584
+09/03/2025,4161072,Marketing Digital,CAMPANHA 2025 - Dia das Mães,É hoje: campanha especial dia das mães,434187,152151,18332,204
+12/03/2025,4718520,Equipe Vendas,CAMPANHA 2025 - Lançamento de Coleção,Últimos dias da promoção lançamento de coleção,696672,299093,19254,339
+05/02/2025,4873892,Marketing Digital,CAMPANHA 2025 - Inverno,Surpresa! Presentes de inverno esperando por você,194129,44758,2995,457
+06/04/2025,4911527,Comunicação Interna,CAMPANHA 2025 - Black Friday,Surpresa! Presentes de black friday esperando por você,220240,47581,4419,491
+27/05/2025,4999208,Equipe CRM,CAMPANHA 2025 - Dia dos Pais,Descubra nossa nova coleção de dia dos pais,402308,122195,14356,221
+09/04/2025,4465361,Suporte ao Cliente,CAMPANHA 2025 - Lançamento de Coleção,Preços imperdíveis nesta lançamento de coleção,650026,204915,21151,664
+21/05/2025,4802413,Suporte ao Cliente,CAMPANHA 2025 - Natal,Só até amanhã: natal com frete grátis,10282,1446,312,9
+19/01/2025,4780491,Equipe CRM,CAMPANHA 2025 - Dia das Mães,Surpresa! Presentes de dia das mães esperando por você,645722,155269,30557,430
+15/05/2025,4715586,Newsletter Especial,CAMPANHA 2025 - Natal,Só até amanhã: natal com frete grátis,59943,7709,1533,25
+14/02/2025,4292188,Relacionamento,CAMPANHA 2025 - Dia dos Pais,Descubra nossa nova coleção de dia dos pais,622399,164799,28557,372
+03/03/2025,4930333,Relacionamento,CAMPANHA 2025 - Férias,Corre! Estoques limitados para férias,126323,15208,2614,247
+09/01/2025,4664755,Equipe Produtos,CAMPANHA 2025 - Verão,É hoje: campanha especial verão,482613,122824,9179,1151
+27/01/2025,4695232,Marketing Digital,CAMPANHA 2025 - Ano Novo,Preços imperdíveis nesta ano novo,463562,98944,13602,452
+11/04/2025,4873244,Suporte ao Cliente,CAMPANHA 2025 - Dia das Mães,É hoje: campanha especial dia das mães,30249,11291,1967,13
+05/03/2025,4073276,Equipe Produtos,CAMPANHA 2025 - Ano Novo,Corre! Estoques limitados para ano novo,202512,71805,14039,487
+08/06/2025,4511501,Comunicação Interna,CAMPANHA 2025 - Verão,Preços imperdíveis nesta verão,147880,36541,6258,315
+02/02/2025,4855926,Time Promoções,CAMPANHA 2025 - Black Friday,Descubra nossa nova coleção de black friday,442638,117477,25087,580
+09/04/2025,4947824,Equipe Vendas,CAMPANHA 2025 - Dia das Mães,Só até amanhã: dia das mães com frete grátis,798337,152699,14415,1202
+18/03/2025,4955910,Time Promoções,CAMPANHA 2025 - Liquidação,Preços imperdíveis nesta liquidação,257047,43108,2326,346
+16/05/2025,4679969,Suporte ao Cliente,CAMPANHA 2025 - Aniversário da Loja,Descubra nossa nova coleção de aniversário da loja,729032,132850,8168,806
+11/01/2025,4736941,Suporte ao Cliente,CAMPANHA 2025 - Black Friday,Você foi selecionado(a) para descontos de black friday,278565,44007,5523,601
+02/06/2025,4122258,Newsletter Especial,CAMPANHA 2025 - Férias,Surpresa! Presentes de férias esperando por você,583739,158026,20016,586
+31/03/2025,4986419,Newsletter Especial,CAMPANHA 2025 - Dia das Mães,Últimos dias da promoção dia das mães,129339,28438,1837,70
+13/04/2025,4871119,Equipe Vendas,CAMPANHA 2025 - Ano Novo,Só até amanhã: ano novo com frete grátis,596512,218138,37513,1460
+20/01/2025,4848108,Newsletter Especial,CAMPANHA 2025 - Aniversário da Loja,Você foi selecionado(a) para descontos de aniversário da loja,571589,149888,20202,645
+08/05/2025,4107063,Marketing Digital,CAMPANHA 2025 - Ano Novo,É hoje: campanha especial ano novo,636861,108796,9679,1172
+07/06/2025,4352301,Time Promoções,CAMPANHA 2025 - Ano Novo,Só até amanhã: ano novo com frete grátis,644092,109287,19764,1510
+14/02/2025,4095073,Equipe Marketing,CAMPANHA 2025 - Black Friday,É hoje: campanha especial black friday,542454,65094,10228,1046
+15/01/2025,4468640,Comunicação Interna,CAMPANHA 2025 - Verão,Só até amanhã: verão com frete grátis,395785,94657,10029,673
+05/06/2025,4604423,Time Promoções,CAMPANHA 2025 - Aniversário da Loja,Preços imperdíveis nesta aniversário da loja,222666,73216,5053,378
+21/04/2025,4500215,Relacionamento,CAMPANHA 2025 - Dia das Mães,Descubra nossa nova coleção de dia das mães,600437,109124,5574,492
+31/03/2025,4559706,Equipe CRM,CAMPANHA 2025 - Black Friday,Últimos dias da promoção black friday,428789,83087,17760,623
+06/02/2025,4848871,Equipe Produtos,CAMPANHA 2025 - Verão,Você foi selecionado(a) para descontos de verão,634268,151787,12158,1164
+08/06/2025,4764860,Equipe Marketing,CAMPANHA 2025 - Ano Novo,Oferta exclusiva de ano novo só para você,491474,151162,18046,525
+28/03/2025,4400780,Relacionamento,CAMPANHA 2025 - Natal,Não perca: novidades de natal,366957,106198,8429,628
+16/03/2025,4126819,Time Promoções,CAMPANHA 2025 - Ano Novo,Descubra nossa nova coleção de ano novo,361853,83020,15798,514
+15/05/2025,4487911,Equipe CRM,CAMPANHA 2025 - Natal,É hoje: campanha especial natal,264819,34302,2024,248
+06/05/2025,4673453,Suporte ao Cliente,CAMPANHA 2025 - Black Friday,Não perca: novidades de black friday,397038,91159,16857,754
+28/01/2025,4463130,Time Promoções,CAMPANHA 2025 - Natal,Surpresa! Presentes de natal esperando por você,97714,13890,1983,129
+05/05/2025,4510991,Equipe Vendas,CAMPANHA 2025 - Férias,Corre! Estoques limitados para férias,446897,105705,9583,1051
+01/05/2025,4342168,Comunicação Interna,CAMPANHA 2025 - Férias,Surpresa! Presentes de férias esperando por você,37408,6767,1286,44
+05/06/2025,4620118,Equipe Produtos,CAMPANHA 2025 - Liquidação,Não perca: novidades de liquidação,579519,212036,18062,981
+14/02/2025,4957084,Marketing Digital,CAMPANHA 2025 - Natal,Últimos dias da promoção natal,441475,85517,12211,705
+22/04/2025,4636341,Newsletter Especial,CAMPANHA 2025 - Natal,É hoje: campanha especial natal,204633,36221,1888,404
+12/02/2025,4750681,Relacionamento,CAMPANHA 2025 - Férias,Oferta exclusiva de férias só para você,73297,8796,1539,68
+05/01/2025,4681215,Comunicação Interna,CAMPANHA 2025 - Ano Novo,Só até amanhã: ano novo com frete grátis,26832,7848,452,58
+16/05/2025,4880076,Suporte ao Cliente,CAMPANHA 2025 - Liquidação,Descubra nossa nova coleção de liquidação,332400,67987,3849,164
+24/04/2025,4388050,Equipe Vendas,CAMPANHA 2025 - Liquidação,Só até amanhã: liquidação com frete grátis,221783,82101,15233,543
+20/02/2025,4878538,Marketing Digital,CAMPANHA 2025 - Férias,Oferta exclusiva de férias só para você,449283,164315,17728,1032
+21/03/2025,4867119,Relacionamento,CAMPANHA 2025 - Aniversário da Loja,Você foi selecionado(a) para descontos de aniversário da loja,538265,146440,21439,532
+27/04/2025,4936404,Suporte ao Cliente,CAMPANHA 2025 - Lançamento de Coleção,Corre! Estoques limitados para lançamento de coleção,482510,100593,20978,1050
+26/01/2025,4046675,Equipe CRM,CAMPANHA 2025 - Liquidação,Corre! Estoques limitados para liquidação,399724,98138,21501,261
+12/03/2025,4828154,Relacionamento,CAMPANHA 2025 - Verão,Você foi selecionado(a) para descontos de verão,33690,6227,1333,15
+28/03/2025,4185650,Newsletter Especial,CAMPANHA 2025 - Verão,Oferta exclusiva de verão só para você,215246,66748,7656,452
+24/02/2025,4279576,Equipe Vendas,CAMPANHA 2025 - Lançamento de Coleção,Você foi selecionado(a) para descontos de lançamento de coleção,293738,51970,8945,659
+07/05/2025,4634411,Comunicação Interna,CAMPANHA 2025 - Natal,Você foi selecionado(a) para descontos de natal,298705,44807,3472,684
+27/03/2025,4487126,Newsletter Especial,CAMPANHA 2025 - Inverno,É hoje: campanha especial inverno,355910,81612,8132,487
+07/01/2025,4546970,Relacionamento,CAMPANHA 2025 - Férias,Não perca: novidades de férias,677537,193046,22950,759
+18/05/2025,4058435,Equipe Vendas,CAMPANHA 2025 - Black Friday,É hoje: campanha especial black friday,491000,157650,25493,1128
+14/01/2025,4664744,Equipe CRM,CAMPANHA 2025 - Verão,Você foi selecionado(a) para descontos de verão,70774,15131,991,101
+05/04/2025,4391109,Equipe CRM,CAMPANHA 2025 - Inverno,Surpresa! Presentes de inverno esperando por você,481556,153814,9449,345
+19/03/2025,4950832,Equipe CRM,CAMPANHA 2025 - Inverno,Últimos dias da promoção inverno,677107,212230,38906,593
+15/04/2025,4772139,Time Promoções,CAMPANHA 2025 - Liquidação,Descubra nossa nova coleção de liquidação,551423,140194,20857,387
+11/04/2025,4038171,Equipe Produtos,CAMPANHA 2025 - Aniversário da Loja,Corre! Estoques limitados para aniversário da loja,797637,270126,40241,1515
+23/03/2025,4819368,Relacionamento,CAMPANHA 2025 - Dia dos Pais,Últimos dias da promoção dia dos pais,790330,95676,11867,1764
+25/02/2025,4128716,Marketing Digital,CAMPANHA 2025 - Dia dos Pais,Oferta exclusiva de dia dos pais só para você,638512,156628,31571,760
+30/01/2025,4449426,Newsletter Especial,CAMPANHA 2025 - Aniversário da Loja,Últimos dias da promoção aniversário da loja,115383,25110,2386,145
+27/04/2025,4887824,Marketing Digital,CAMPANHA 2025 - Aniversário da Loja,Descubra nossa nova coleção de aniversário da loja,122739,31098,1565,244
+20/03/2025,4825810,Time Promoções,CAMPANHA 2025 - Volta às Aulas,Oferta exclusiva de volta às aulas só para você,443370,75175,12060,945
+19/03/2025,4696480,Newsletter Especial,CAMPANHA 2025 - Liquidação,Só até amanhã: liquidação com frete grátis,185087,55282,11055,277
+30/05/2025,4829845,Time Promoções,CAMPANHA 2025 - Black Friday,Últimos dias da promoção black friday,678007,216620,44331,922
+02/05/2025,4700737,Comunicação Interna,CAMPANHA 2025 - Ano Novo,Você foi selecionado(a) para descontos de ano novo,645227,149891,11632,1194
+16/03/2025,4784940,Newsletter Especial,CAMPANHA 2025 - Verão,É hoje: campanha especial verão,454748,99925,11991,322
+07/05/2025,4436660,Equipe Marketing,CAMPANHA 2025 - Dia dos Pais,Oferta exclusiva de dia dos pais só para você,769237,131628,16416,1653
+18/02/2025,4099520,Newsletter Especial,CAMPANHA 2025 - Liquidação,É hoje: campanha especial liquidação,253264,75863,11824,316
+29/05/2025,4393199,Equipe Vendas,CAMPANHA 2025 - Dia das Mães,Você foi selecionado(a) para descontos de dia das mães,148371,17805,1937,319
+13/01/2025,4043482,Equipe CRM,CAMPANHA 2025 - Dia das Mães,Corre! Estoques limitados para dia das mães,254351,52450,9806,346
+10/01/2025,4667906,Equipe CRM,CAMPANHA 2025 - Verão,Você foi selecionado(a) para descontos de verão,484989,130246,21724,1115
+18/03/2025,4395354,Equipe Produtos,CAMPANHA 2025 - Férias,Você foi selecionado(a) para descontos de férias,649629,184636,21540,1332
+26/04/2025,4369776,Equipe Produtos,CAMPANHA 2025 - Lançamento de Coleção,Surpresa! Presentes de lançamento de coleção esperando por você,497142,186352,27920,377
+21/01/2025,4910714,Time Promoções,CAMPANHA 2025 - Inverno,Descubra nossa nova coleção de inverno,404955,111620,15334,509
+12/04/2025,4804722,Newsletter Especial,CAMPANHA 2025 - Verão,Últimos dias da promoção verão,51536,10390,618,65
+19/05/2025,4528147,Relacionamento,CAMPANHA 2025 - Aniversário da Loja,Preços imperdíveis nesta aniversário da loja,28453,9555,558,17
+29/01/2025,4563646,Suporte ao Cliente,CAMPANHA 2025 - Dia dos Pais,É hoje: campanha especial dia dos pais,427488,128392,16226,606
+17/05/2025,4066149,Equipe Marketing,CAMPANHA 2025 - Volta às Aulas,É hoje: campanha especial volta às aulas,69043,15839,2719,111
+30/04/2025,4201043,Equipe Vendas,CAMPANHA 2025 - Liquidação,Últimos dias da promoção liquidação,734565,296191,48945,483
+26/02/2025,4888850,Marketing Digital,CAMPANHA 2025 - Lançamento de Coleção,Não perca: novidades de lançamento de coleção,587539,143138,31401,989
+18/02/2025,4210290,Comunicação Interna,CAMPANHA 2025 - Aniversário da Loja,Você foi selecionado(a) para descontos de aniversário da loja,103143,26909,3832,140
+16/01/2025,4045201,Equipe Produtos,CAMPANHA 2025 - Lançamento de Coleção,Corre! Estoques limitados para lançamento de coleção,642017,175459,22976,1307
+25/01/2025,4977977,Equipe Produtos,CAMPANHA 2025 - Black Friday,Não perca: novidades de black friday,443095,114969,21480,306
+11/06/2025,4513890,Time Promoções,CAMPANHA 2025 - Black Friday,Você foi selecionado(a) para descontos de black friday,155691,53809,11542,378
+20/05/2025,4126514,Equipe Produtos,CAMPANHA 2025 - Aniversário da Loja,É hoje: campanha especial aniversário da loja,127858,38533,8065,230
+10/04/2025,4121365,Equipe Vendas,CAMPANHA 2025 - Black Friday,Oferta exclusiva de black friday só para você,519709,95903,11230,646
+04/04/2025,4710604,Equipe CRM,CAMPANHA 2025 - Black Friday,Surpresa! Presentes de black friday esperando por você,292845,86319,5515,332
+13/01/2025,4108590,Equipe Vendas,CAMPANHA 2025 - Dia das Mães,Corre! Estoques limitados para dia das mães,774343,174323,29827,1429
+30/01/2025,4248587,Equipe Marketing,CAMPANHA 2025 - Aniversário da Loja,É hoje: campanha especial aniversário da loja,112982,33297,4227,176
+04/05/2025,4815892,Equipe Vendas,CAMPANHA 2025 - Verão,Oferta exclusiva de verão só para você,485675,87948,16689,1165
+05/05/2025,4351063,Suporte ao Cliente,CAMPANHA 2025 - Aniversário da Loja,Corre! Estoques limitados para aniversário da loja,207106,33899,3121,372
+28/01/2025,4769523,Equipe Produtos,CAMPANHA 2025 - Inverno,Preços imperdíveis nesta inverno,471739,100018,17244,946
+24/05/2025,4082226,Suporte ao Cliente,CAMPANHA 2025 - Férias,Últimos dias da promoção férias,303282,36394,2711,624
+19/03/2025,4842365,Suporte ao Cliente,CAMPANHA 2025 - Liquidação,Surpresa! Presentes de liquidação esperando por você,77748,27655,4166,181
+12/02/2025,4411976,Equipe Vendas,CAMPANHA 2025 - Verão,Últimos dias da promoção verão,9857,2957,494,12
+06/01/2025,4443585,Suporte ao Cliente,CAMPANHA 2025 - Lançamento de Coleção,Oferta exclusiva de lançamento de coleção só para você,68896,18573,1303,67
+12/05/2025,4208098,Marketing Digital,CAMPANHA 2025 - Lançamento de Coleção,Você foi selecionado(a) para descontos de lançamento de coleção,612848,140494,17152,1520
+18/02/2025,4788205,Suporte ao Cliente,CAMPANHA 2025 - Volta às Aulas,Surpresa! Presentes de volta às aulas esperando por você,218225,49210,4503,121
+10/05/2025,4557153,Suporte ao Cliente,CAMPANHA 2025 - Lançamento de Coleção,Você foi selecionado(a) para descontos de lançamento de coleção,463177,124937,11864,709
+16/05/2025,4132181,Marketing Digital,CAMPANHA 2025 - Aniversário da Loja,Preços imperdíveis nesta aniversário da loja,176110,44035,4459,338
+12/03/2025,4476707,Comunicação Interna,CAMPANHA 2025 - Férias,Descubra nossa nova coleção de férias,343921,135390,22263,142
+12/01/2025,4916873,Time Promoções,CAMPANHA 2025 - Aniversário da Loja,Não perca: novidades de aniversário da loja,295859,75570,4256,311
+23/01/2025,4026190,Equipe Produtos,CAMPANHA 2025 - Natal,Só até amanhã: natal com frete grátis,291273,94002,11845,617
+26/05/2025,4986521,Relacionamento,CAMPANHA 2025 - Dia dos Pais,Só até amanhã: dia dos pais com frete grátis,35969,8461,1727,70
+14/05/2025,4910756,Marketing Digital,CAMPANHA 2025 - Black Friday,Só até amanhã: black friday com frete grátis,287182,99476,20453,235
+06/06/2025,4119118,Equipe Produtos,CAMPANHA 2025 - Férias,Surpresa! Presentes de férias esperando por você,760674,318774,33029,1592
+06/03/2025,4711507,Relacionamento,CAMPANHA 2025 - Lançamento de Coleção,Últimos dias da promoção lançamento de coleção,140755,25223,4551,312
+18/03/2025,4110038,Equipe Marketing,CAMPANHA 2025 - Férias,Corre! Estoques limitados para férias,63687,15468,2052,58
+03/01/2025,4423678,Equipe Produtos,CAMPANHA 2025 - Férias,Descubra nossa nova coleção de férias,466607,57437,4683,232
+04/01/2025,4770412,Equipe CRM,CAMPANHA 2025 - Dia das Mães,Não perca: novidades de dia das mães,344903,75475,13144,671
+26/05/2025,4937248,Equipe CRM,CAMPANHA 2025 - Dia das Mães,É hoje: campanha especial dia das mães,684946,198951,35869,1217
+25/03/2025,4816388,Marketing Digital,CAMPANHA 2025 - Dia dos Pais,Corre! Estoques limitados para dia dos pais,235660,50163,8639,120
+12/02/2025,4619295,Equipe Marketing,CAMPANHA 2025 - Volta às Aulas,Não perca: novidades de volta às aulas,666624,150317,19165,1601
+22/05/2025,4312493,Equipe Produtos,CAMPANHA 2025 - Verão,Oferta exclusiva de verão só para você,524882,182273,13711,540
+24/01/2025,4237993,Time Promoções,CAMPANHA 2025 - Aniversário da Loja,Preços imperdíveis nesta aniversário da loja,703805,138551,13564,714
+24/05/2025,4019971,Time Promoções,CAMPANHA 2025 - Volta às Aulas,Surpresa! Presentes de volta às aulas esperando por você,179713,60967,11852,341
+18/04/2025,4655276,Marketing Digital,CAMPANHA 2025 - Lançamento de Coleção,Últimos dias da promoção lançamento de coleção,568020,68162,7322,376
+08/03/2025,4137958,Relacionamento,CAMPANHA 2025 - Dia das Mães,Descubra nossa nova coleção de dia das mães,470463,114743,17793,886
+26/05/2025,4572887,Equipe Vendas,CAMPANHA 2025 - Volta às Aulas,Você foi selecionado(a) para descontos de volta às aulas,451885,88466,16178,412
+27/02/2025,4026209,Newsletter Especial,CAMPANHA 2025 - Férias,É hoje: campanha especial férias,481098,114689,17417,194
+24/01/2025,4974637,Equipe Marketing,CAMPANHA 2025 - Dia das Mães,Só até amanhã: dia das mães com frete grátis,69618,24666,2856,153
+25/04/2025,4016313,Suporte ao Cliente,CAMPANHA 2025 - Inverno,Não perca: novidades de inverno,458497,128235,10810,1041
+14/05/2025,4480549,Marketing Digital,CAMPANHA 2025 - Volta às Aulas,Você foi selecionado(a) para descontos de volta às aulas,458242,101537,5779,626
+18/02/2025,4355027,Equipe Marketing,CAMPANHA 2025 - Inverno,É hoje: campanha especial inverno,401362,121994,17689,952
+08/02/2025,4871730,Relacionamento,CAMPANHA 2025 - Inverno,É hoje: campanha especial inverno,479833,179286,26907,520
+19/03/2025,4299454,Equipe Marketing,CAMPANHA 2025 - Verão,Você foi selecionado(a) para descontos de verão,512200,113870,9250,1175
+14/04/2025,4174547,Equipe Vendas,CAMPANHA 2025 - Volta às Aulas,Surpresa! Presentes de volta às aulas esperando por você,66121,17604,2517,80
+27/05/2025,4623451,Equipe CRM,CAMPANHA 2025 - Liquidação,Preços imperdíveis nesta liquidação,183339,32450,3631,275
+03/01/2025,4519206,Equipe Produtos,CAMPANHA 2025 - Aniversário da Loja,Oferta exclusiva de aniversário da loja só para você,789940,119313,22659,717
+14/05/2025,4595246,Equipe CRM,CAMPANHA 2025 - Dia dos Pais,É hoje: campanha especial dia dos pais,377531,102827,5154,858
+10/06/2025,4863715,Comunicação Interna,CAMPANHA 2025 - Ano Novo,Surpresa! Presentes de ano novo esperando por você,439701,84254,7109,589
+17/04/2025,4509985,Comunicação Interna,CAMPANHA 2025 - Ano Novo,Descubra nossa nova coleção de ano novo,329644,100064,12799,361
+16/04/2025,4704545,Equipe CRM,CAMPANHA 2025 - Férias,Só até amanhã: férias com frete grátis,152957,36367,6905,330
+04/06/2025,4105737,Time Promoções,CAMPANHA 2025 - Liquidação,Últimos dias da promoção liquidação,319076,90475,5086,213
+16/02/2025,4988076,Marketing Digital,CAMPANHA 2025 - Férias,Não perca: novidades de férias,778496,209321,31914,1649
+21/04/2025,4082968,Suporte ao Cliente,CAMPANHA 2025 - Aniversário da Loja,Surpresa! Presentes de aniversário da loja esperando por você,318277,96492,6921,258
+21/01/2025,4963424,Equipe Marketing,CAMPANHA 2025 - Dia dos Pais,Últimos dias da promoção dia dos pais,438618,97138,13934,218
+24/01/2025,4761767,Comunicação Interna,CAMPANHA 2025 - Ano Novo,Oferta exclusiva de ano novo só para você,616700,127966,10502,503
+26/04/2025,4205122,Equipe Produtos,CAMPANHA 2025 - Lançamento de Coleção,Você foi selecionado(a) para descontos de lançamento de coleção,788980,241815,19604,1437
+01/06/2025,4182902,Relacionamento,CAMPANHA 2025 - Volta às Aulas,Preços imperdíveis nesta volta às aulas,118350,34235,2982,136
+04/01/2025,4996615,Equipe Marketing,CAMPANHA 2025 - Ano Novo,Você foi selecionado(a) para descontos de ano novo,627032,148562,22425,421
+08/06/2025,4832102,Equipe Vendas,CAMPANHA 2025 - Dia das Mães,Você foi selecionado(a) para descontos de dia das mães,161675,44738,5194,109
+25/05/2025,4760045,Equipe Marketing,CAMPANHA 2025 - Black Friday,Preços imperdíveis nesta black friday,224439,37519,7736,288
+12/04/2025,4182325,Newsletter Especial,CAMPANHA 2025 - Ano Novo,Descubra nossa nova coleção de ano novo,645570,217001,11475,795
+20/04/2025,4368510,Time Promoções,CAMPANHA 2025 - Dia das Mães,Últimos dias da promoção dia das mães,286693,34403,6128,283
+22/04/2025,4543241,Comunicação Interna,CAMPANHA 2025 - Aniversário da Loja,Só até amanhã: aniversário da loja com frete grátis,537644,167400,33380,1285
+17/03/2025,4505268,Relacionamento,CAMPANHA 2025 - Dia das Mães,Surpresa! Presentes de dia das mães esperando por você,644506,151292,14555,1594
+28/03/2025,4410001,Relacionamento,CAMPANHA 2025 - Verão,Últimos dias da promoção verão,43551,9431,583,81
+08/05/2025,4556935,Newsletter Especial,CAMPANHA 2025 - Verão,Corre! Estoques limitados para verão,787568,232490,50326,1935
+11/01/2025,4979080,Newsletter Especial,CAMPANHA 2025 - Verão,Só até amanhã: verão com frete grátis,594388,153430,25034,328
+21/01/2025,4147559,Equipe Vendas,CAMPANHA 2025 - Verão,Surpresa! Presentes de verão esperando por você,379357,114711,5929,781
+09/01/2025,4251612,Equipe Vendas,CAMPANHA 2025 - Férias,Surpresa! Presentes de férias esperando por você,608551,134268,12461,835
+27/01/2025,4429040,Relacionamento,CAMPANHA 2025 - Férias,Não perca: novidades de férias,133680,26542,5700,202
+17/01/2025,4808606,Marketing Digital,CAMPANHA 2025 - Natal,Descubra nossa nova coleção de natal,281362,90383,13476,579
+23/04/2025,4953044,Time Promoções,CAMPANHA 2025 - Verão,Surpresa! Presentes de verão esperando por você,661756,217827,38471,402
+03/05/2025,4721716,Relacionamento,CAMPANHA 2025 - Ano Novo,Oferta exclusiva de ano novo só para você,193274,63200,12593,445
+03/04/2025,4476418,Marketing Digital,CAMPANHA 2025 - Inverno,Surpresa! Presentes de inverno esperando por você,766075,320239,37761,1587
+11/05/2025,4143511,Time Promoções,CAMPANHA 2025 - Dia dos Pais,Não perca: novidades de dia dos pais,625605,219998,27144,952
+29/03/2025,4781207,Relacionamento,CAMPANHA 2025 - Volta às Aulas,Oferta exclusiva de volta às aulas só para você,296455,63527,12067,209
+28/02/2025,4811542,Time Promoções,CAMPANHA 2025 - Ano Novo,Últimos dias da promoção ano novo,40085,4810,353,61
+21/02/2025,4236380,Equipe Produtos,CAMPANHA 2025 - Volta às Aulas,Descubra nossa nova coleção de volta às aulas,526056,175085,21502,402
+17/01/2025,4852836,Time Promoções,CAMPANHA 2025 - Lançamento de Coleção,Só até amanhã: lançamento de coleção com frete grátis,725134,227542,36012,627
+23/04/2025,4274414,Marketing Digital,CAMPANHA 2025 - Aniversário da Loja,Você foi selecionado(a) para descontos de aniversário da loja,431222,80144,4652,865
+12/02/2025,4519766,Equipe Marketing,CAMPANHA 2025 - Dia dos Pais,Últimos dias da promoção dia dos pais,33907,9477,1125,32

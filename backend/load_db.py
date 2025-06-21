@@ -69,7 +69,7 @@ def populate_db() -> None:
     cur.executescript(SCHEMA_DDL)
 
     # Load each CSV with pandas and shove into SQLite
-    for tbl in ["contacts", "products", "orders", "order_items"]:
+    for tbl in ["contacts", "products", "orders", "order_items","campaigns"]:
         csv_path = CSV_DIR / f"{tbl}.csv"
         if not csv_path.exists():
             raise FileNotFoundError(f"CSV não encontrado: {csv_path}")
