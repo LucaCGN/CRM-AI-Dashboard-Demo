@@ -1,37 +1,43 @@
-// src/components/Dashboard.jsx
-import React from 'react';
-import FilterControls  from './FilterControls';
-import ChartContainer  from './ChartContainer';
+import React from "react";
+import FilterControls from "./FilterControls";
+import ChartContainer from "./ChartContainer";
 
-/**
- * Shows four KPI charts.
- * – Clicking any card enlarges it to fill the main area
- *   while the other three collapse into 80×80 px thumbnails
- *   stacked on the right (see wire-frame).
- * – Clicking ✕ or any thumbnail restores / switches focus.
- */
-export default function Dashboard({ filtros, setFiltros, expandido, setExpandido }) {
-  const charts = [
-    { id: 'aov',    title: 'Valor Médio por Pedido', subt: 'Ticket médio (R$)' },
-    { id: 'catmix', title: 'Mix de Categoria',       subt: 'Receita por categoria' },
-    { id: 'funil',  title: 'Funil de Recompra',      subt: 'Clientes 1+, 2+, 3+ pedidos' },
-    { id: 'vendas', title: 'Vendas por Mês',         subt: 'Faturamento mensal (R$)' }
-  ];
+/* Chart definitions for each dashboard mode */
+const CHARTS = {
+  crm: [
+    { id: "aov",    title: "Valor Médio por Pedido", subt: "Ticket médio (R$)" },
+    { id: "catmix", title: "Mix de Categoria",       subt: "Receita por categoria" },
+    { id: "funil",  title: "Funil de Recompra",      subt: "Clientes 1+, 2+, 3+ pedidos" },
+    { id: "vendas", title: "Vendas por Mês",         subt: "Faturamento mensal (R$)" },
+  ],
+  mkt: [
+    { id: "vol",    title: "Envios por Mês",         subt: "Total de envios" },
+    { id: "eng",    title: "Engajamento",            subt: "% abertura & clique" },
+    { id: "sender", title: "Top Remetentes",         subt: "Volume e % abertura" },
+    { id: "unsub",  title: "Descadastros",           subt: "% descadastro por mês" },
+  ],
+};
 
-  const expandedChart = charts.find(c => c.id === expandido);
-  const otherCharts   = charts.filter(c => c.id !== expandido);
-  const hasExpanded   = Boolean(expandido);
+export default function Dashboard({
+  mode,
+  filtros,
+  setFiltros,
+  expandido,
+  setExpandido,
+}) {
+  const charts = CHARTS[mode];
+  const main   = charts.find((c) => c.id === expandido);
+  const thumbs = charts.filter((c) => c.id !== expandido);
 
   return (
-    <div className="space-y-6 p-6">
-      {/* top filters */}
-      <FilterControls filtros={filtros} setFiltros={setFiltros} />
+    <div className="flex flex-col h-full p-4 md:p-6 gap-4">
+      {/* ── filtros ─────────────────────────────────────────────── */}
+      <FilterControls filtros={filtros} setFiltros={setFiltros} mode={mode} />
 
-      {/* ───────────────────────────────────── main grid */}
-      {!hasExpanded && (
-        /* Normal 2×2 grid */
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {charts.map(c => (
+      {/* ── grid ───────────────────────────────────────────────── */}
+      {!expandido && (
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 flex-1">
+          {charts.map((c) => (
             <ChartCard
               key={c.id}
               chart={c}
@@ -42,22 +48,21 @@ export default function Dashboard({ filtros, setFiltros, expandido, setExpandido
         </div>
       )}
 
-      {hasExpanded && (
-        /* 2-column layout: 2 fr main area + 80 px thumbnail column */
-        <div className="grid gap-4 grid-cols-[2fr_80px] auto-rows-[minmax(0,1fr)]">
-          {/* ── big chart area */}
-          <div className="space-y-4">
+      {expandido && (
+        <div className="grid grid-cols-[1fr_auto] gap-4 flex-1">
+          {/* main chart – centered with max-width */}
+          <div className="flex items-start justify-center">
             <ChartCard
-              chart={expandedChart}
+              chart={main}
               filtros={filtros}
               expanded
               onExpand={() => setExpandido(null)}
             />
           </div>
 
-          {/* ── thumbnail stack */}
+          {/* mini thumbs */}
           <div className="flex flex-col gap-4">
-            {otherCharts.map(c => (
+            {thumbs.map((c) => (
               <ChartCard
                 key={c.id}
                 chart={c}
@@ -73,36 +78,33 @@ export default function Dashboard({ filtros, setFiltros, expandido, setExpandido
   );
 }
 
-/* ───────────────────────────── helper component for each card */
-function ChartCard ({ chart, filtros, expanded = false, mini = false, onExpand }) {
+function ChartCard({ chart, filtros, expanded = false, mini = false, onExpand }) {
+  const base =
+    "bg-white dark:bg-gray-800 rounded-xl shadow-sm transition-all duration-300";
+  const normal = mini ? "w-20 h-20 p-1 overflow-hidden cursor-pointer" : "p-4 h-full";
+  const expand = expanded ? "max-w-5xl w-full h-[70vh] mx-auto" : "";
+
   return (
-    <div
-      className={`
-        relative transition-all duration-300 ease-in-out
-        bg-white dark:bg-gray-800 rounded-xl shadow-sm
-        ${mini ? 'w-20 h-20 p-1 overflow-hidden cursor-pointer' : 'p-4'}
-      `}
-      onClick={onExpand}
-    >
-      {/* close button on expanded card */}
+    <div className={`${base} ${normal} ${expand}`} onClick={mini ? onExpand : undefined}>
       {expanded && (
         <button
-          className="absolute top-2 right-2 text-white bg-accent-blue rounded-full p-1 w-6 h-6 flex items-center justify-center"
-          onClick={e => { e.stopPropagation(); onExpand(); }}
+          onClick={(e) => {
+            e.stopPropagation();
+            onExpand();
+          }}
+          className="absolute top-3 right-3 text-white bg-accent-blue rounded-full w-7 h-7 flex items-center justify-center"
         >
           ✕
         </button>
       )}
 
-      {/* hide titles inside 80×80 thumbnails */}
       {!mini && (
         <>
           <h2 className="text-lg font-semibold">{chart.title}</h2>
-          <p className="mb-2 text-sm text-gray-500">{chart.subt}</p>
+          <p className="text-sm text-gray-500 mb-2">{chart.subt}</p>
         </>
       )}
 
-      {/* Chart itself */}
       <ChartContainer tipo={chart.id} filtros={filtros} mini={mini} />
     </div>
   );
