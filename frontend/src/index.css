@@ -1,14 +1,40 @@
+/* ───────────────────────────────────────────────────────────────────────────────── */
+/* 1) define your blue accent as a CSS variable so everything can reference it      */
+/* ───────────────────────────────────────────────────────────────────────────────── */
+:root {
+  --accent-blue: #1E90FF;
+  --dark-navy:  #0A183D;
+}
+
+/* ───────────────────────────────────────────────────────────────────────────────── */
+/* 2) Tailwind setup                                                               */
+/* ───────────────────────────────────────────────────────────────────────────────── */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* extra util – for resizable chat */
+/* ───────────────────────────────────────────────────────────────────────────────── */
+/* 3) your custom utility classes                                                  */
+/* ───────────────────────────────────────────────────────────────────────────────── */
+/* resizable chat panel */
 .resize-x { resize: horizontal; }
 
-/* existing custom classes */
-.bg-dark-navy  { background-color:#0A183D; }
-.text-accent-blue{ color:#1E90FF; }
-.bg-accent-blue  { background-color:#1E90FF; }
-.header-gradient { @apply bg-gradient-to-r from-dark-navy to-deep-blue text-white; }
-.card            { @apply bg-white dark:bg-gray-700 rounded-lg shadow p-6 transition-transform duration-300 ease-in-out; }
-.chart-expanded  { @apply fixed top-0 left-0 w-full h-full bg-white dark:bg-gray-800 z-50 p-8 overflow-auto; }
+/* color tokens */
+.bg-dark-navy    { background-color: var(--dark-navy); }
+.text-accent-blue { color: var(--accent-blue); }
+.bg-accent-blue  { background-color: var(--accent-blue); }
+
+/* gradient header */
+.header-gradient { 
+  @apply bg-gradient-to-r from-dark-navy to-deep-blue text-white; 
+}
+
+/* card wrapper (if you need tighter padding, reduce p-6 → p-4) */
+.card { 
+  @apply bg-white dark:bg-gray-700 rounded-lg shadow p-6 transition-transform duration-300 ease-in-out; 
+}
+
+/* full-screen chart (unchanged) */
+.chart-expanded { 
+  @apply fixed top-0 left-0 w-full h-full bg-white dark:bg-gray-800 z-50 p-8 overflow-auto; 
+}

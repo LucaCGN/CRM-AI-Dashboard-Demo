@@ -16,7 +16,8 @@ class ChatResponse(BaseModel):
     query: str
     results: list[dict]
     reasoning: str
-
+    final_answer: str
+    
 # — SQLite helper —  
 DB_PATH = Path(__file__).parent / "app.db"
 def get_conn():
@@ -106,7 +107,7 @@ def build_crew():
 
     task = Task(
         description="User asks: {input}",
-        expected_output='{"query":"...","results":[{...},...],"reasoning":"..."} with contents In brazillian portuguese ',
+        expected_output='{"query":"...","results":[{...},...],"reasoning":"...", "final_answer":"..."} with contents In brazillian portuguese ',
         agent=agent,
         output_json=ChatResponse
     )

@@ -1,133 +1,178 @@
+// frontend/src/components/ChartContainer.jsx
+
 import React, { useState, useEffect } from "react";
 import {
+  ResponsiveContainer,
   LineChart,
   Line,
-  XAxis,
-  YAxis,
-  Tooltip,
-  ResponsiveContainer,
+  BarChart,
+  Bar,
   PieChart,
   Pie,
   Cell,
+  XAxis,
+  YAxis,
+  Tooltip,
   Legend,
-  BarChart,
-  Bar,
 } from "recharts";
 import {
-  /* CRM */
   fetchAOV,
   fetchCategoryMix,
   fetchRepeatFunnel,
   fetchVendasPorMes,
-  /* MKT */
   fetchEmailVolume,
   fetchEmailEngagement,
   fetchEmailSenderMix,
   fetchEmailUnsubRate,
 } from "../api";
 
-/* Tailwind blue shades */
-const COLORS = ["#1E90FF", "#0E3AAA", "#0A183D", "#88BEE6", "#B0D4FF"];
+// Dark, high-contrast blues
+const COLORS = [
+  "#1e3a8a", // blue-900
+  "#2563eb", // blue-600
+  "#3b82f6", // blue-500
+  "#60a5fa", // blue-400
+  "#93c5fd", // blue-300
+  "#bfdbfe", // blue-200
+];
+const GROUP_LIMIT = 5;
 
 export default function ChartContainer({ tipo, filtros, mini = false }) {
   const [data, setData] = useState([]);
-  const [err,  setErr]  = useState(false);
+  const [err, setErr]   = useState(false);
 
   useEffect(() => {
+    setErr(false);
+    const { data_inicial: di, data_final: df, categoria: cat, sender: snd } = filtros;
+
     const API = {
-      /* CRM */
       aov:    fetchAOV,
       catmix: fetchCategoryMix,
       funil:  fetchRepeatFunnel,
       vendas: fetchVendasPorMes,
-      /* MKT */
       vol:    fetchEmailVolume,
       eng:    fetchEmailEngagement,
       sender: fetchEmailSenderMix,
       unsub:  fetchEmailUnsubRate,
     }[tipo];
 
-    if (!API) return;
+    if (!API) {
+      setErr(true);
+      return;
+    }
 
-    setErr(false);
-    setData([]);
+    const args = ["vol", "eng", "sender", "unsub"].includes(tipo)
+      ? [di, df, snd]
+      : [di, df, cat];
 
-    const isMkt = ["vol", "eng", "sender", "unsub"].includes(tipo);
-
-    API(
-      filtros.data_inicial,
-      filtros.data_final,
-      isMkt ? filtros.sender : filtros.categoria,
-    )
-      .then((j) => {
+    API(...args)
+      .then((res) => {
         let out = [];
-        switch (tipo) {
-          /* ── CRM mapping ─────────────────────────── */
-          case "aov":
-            out = j.data.map((d) => ({ x: d.mes, y: d.valor }));
-            break;
-          case "catmix":
-            out = j.data.map((d) => ({ name: d.category, value: d.total }));
-            break;
-          case "funil":
-            out = j.data;
-            break;
-          case "vendas":
-            out = j.data.map((d) => ({ x: d.mes, y: d.total }));
-            break;
 
-          /* ── MKT mapping ─────────────────────────── */
-          case "vol":
-            out = j.data.map((d) => ({ x: d.mes, y: d.sends }));
-            break;
-          case "eng":
-            out = j.data.map((d) => ({
-              x: d.mes,
-              open:  d.open_rate,
-              click: d.click_rate,
-            }));
-            break;
-          case "sender":
-            out = j.data.map((d) => ({
-              name: d.sender,
-              value: d.sends,
-              open_rate: d.open_rate,
-            }));
-            break;
-          case "unsub":
-            out = j.data.map((d) => ({ x: d.mes, y: d.unsub_rate }));
-            break;
-          default:
-            break;
+        if (tipo === "catmix") {
+          // Top 5 + Outros
+          const sorted = [...res.data].sort((a, b) => b.total - a.total);
+          const top     = sorted.slice(0, GROUP_LIMIT);
+          const rest    = sorted.slice(GROUP_LIMIT);
+          const other   = rest.reduce((sum, x) => sum + x.total, 0);
+
+          out = top.map((d) => ({ name: d.category, value: d.total }));
+          if (other > 0) out.push({ name: "Outros", value: other });
         }
+        else if (tipo === "sender") {
+          // Top senders + Outros (weighted open_rate)
+          const sorted     = [...res.data].sort((a, b) => b.sends - a.sends);
+          const top        = sorted.slice(0, GROUP_LIMIT);
+          const rest       = sorted.slice(GROUP_LIMIT);
+          const otherSends = rest.reduce((sum, x) => sum + x.sends, 0);
+          const weightedOpen =
+            rest.reduce((sum, x) => sum + x.sends * x.open_rate, 0) /
+            (otherSends || 1);
+
+          out = top.map((d) => ({
+            name:      d.sender,
+            value:     d.sends,
+            open_rate: d.open_rate,
+          }));
+          if (otherSends > 0) {
+            out.push({
+              name:      "Outros",
+              value:     otherSends,
+              open_rate: weightedOpen,
+            });
+          }
+        }
+        else {
+          // All other mappings
+          switch (tipo) {
+            case "aov":
+              out = res.data.map((d) => ({ x: d.mes, y: d.valor }));
+              break;
+
+            case "funil":
+              // ← WORKING FUNIL: take raw API data
+              out = res.data;
+              break;
+
+            case "vendas":
+              out = res.data.map((d) => ({
+                x: d.mes,
+                y: d.receita ?? d.total, // ensure bars render
+              }));
+              break;
+
+            case "vol":
+              out = res.data.map((d) => ({ x: d.mes, y: d.sends }));
+              break;
+
+            case "eng":
+              out = res.data.map((d) => ({
+                x:     d.mes,
+                open:  d.open_rate,
+                click: d.click_rate,
+              }));
+              break;
+
+            case "unsub":
+              out = res.data.map((d) => ({ x: d.mes, y: d.unsub_rate }));
+              break;
+
+            default:
+              out = [];
+          }
+        }
+
         setData(out);
       })
-      .catch(() => setErr(true));
+      .catch(() => {
+        setErr(true);
+        setData([]);
+      });
   }, [tipo, filtros]);
 
-  if (err)          return <p className="text-sm text-red-500">Erro ao carregar.</p>;
-  if (!data.length) return <p className="text-sm text-gray-400">Carregando…</p>;
+  if (err)
+    return <p className="text-sm text-red-500">Erro ao carregar dados.</p>;
+  if (!data.length)
+    return <p className="text-sm text-gray-400">Carregando…</p>;
 
-  const H = mini ? 80 : 240;
+  const height = mini ? 80 : 240;
 
-  /* ───────────────────────────────────────────────────────────── */
   switch (tipo) {
-    /* ── CRM charts ──────────────────────────────────────────── */
     case "aov":
       return (
-        <ResponsiveContainer width="100%" height={H}>
+        <ResponsiveContainer width="100%" height={height}>
           <LineChart data={data}>
             <XAxis dataKey="x" hide={mini} />
             <YAxis hide={mini} tickFormatter={(v) => `R$ ${v}`} />
             <Tooltip formatter={(v) => `R$ ${v}`} />
-            <Line dataKey="y" stroke={COLORS[0]} strokeWidth={2} dot={false} />
+            <Line dataKey="y" stroke={COLORS[1]} strokeWidth={2} dot={false} />
           </LineChart>
         </ResponsiveContainer>
       );
 
     case "catmix":
       return (
-        <ResponsiveContainer width="100%" height={H}>
+        <ResponsiveContainer width="100%" height={height}>
           <PieChart>
             <Pie
               data={data}
@@ -147,9 +192,10 @@ export default function ChartContainer({ tipo, filtros, mini = false }) {
                 align="right"
                 verticalAlign="middle"
                 iconType="circle"
-                formatter={(name, entry) =>
-                  `${name} – ${(entry.percent * 100).toFixed(1)}%`
-                }
+                formatter={(name, entry) => {
+                  const pct = (entry.percent * 100) || 0;
+                  return `${name} – ${pct.toFixed(1)}%`;
+                }}
               />
             )}
           </PieChart>
@@ -158,14 +204,14 @@ export default function ChartContainer({ tipo, filtros, mini = false }) {
 
     case "funil":
       return (
-        <ResponsiveContainer width="100%" height={H}>
+        <ResponsiveContainer width="100%" height={height}>
           <BarChart data={data}>
             <XAxis dataKey="step" hide={mini} />
             <YAxis hide={mini} />
             <Tooltip />
             <Bar
               dataKey="customers"
-              fill={COLORS[0]}
+              fill={COLORS[1]}
               barSize={mini ? 12 : 30}
             />
           </BarChart>
@@ -174,45 +220,48 @@ export default function ChartContainer({ tipo, filtros, mini = false }) {
 
     case "vendas":
       return (
-        <ResponsiveContainer width="100%" height={H}>
+        <ResponsiveContainer width="100%" height={height}>
           <BarChart data={data}>
             <XAxis dataKey="x" hide={mini} />
             <YAxis hide={mini} />
             <Tooltip formatter={(v) => `R$ ${v}`} />
-            <Bar dataKey="y" fill={COLORS[0]} />
+            <Bar dataKey="y" fill={COLORS[1]} barSize={mini ? 12 : 30} />
           </BarChart>
         </ResponsiveContainer>
       );
 
-    /* ── MKT charts ──────────────────────────────────────────── */
     case "vol":
       return (
-        <ResponsiveContainer width="100%" height={H}>
+        <ResponsiveContainer width="100%" height={height}>
           <BarChart data={data}>
             <XAxis dataKey="x" hide={mini} />
             <YAxis hide={mini} />
             <Tooltip />
-            <Bar dataKey="y" fill={COLORS[0]} />
+            <Bar dataKey="y" fill={COLORS[2]} barSize={mini ? 12 : 30} />
           </BarChart>
         </ResponsiveContainer>
       );
 
     case "eng":
       return (
-        <ResponsiveContainer width="100%" height={H}>
+        <ResponsiveContainer width="100%" height={height}>
           <LineChart data={data}>
             <XAxis dataKey="x" hide={mini} />
-            <YAxis hide={mini} domain={[0, 100]} tickFormatter={(v) => `${v}%`} />
+            <YAxis
+              hide={mini}
+              domain={[0, 100]}
+              tickFormatter={(v) => `${v}%`}
+            />
             <Tooltip formatter={(v) => `${v}%`} />
-            <Line dataKey="open"  stroke={COLORS[0]} dot={false} />
-            <Line dataKey="click" stroke={COLORS[3]} dot={false} />
+            <Line dataKey="open" stroke={COLORS[1]} dot={false} />
+            <Line dataKey="click" stroke={COLORS[2]} dot={false} />
           </LineChart>
         </ResponsiveContainer>
       );
 
     case "sender":
       return (
-        <ResponsiveContainer width="100%" height={H}>
+        <ResponsiveContainer width="100%" height={height}>
           <PieChart>
             <Pie
               data={data}
@@ -233,10 +282,12 @@ export default function ChartContainer({ tipo, filtros, mini = false }) {
                 verticalAlign="middle"
                 iconType="circle"
                 payload={data.map((d, i) => ({
-                  id: d.name,
-                  value: `${d.name} – ${d.open_rate}% abertura`,
+                  id:    d.name,
+                  value: `${d.name} – ${(
+                    d.open_rate * 100
+                  ).toFixed(1)}% abertura`,
                   color: COLORS[i % COLORS.length],
-                  type: "circle",
+                  type:  "circle",
                 }))}
               />
             )}
@@ -246,7 +297,7 @@ export default function ChartContainer({ tipo, filtros, mini = false }) {
 
     case "unsub":
       return (
-        <ResponsiveContainer width="100%" height={H}>
+        <ResponsiveContainer width="100%" height={height}>
           <LineChart data={data}>
             <XAxis dataKey="x" hide={mini} />
             <YAxis
@@ -255,7 +306,7 @@ export default function ChartContainer({ tipo, filtros, mini = false }) {
               tickFormatter={(v) => `${v}%`}
             />
             <Tooltip formatter={(v) => `${v}%`} />
-            <Line dataKey="y" stroke={COLORS[0]} strokeWidth={2} dot={false} />
+            <Line dataKey="y" stroke={COLORS[1]} strokeWidth={2} dot={false} />
           </LineChart>
         </ResponsiveContainer>
       );

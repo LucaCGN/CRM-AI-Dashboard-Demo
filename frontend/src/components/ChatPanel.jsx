@@ -1,167 +1,251 @@
-import React, { useState, useEffect, useRef } from 'react';
-import { chatRequest } from '../api';
+// frontend/src/components/ChatPanel.jsx
 
-let msgId = 0;
+import React, { useState, useEffect, useRef } from "react";
+import { chatRequest } from "../api";
 
 export default function ChatPanel() {
-  const [msgs, setMsgs]         = useState([]);
-  const [input, setInput]       = useState('');
+  const [open, setOpen]         = useState(false);
+  const [messages, setMessages] = useState([]);
+  const [input, setInput]       = useState("");
   const [loading, setLoading]   = useState(false);
-  const [openIds, setOpenIds]   = useState(new Set());
   const bottomRef               = useRef(null);
 
-  /* ----- helpers --------------------------------------------------- */
-  const addMsg = (m) => setMsgs((a) => [...a, { id: ++msgId, ts: Date.now(), ...m }]);
+  // only scroll when the number of messages changes
+  useEffect(() => {
+    bottomRef.current?.scrollIntoView({ behavior: "smooth" });
+  }, [messages.length]);
 
-  const historyArray = () =>
-    msgs
-      .filter((m) => m.sender === 'user' || m.sender === 'ai')
-      .flatMap((m) => {
-        if (m.sender === 'user')     return { role: 'user',      content: m.text };
-        if (m.type === 'reasoning')  return { role: 'assistant', content: m.text };
-        if (m.type === 'query')      return { role: 'assistant', content: m.text };
-        if (m.type === 'results')    return { role: 'assistant', content: JSON.stringify(m.data) };
-        return [];
-      });
+  const toggle = () => setOpen((o) => !o);
 
-  useEffect(() => bottomRef.current?.scrollIntoView({ behavior: 'smooth' }), [msgs, loading]);
-
-  /* ----- send ------------------------------------------------------ */
   const send = async () => {
-    if (!input.trim()) return;
-    addMsg({ sender: 'user', text: input });
-    setLoading(true);
-    setInput('');
+    const text = input.trim();
+    if (!text) return;
 
-    const payloadObj = { question: input, history: historyArray() };
-    const payloadStr = JSON.stringify(payloadObj);
+    // 1) user bubble
+    setMessages((m) => [...m, { sender: "user", text, type: "user" }]);
+    setInput("");
+    setLoading(true);
 
     try {
-      const { query, results, reasoning } = await chatRequest(payloadStr);
-      addMsg({ sender: 'ai', type: 'reasoning', text: reasoning });
-      addMsg({ sender: 'ai', type: 'query',     text: query     });
-      addMsg({ sender: 'ai', type: 'results',   data: results   });
-    } catch (e) {
-      addMsg({ sender: 'system', type: 'error', text: 'Erro ao consultar o assistente.' });
+      // expect final_answer from backend
+      const { reasoning, query, results, final_answer } = await chatRequest(text);
+
+      // 2) reasoning
+      setMessages((m) => [
+        ...m,
+        { sender: "bot", type: "reasoning", text: reasoning },
+      ]);
+
+      // 3) query
+      setMessages((m) => [
+        ...m,
+        { sender: "bot", type: "query", text: query },
+      ]);
+
+      // 4) results (start closed)
+      setMessages((m) => [
+        ...m,
+        { sender: "bot", type: "results", data: results, open: false },
+      ]);
+
+      // 5) conclusão
+      setMessages((m) => [
+        ...m,
+        { sender: "bot", type: "final_answer", text: final_answer },
+      ]);
+    } catch {
+      setMessages((m) => [
+        ...m,
+        { sender: "bot", type: "error", text: "Erro ao obter resposta." },
+      ]);
     } finally {
       setLoading(false);
     }
   };
 
-  /* ----- render ---------------------------------------------------- */
+  const onKeyDown = (e) => {
+    if (e.key === "Enter" && !e.shiftKey) {
+      e.preventDefault();
+      send();
+    }
+  };
+
   return (
-    <div className="flex flex-col h-full rounded-lg overflow-hidden border">
-      <header className="h-12 flex items-center px-4 bg-accent-blue text-white text-lg font-semibold">
-        Assistente AI
-      </header>
+    <div className="fixed bottom-4 right-4 z-50 flex flex-col items-end">
+      {/* Chat window */}
+      {open && (
+        <div className="mb-2 w-[350px] h-[80vh] bg-white border shadow-lg rounded-t-lg flex flex-col overflow-hidden">
+          {/* Header */}
+          <div className="flex items-center justify-between bg-blue-600 text-white px-4 py-2">
+            <span className="font-semibold">Assistente AI</span>
+            <button onClick={toggle} className="text-white text-xl focus:outline-none">
+              &times;
+            </button>
+          </div>
 
-      <div className="flex-1 p-4 overflow-y-auto bg-gray-100 dark:bg-gray-900 space-y-3">
-        {msgs.map((m) => {
-          const isOpen = openIds.has(m.id);
-          return (
-            <div key={m.id} className={`flex ${m.sender === 'user' ? 'justify-end' : 'justify-start'}`}>
-              <div
-                className={`
-                  w-full p-3 rounded-lg space-y-2 break-words transition-colors
-                  ${m.sender==='user'
-                    ? 'bg-blue-500 text-white'
-                    : m.type==='error'
-                    ? 'bg-red-200 text-red-800 italic'
-                    : 'bg-white dark:bg-gray-700 text-gray-800 dark:text-gray-200'}
-                `}
-              >
-                {/* user bubble */}
-                {m.sender === 'user' && <div>{m.text}</div>}
+          {/* Messages */}
+          <div className="flex-1 overflow-auto p-3 space-y-3 bg-gray-100">
+            {messages.map((m, i) => {
+              switch (m.type) {
+                case "reasoning":
+                  return (
+                    <div key={i} className="bg-white rounded-lg p-3 shadow">
+                      <div className="flex items-center space-x-2 mb-1">
+                        <span className="text-pink-500">🧠</span>
+                        <strong>Raciocínio</strong>
+                      </div>
+                      <div className="text-gray-800">{m.text}</div>
+                    </div>
+                  );
 
-                {/* reasoning */}
-                {m.type === 'reasoning' && (
-                  <div>
-                    <strong>🧠 Raciocínio</strong>
-                    <div className="mt-1 whitespace-pre-wrap">{m.text}</div>
-                  </div>
-                )}
+                case "query":
+                  return (
+                    <div key={i} className="bg-white rounded-lg p-3 shadow">
+                      <div className="flex items-center space-x-2 mb-1">
+                        <span className="text-indigo-500">💾</span>
+                        <strong>Consulta SQL</strong>
+                      </div>
+                      <pre className="bg-gray-100 p-2 rounded text-xs overflow-auto">
+                        {m.text}
+                      </pre>
+                    </div>
+                  );
 
-                {/* SQL */}
-                {m.type === 'query' && (
-                  <div>
-                    <strong>💾 Consulta SQL</strong>
-                    <pre className="mt-1 p-2 bg-gray-100 rounded whitespace-pre-wrap text-xs">
-                      {m.text}
-                    </pre>
-                  </div>
-                )}
-
-                {/* results */}
-                {m.type === 'results' && (
-                  <div>
-                    <button
-                      onClick={() =>
-                        setOpenIds((s) => {
-                          const n = new Set(s);
-                          n.has(m.id) ? n.delete(m.id) : n.add(m.id);
-                          return n;
-                        })
-                      }
-                      className="w-full text-left font-semibold flex justify-between items-center"
-                    >
-                      📊 Resultados <span>{isOpen ? '▲' : '▼'}</span>
-                    </button>
-
-                    <div
-                      className={`transition-max-h duration-300 overflow-hidden ${
-                        isOpen ? 'max-h-96' : 'max-h-0'
-                      }`}
-                    >
-                      {Array.isArray(m.data) && m.data.length ? (
-                        <table className="mt-2 w-full text-xs">
-                          <thead>
-                            <tr>
-                              {Object.keys(m.data[0]).map((c) => (
-                                <th key={c} className="text-left pr-2">{c}</th>
-                              ))}
-                            </tr>
-                          </thead>
-                          <tbody>
-                            {m.data.map((r, i) => (
-                              <tr key={i}>
-                                {Object.values(r).map((v, j) => (
-                                  <td key={j} className="pr-2">{v}</td>
+                case "results":
+                  return (
+                    <div key={i} className="bg-white rounded-lg p-3 shadow">
+                      <button
+                        onClick={() =>
+                          setMessages((all) =>
+                            all.map((msg, idx) =>
+                              idx === i
+                                ? { ...msg, open: !msg.open }
+                                : msg
+                            )
+                          )
+                        }
+                        className="w-full text-left font-semibold flex justify-between items-center"
+                      >
+                        <span>📊 Resultados</span>
+                        <span>{m.open ? "▲" : "▼"}</span>
+                      </button>
+                      {m.open && (
+                        Array.isArray(m.data) && m.data.length ? (
+                          <table className="mt-2 w-full text-xs table-auto">
+                            <thead>
+                              <tr className="bg-gray-200">
+                                {Object.keys(m.data[0]).map((col) => (
+                                  <th key={col} className="px-2 py-1 text-left">
+                                    {col}
+                                  </th>
                                 ))}
                               </tr>
-                            ))}
-                          </tbody>
-                        </table>
-                      ) : (
-                        <div className="italic mt-1">Sem resultados.</div>
+                            </thead>
+                            <tbody>
+                              {m.data.map((row, r) => (
+                                <tr key={r} className="odd:bg-white even:bg-gray-50">
+                                  {Object.values(row).map((v, c) => (
+                                    <td key={c} className="px-2 py-1">{v}</td>
+                                  ))}
+                                </tr>
+                              ))}
+                            </tbody>
+                          </table>
+                        ) : (
+                          <div className="italic text-gray-600 mt-2">
+                            Sem resultados.
+                          </div>
+                        )
                       )}
                     </div>
-                  </div>
-                )}
+                  );
 
-                {m.type === 'error' && <div>{m.text}</div>}
+                case "final_answer":
+                  return (
+                    <div key={i} className="bg-white rounded-lg p-3 shadow">
+                      <div className="flex items-center space-x-2 mb-1">
+                        <span className="text-green-500">💡</span>
+                        <strong>Conclusão</strong>
+                      </div>
+                      <div className="text-gray-800">{m.text}</div>
+                    </div>
+                  );
+
+                case "error":
+                  return (
+                    <div key={i} className="bg-red-100 text-red-800 rounded-lg p-3 italic">
+                      {m.text}
+                    </div>
+                  );
+
+                case "user":
+                default:
+                  return (
+                    <div
+                      key={i}
+                      className="ml-auto max-w-[80%] bg-blue-500 text-white px-3 py-2 rounded-lg break-words"
+                    >
+                      {m.text}
+                    </div>
+                  );
+              }
+            })}
+
+            {/* Spinner */}
+            {loading && (
+              <div className="flex justify-start">
+                <div className="w-8 h-8 spinner" />
               </div>
-            </div>
-          );
-        })}
-        <div ref={bottomRef} />
-      </div>
+            )}
 
-      <div className="p-4 bg-gray-200 dark:bg-gray-800 border-t flex space-x-2">
-        <input
-          value={input}
-          onChange={(e) => setInput(e.target.value)}
-          onKeyDown={(e) => e.key === 'Enter' && send()}
-          placeholder="Pergunte sobre vendas, filtros, tema..."
-          className="flex-1 p-2 border border-gray-300 rounded-l-md focus:ring-accent-blue"
-        />
-        <button
-          onClick={send}
-          disabled={loading || !input.trim()}
-          className="px-4 bg-accent-blue text-white rounded-r-md hover:bg-blue-600 disabled:opacity-50"
-        >
-          {loading ? '…' : 'Enviar'}
-        </button>
-      </div>
+            <div ref={bottomRef} />
+          </div>
+
+          {/* Input */}
+          <div className="flex items-center border-t p-2 bg-white">
+            <textarea
+              className="flex-1 border rounded px-2 py-1 mr-2 resize-none h-10"
+              placeholder="Pergunte sobre vendas, filtros..."
+              value={input}
+              onChange={(e) => setInput(e.target.value)}
+              onKeyDown={onKeyDown}
+              disabled={loading}
+            />
+            <button
+              onClick={send}
+              disabled={loading || !input.trim()}
+              className="bg-blue-600 text-white px-4 py-1 rounded disabled:opacity-50"
+            >
+              Enviar
+            </button>
+          </div>
+        </div>
+      )}
+
+      {/* Toggle Button */}
+      <button
+        onClick={toggle}
+        className="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center shadow-lg focus:outline-none"
+      >
+        {open ? (
+          <span className="text-2xl">&times;</span>
+        ) : (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="w-6 h-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M8 10h.01M12 10h.01M16 10h.01M21 12c0 4.418-4.03 8-9 8-1.284 0-2.492-.206-3.586-.58L3 20l.58-4.414C3.206 14.492 3 13.284 3 12c0-4.97 3.582-9 8-9s9 4.03 9 9z"
+            />
+          </svg>
+        )}
+      </button>
     </div>
   );
 }
