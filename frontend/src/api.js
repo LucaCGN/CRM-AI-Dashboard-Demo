@@ -1,17 +1,21 @@
 // frontend/src/api.js
 
-// Base URL (set VITE_API_URL in .env or defaults to localhost)
-const API = import.meta.env.VITE_API_URL || "http://localhost:8000";
+// Base URL: in production this is relative (so Nginx sees it on the same origin);
+// in development you can override with VITE_API_URL (e.g. http://localhost:8010)
+const API = import.meta.env.VITE_API_URL ?? "";
 
-/* ── tiny GET helper ───────────────────────────────── */
 async function get(path, params = {}) {
-  const url = new URL(`${API}${path}`);
-  // **only** append non-null, non-empty-string values
+  // build URL relative to API or to current origin
+  const base = API || window.location.origin;
+  const url = new URL(path, base);
+
+  // only append non-null, non-empty-string params
   Object.entries(params).forEach(([k, v]) => {
     if (v != null && v !== "") {
       url.searchParams.append(k, v);
     }
   });
+
   const res = await fetch(url);
   if (!res.ok) throw new Error(res.statusText);
   return res.json();
@@ -33,14 +37,15 @@ export const fetchEmailUnsubRate  = (di, df, s) => get("/charts/email-unsub-rate
 import schemaURL from "./assets/schema.png";
 export const fetchEsquema = () => Promise.resolve({ url: schemaURL });
 
-/* ── Chat endpoint ─────────────────────────────────── */
+/* ── Chat endpoint (expects { message }) ───────────── */
 export async function chatRequest(message) {
-  const res = await fetch(`${API}/chat`, {
+  const res = await fetch(`${API || ""}/chat`, {
     method:  "POST",
     headers: { "Content-Type": "application/json" },
     body:    JSON.stringify({ message }),
   });
   if (!res.ok) throw new Error(await res.text());
   const data = await res.json();
+  // some backends nest under json_dict
   return data.json_dict ?? data;
 }
