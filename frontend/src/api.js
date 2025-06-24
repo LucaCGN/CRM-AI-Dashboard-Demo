@@ -1,13 +1,16 @@
-// src/api.js
+// frontend/src/api.js
 
-// Base URL (set VITE_API_URL in .env to your backend host, e.g. http://192.168.0.47:8000)
+// Base URL (set VITE_API_URL in .env or defaults to localhost)
 const API = import.meta.env.VITE_API_URL || "http://localhost:8000";
 
 /* ── tiny GET helper ───────────────────────────────── */
 async function get(path, params = {}) {
   const url = new URL(`${API}${path}`);
+  // **only** append non-null, non-empty-string values
   Object.entries(params).forEach(([k, v]) => {
-    if (v != null) url.searchParams.append(k, v);
+    if (v != null && v !== "") {
+      url.searchParams.append(k, v);
+    }
   });
   const res = await fetch(url);
   if (!res.ok) throw new Error(res.statusText);
@@ -30,7 +33,7 @@ export const fetchEmailUnsubRate  = (di, df, s) => get("/charts/email-unsub-rate
 import schemaURL from "./assets/schema.png";
 export const fetchEsquema = () => Promise.resolve({ url: schemaURL });
 
-/* ── Chat endpoint (expects { message }) ───────────── */
+/* ── Chat endpoint ─────────────────────────────────── */
 export async function chatRequest(message) {
   const res = await fetch(`${API}/chat`, {
     method:  "POST",
@@ -39,7 +42,5 @@ export async function chatRequest(message) {
   });
   if (!res.ok) throw new Error(await res.text());
   const data = await res.json();
-  // backend returns { query, results, reasoning, json_dict?, … }
-  // some versions return under json_dict
   return data.json_dict ?? data;
 }

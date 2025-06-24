@@ -70,7 +70,7 @@ export default function ChartContainer({ tipo, filtros, mini = false }) {
         let out = [];
 
         if (tipo === "catmix") {
-          // Top 5 + Outros
+          // Top 5 + Outros grouping
           const sorted = [...res.data].sort((a, b) => b.total - a.total);
           const top     = sorted.slice(0, GROUP_LIMIT);
           const rest    = sorted.slice(GROUP_LIMIT);
@@ -108,23 +108,18 @@ export default function ChartContainer({ tipo, filtros, mini = false }) {
             case "aov":
               out = res.data.map((d) => ({ x: d.mes, y: d.valor }));
               break;
-
             case "funil":
-              // ← WORKING FUNIL: take raw API data
               out = res.data;
               break;
-
             case "vendas":
               out = res.data.map((d) => ({
                 x: d.mes,
-                y: d.receita ?? d.total, // ensure bars render
+                y: d.receita ?? d.total,
               }));
               break;
-
             case "vol":
               out = res.data.map((d) => ({ x: d.mes, y: d.sends }));
               break;
-
             case "eng":
               out = res.data.map((d) => ({
                 x:     d.mes,
@@ -132,11 +127,9 @@ export default function ChartContainer({ tipo, filtros, mini = false }) {
                 click: d.click_rate,
               }));
               break;
-
             case "unsub":
               out = res.data.map((d) => ({ x: d.mes, y: d.unsub_rate }));
               break;
-
             default:
               out = [];
           }
@@ -170,7 +163,10 @@ export default function ChartContainer({ tipo, filtros, mini = false }) {
         </ResponsiveContainer>
       );
 
-    case "catmix":
+    case "catmix": {
+      // compute total for % calculation
+      const total = data.reduce((sum, d) => sum + d.value, 0);
+
       return (
         <ResponsiveContainer width="100%" height={height}>
           <PieChart>
@@ -192,15 +188,20 @@ export default function ChartContainer({ tipo, filtros, mini = false }) {
                 align="right"
                 verticalAlign="middle"
                 iconType="circle"
-                formatter={(name, entry) => {
-                  const pct = (entry.percent * 100) || 0;
-                  return `${name} – ${pct.toFixed(1)}%`;
-                }}
+                payload={data.map((d, i) => ({
+                  id:    d.name,
+                  value: `${d.name} – ${total > 0
+                    ? ((d.value / total) * 100).toFixed(1)
+                    : "0.0"}%`,
+                  color: COLORS[i % COLORS.length],
+                  type:  "circle",
+                }))}
               />
             )}
           </PieChart>
         </ResponsiveContainer>
       );
+    }
 
     case "funil":
       return (
@@ -209,11 +210,7 @@ export default function ChartContainer({ tipo, filtros, mini = false }) {
             <XAxis dataKey="step" hide={mini} />
             <YAxis hide={mini} />
             <Tooltip />
-            <Bar
-              dataKey="customers"
-              fill={COLORS[1]}
-              barSize={mini ? 12 : 30}
-            />
+            <Bar dataKey="customers" fill={COLORS[1]} barSize={mini ? 12 : 30} />
           </BarChart>
         </ResponsiveContainer>
       );
