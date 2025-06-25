@@ -1,12 +1,22 @@
 // frontend/src/api.js
 
-// Base URL (set VITE_API_URL in .env or defaults to localhost)
-const API = import.meta.env.VITE_API_URL || "http://localhost:8010";
+// Base URL: 
+//  • in dev (localhost) use VITE_API_URL or fallback
+//  • in prod (any other hostname) use “relative” (empty string)
+const DEV_API = import.meta.env.VITE_API_URL;
+const isLocal =
+  window.location.hostname === "localhost" ||
+  window.location.hostname === "127.0.0.1";
+const API = isLocal
+  ? DEV_API || "http://localhost:8010"
+  : "";
 
 /* ── tiny GET helper ───────────────────────────────── */
 async function get(path, params = {}) {
-  const url = new URL(`${API}${path}`);
-  // **only** append non-null, non-empty-string values
+  // strip any trailing slash from API
+  const base = API.replace(/\/$/, "");
+  // build as a relative URL on prod, or absolute on dev
+  const url = new URL(`${base}${path}`, window.location.origin);
   Object.entries(params).forEach(([k, v]) => {
     if (v != null && v !== "") {
       url.searchParams.append(k, v);
@@ -35,7 +45,8 @@ export const fetchEsquema = () => Promise.resolve({ url: schemaURL });
 
 /* ── Chat endpoint ─────────────────────────────────── */
 export async function chatRequest(message) {
-  const res = await fetch(`${API}/chat`, {
+  const base = API.replace(/\/$/, "");
+  const res = await fetch(`${base}/chat`, {
     method:  "POST",
     headers: { "Content-Type": "application/json" },
     body:    JSON.stringify({ message }),

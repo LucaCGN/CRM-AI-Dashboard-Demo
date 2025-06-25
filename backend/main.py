@@ -1,32 +1,34 @@
-# main.py ─── app factory & chat
-import logging, sqlite3
-from pathlib import Path
+# backend/main.py ─── app factory & chat
 
+import logging
 from fastapi import FastAPI, Request, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 
-from db_agent import analytics_crew          # ← keeps working
+from db_agent import analytics_crew          # ← your CrewAI integration
 from analytics import router as analytics_router
 from campaigns import router as campaigns_router
 
 # ── Logging ───────────────────────────────────────────────────────────────────
-logging.basicConfig(level=logging.INFO,
-                    format="%(asctime)s %(levelname)s %(name)s: %(message)s")
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s %(levelname)s %(name)s: %(message)s"
+)
 logger = logging.getLogger("backend")
 
 # ── FastAPI app ───────────────────────────────────────────────────────────────
 app = FastAPI(title="Dashboard AI – Backend")
 
+# ── CORS (only really needed if you ever call from another domain) ────────────
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],          # tighten in prod
+    allow_origins=["*"],          # tighten to your domain in prod if you like
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-# Mount the two feature routers
+# Mount your routers (they themselves define the /charts/* paths)
 app.include_router(analytics_router)
 app.include_router(campaigns_router)
 
